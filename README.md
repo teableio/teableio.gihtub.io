@@ -1,10 +1,8 @@
 <div align="center">
   <h1 align="center">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="images/teable-vertical-dark.png">
-      <img alt="teable logo" height="150" src="images/teable-vertical-light.png">
-    </picture>
+    <img alt="teable logo" height="150" src="images/teable-vertical-light.png">
   </h1>
+  <a href="/README_zh">中文</a>
   <h3 align="center"><strong>Enrich your database with spreadsheet UX and collaboration</strong></h3>
   <p>Teable is a no-code application building platform built on relational databases. It uses a simple, spreadsheet-like interface to create complex enterprise-level database applications. Unlock efficient app development with no-code, free from the hurdles of data security and scalability. </p>
 </div>
