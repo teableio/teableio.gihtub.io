@@ -7,6 +7,13 @@
   <p>Teable 是一个基于关系数据库的无代码应用程序构建平台。它使用一个简单的、类似电子表格的界面来创建复杂的企业级数据库应用程序，解锁无代码的高效应用开发，免受数据安全和可扩展性障碍的困扰。 </p>
 </div>
 
+<h1 align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="images/teable-interface-dark.png">
+    <img alt="teable interface" width="100%" src="images/teable-interface-light.png">
+  </picture>
+</h1>
+
 # 为什么选择 Teable？
 
 无代码工具提供了非常强大的能力，使普通人可以构建出色的应用，深刻改变了工作和生活方式。人们喜欢使用表格式的交互来处理他们的数据，因为它既简单又灵活，非常适合团队协作。他们也更喜欢设计自己的应用界面，而不是被固定格式束缚。
