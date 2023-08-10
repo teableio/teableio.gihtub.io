@@ -1,6 +1,6 @@
 <div align="center">
   <h1 align="center">
-    <img alt="teable logo" height="150" src="images/teable-vertical-light.png">
+    <img alt="teable logo" style="max-height: 150px" src="images/teable-vertical-light.png">
   </h1>
   <a href="/README_zh">中文</a>
   <h3 align="center"><strong>Enrich your database with spreadsheet UX and collaboration</strong></h3>

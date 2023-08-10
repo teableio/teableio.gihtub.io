@@ -1,6 +1,6 @@
 <div align="center">
   <h1 align="center">
-    <img alt="teable logo" height="150" src="images/teable-vertical-light.png">
+    <img alt="teable logo" style="max-height: 150px" src="images/teable-vertical-light.png">
   </h1>
   <a href="/">English</a>
   <h3 align="center"><strong>支持实时协作的无代码可视化数据库</strong></h3>
