@@ -2,7 +2,7 @@
   <h1 align="center">
     <img alt="teable logo" height="150" src="images/teable-vertical-light.png">
   </h1>
-  <a href="/README">English</a>
+  <a href="/">English</a>
   <h3 align="center"><strong>支持实时协作的无代码可视化数据库</strong></h3>
   <p>Teable 是一个基于关系数据库的无代码应用程序构建平台。它使用一个简单的、类似电子表格的界面来创建复杂的企业级数据库应用程序，解锁无代码的高效应用开发，免受数据安全和可扩展性障碍的困扰。 </p>
 </div>
