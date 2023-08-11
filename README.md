@@ -211,15 +211,6 @@ tsc --build --watch
 yarn dev
 ```
 
-# Developers
-
-Goto [developer readme](./DEVELOPER.md)
-
-## Sponsors :heart:
-
-If you are enjoying some this project in your company, I'd really appreciate a [sponsorship](https://github.com/sponsors/teable-group), a [coffee](https://ko-fi.com/teable-group) or a dropped star.
-That gives me some more time to improve it to the next level.
-
 # License
 
 AGPL-3.0
