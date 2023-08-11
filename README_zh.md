@@ -19,9 +19,9 @@
   </picture>
 </div>
 <div style="text-align: center"><label for="toggle" style="cursor:pointer">try</label></div>
-<div>
+<div style="margin: 0 -90px">
   <input type="checkbox" id="toggle">
-  <iframe id="content" width="100%" height="600px" style="border: solid 2px black; border-radius: 8px; box-shadow: #868686 0px 2px 6px 0px" src="https://app.teable.io" title="Teable App"></iframe>
+  <iframe id="content" width="100%" height="700px" style="border: solid 2px black; border-radius: 8px; box-shadow: #868686 0px 2px 6px 0px;" src="https://app.teable.io" title="Teable App"></iframe>
 </div>
 
 <br>
