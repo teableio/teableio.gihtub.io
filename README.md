@@ -1,3 +1,8 @@
+<style>
+  #toggle {display: none;}
+  #content {display: none;}
+  #toggle:checked + #content {display: block;}
+</style>
 <div align="center">
   <h1 align="center">
     <img alt="teable logo" style="max-height: 150px" src="images/teable-vertical-light.png">
@@ -6,14 +11,17 @@
   <h3 align="center"><strong>Enrich your database with spreadsheet UX and collaboration</strong></h3>
   <p>Teable is a no-code application building platform built on relational databases. It uses a simple, spreadsheet-like interface to create complex enterprise-level database applications. Unlock efficient app development with no-code, free from the hurdles of data security and scalability. </p>
 </div>
-<h1 align="center">
+<div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="images/teable-interface-dark.png">
     <img alt="teable interface" width="100%" src="images/teable-interface-light.png">
   </picture>
-</h1>
+</div>
+<div style="text-align: center"><label for="toggle" style="cursor:pointer">try</label></div>
+<input type="checkbox" id="toggle">
+<iframe id="content" width="100%" height="600px" style="border: solid 2px black; border-radius: 8px; box-shadow: #868686 0px 2px 6px 0px" src="https://app.teable.io" title="Teable App"></iframe>
 
-<iframe width="100%" height="800px" style="border: solid 2px black; border-radius: 8px" src="https://app.teable.io" title="Teable App"></iframe>
+<br>
 
 # Why Teable?
 

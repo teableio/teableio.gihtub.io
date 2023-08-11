@@ -1,3 +1,8 @@
+<style>
+  #toggle {display: none;}
+  #content {display: none;}
+  #toggle:checked + #content {display: block;}
+</style>
 <div align="center">
   <h1 align="center">
     <img alt="teable logo" style="max-height: 150px" src="images/teable-vertical-light.png">
@@ -7,12 +12,17 @@
   <p>Teable 是一个基于关系数据库的无代码应用程序构建平台。它使用一个简单的、类似电子表格的界面来创建复杂的企业级数据库应用程序，解锁无代码的高效应用开发，免受数据安全和可扩展性障碍的困扰。 </p>
 </div>
 
-<h1 align="center">
+<div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="images/teable-interface-dark.png">
     <img alt="teable interface" width="100%" src="images/teable-interface-light.png">
   </picture>
-</h1>
+</div>
+<div style="text-align: center"><label for="toggle" style="cursor:pointer">try</label></div>
+<input type="checkbox" id="toggle">
+<iframe id="content" width="100%" height="600px" style="border: solid 2px black; border-radius: 8px; box-shadow: #868686 0px 2px 6px 0px" src="https://app.teable.io" title="Teable App"></iframe>
+
+<br>
 
 # 为什么选择 Teable？
 
