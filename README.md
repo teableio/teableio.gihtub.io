@@ -20,7 +20,10 @@
 <div style="text-align: center"><label for="toggle" style="cursor:pointer">try</label></div>
 <div style="margin: 0 -90px">
   <input type="checkbox" id="toggle">
-  <iframe id="content" width="100%" height="700px" style="border: solid 2px black; border-radius: 8px; box-shadow: #868686 0px 2px 6px 0px;" src="https://app.teable.io" title="Teable App"></iframe>
+  <div id="content">
+    <p align="center">This project is still under developing and can only be used for preview</p>
+    <iframe width="100%" height="700px" style="border: solid 2px black; border-radius: 8px; box-shadow: #868686 0px 2px 6px 0px;" src="https://app.teable.io" title="Teable App"></iframe>
+  </div>
 </div>
 
 <br>
@@ -52,6 +55,40 @@ In essence, Teable isn't just another no-code solution, it's a comprehensive ans
 
 # ✨Features
 
+### 🚀 Super Fast
+
+Build in minutes scale to millions
+
+- Millions of data are easily processed, and there is no pressure to filter and sort
+- Automatic database indexing for maximum speed
+- Supports batch data operations at one time
+
+### 👨‍💻 Full-featured SQL Support
+
+Seamless integration with the software you are familiar with
+
+- BI tools like Metabase PowerBi...
+- No-code tools like appsmith...
+- Direct retrieve data with native sql
+
+### 🧠 Copilot
+
+Native Integrated AI ability
+
+- Chat 2 App. "Create a project management app for me"
+- Chat 2 Chart. "Analyze the data in the order table using a bar chart"
+- Chat 2 View. "I want to see the schedule for the past week and only display participants"
+- Chat 2 Action. "After the order is paid and completed, an email notification will be sent to the customer"
+- More actions...
+
+### 🔒 Privacy-First
+
+You own your data, in spite of the cloud
+
+- Data is optionally stored locally without server support
+- Offline desktop client support
+- Sync & collaboration to cloud in just one click
+
 ### 📊 Spreadsheet-like interface
 
 All you want is here
@@ -82,14 +119,6 @@ Visualize and interact with data in various ways best suited for their specific 
 - Gantt View: Displays data in a Gantt chart, which is useful for tracking project schedules.
 - Timeline View: Displays data in a timeline format, which is useful for tracking events over time.
 
-### 🚀 Super Fast
-
-Build in minutes scale to millions
-
-- Millions of data are easily processed, and there is no pressure to filter and sort
-- Automatic database indexing for maximum speed
-- Supports batch data operations at one time
-
 ### ⚡️ Real-time collaboration
 
 Designed for teams
@@ -97,24 +126,6 @@ Designed for teams
 - No need to refresh the page, data update in real time
 - Seamlessly integrate collaboration member invitation and management
 - Perfect permission management mechanism, from table to column level
-
-### 🧠 Copilot
-
-Native Integrated AI ability
-
-- Chat 2 App. "Create a project management app for me"
-- Chat 2 Chart. "Analyze the data in the order table using a bar chart"
-- Chat 2 View. "I want to see the schedule for the past week and only display participants"
-- Chat 2 Action. "After the order is paid and completed, an email notification will be sent to the customer"
-- More actions...
-
-### 🔒 Privacy-First
-
-You own your data, in spite of the cloud
-
-- Data is optionally stored locally without server support
-- Offline desktop client support
-- Sync & collaboration to cloud in just one click
 
 ### 🧩 Extensions
 
@@ -130,14 +141,6 @@ Empower data-driven workflows effortlessly and seamlessly
 
 - Design your workflow with AI or Visual programming
 - Super easy retrieve data from table
-
-### 👨‍💻 Full-featured SQL Support
-
-Seamless integration with the software you are familiar with
-
-- BI tools like Metabase PowerBi...
-- No-code tools like appsmith...
-- Direct retrieve data with native sql
 
 ### 🗄️ Support for multiple databases
 
