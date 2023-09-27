@@ -9,6 +9,7 @@
 ## Product
 
 * [Views](product/views/README.md)
+  * [Kanban View](product/views/kanban-view.md)
   * [Grid View](product/views/grid-view.md)
 * [Fields](product/fields.md)
 * [Records](product/records.md)
