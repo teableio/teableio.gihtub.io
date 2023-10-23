@@ -8,7 +8,7 @@ Teable is a powerful visual interface built on top of relational databases.
 
 It uses a simple, spreadsheet-like interface to create complex enterprise-level database applications. Unlock efficient app development with no code, free from the hurdles of data security and scalability.\
 \
-You can think of it as migrating the powerful capabilities of Airtable onto Postgre/Sqlite while inheriting exceptional performance and stability from the physical databases.
+You can think of it as migrating the powerful capabilities of Airtable onto PostgreSQL/Sqlite while inheriting exceptional performance and stability from the physical databases.
 
 <figure><img src=".gitbook/assets/teable-interface-dark.png" alt=""><figcaption><p>Teable Interface</p></figcaption></figure>
 
