@@ -1,8 +1,12 @@
 # Table of contents
 
+## 快速开始
+
+* [Teable简介](README.md)
+
 ## 基本功能
 
-* [✅ 组织](README.md)
+* [✅ 组织](<README (1).md>)
   * [✅ 管理员后台](ji-ben-gong-neng/zu-zhi/guan-li-yuan-hou-tai/README.md)
     * [🟡 组织架构](ji-ben-gong-neng/zu-zhi/guan-li-yuan-hou-tai/zu-zhi-jia-gou.md)
     * [🟡 用户](ji-ben-gong-neng/zu-zhi/guan-li-yuan-hou-tai/yong-hu.md)
@@ -17,7 +21,8 @@
   * [🟡 添加和移除工作区成员](ji-ben-gong-neng/gong-zuo-qu/tian-jia-he-yi-chu-gong-zuo-qu-cheng-yuan.md)
 * [🟡 应用](ji-ben-gong-neng/ying-yong/README.md)
   * [🟡 添加和管理应用](ji-ben-gong-neng/ying-yong/tian-jia-he-guan-li-ying-yong.md)
-* [数据表](ji-ben-gong-neng/shu-ju-biao.md)
+* [数据表](ji-ben-gong-neng/shu-ju-biao/README.md)
+  * [Teable数据表和电子表格的差异](ji-ben-gong-neng/shu-ju-biao/teable-shu-ju-biao-he-dian-zi-biao-ge-de-cha-yi.md)
 * [🟡 字段](ji-ben-gong-neng/zi-duan/README.md)
   * [🟡 单行文本](ji-ben-gong-neng/zi-duan/dan-hang-wen-ben.md)
   * [🟡 多行文本](ji-ben-gong-neng/zi-duan/duo-hang-wen-ben.md)
