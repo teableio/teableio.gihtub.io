@@ -1,8 +1,12 @@
-# 🟡 单行文本
+# 单行文本
 
 Teable文本字段用于输入单行文本,是一种非常常用的基础字段类型。当需要在表格中输入较短的文本值时,可以使用文本字段。
 
-<figure><img src="../../.gitbook/assets/image (27).png" alt="" width="316"><figcaption></figcaption></figure>
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image (27).png" alt="" width="316"><figcaption><p>单行文本</p></figcaption></figure>
+
+</div>
 
 输入时,可以通过鼠标点击单元格后直接键入文字,也可以使用剪切、复制、粘贴等常用文本编辑操作。
 
@@ -44,4 +48,15 @@ Teable支持在文本字段中设置四种常用显示方式：
 
 </details>
 
+### 设置显示方式
+
+1. 右键单击单行文本字段
+2. 选中编辑字段
+3. 在打开的编辑字段对话框内选择对应格式并保持
+
+<div align="left">
+
 <figure><img src="../../.gitbook/assets/image (28).png" alt="" width="314"><figcaption></figcaption></figure>
+
+</div>
+

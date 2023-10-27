@@ -1,4 +1,4 @@
-# 🟡 数值
+# 数值
 
 Teable表格支持数值类型的字段,用于输入和存储数字数据。该字段可应用于财务统计、物品管理等多个业务场景中。
 
@@ -34,9 +34,21 @@ Teable表格支持数值类型的字段,用于输入和存储数字数据。该�
 
 </details>
 
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image (33).png" alt="" width="323"><figcaption><p>设置格式化</p></figcaption></figure>
+
+</div>
+
 ### 精度
 
 Teable提供从整数到小数后五位的6个精度等级供用户选择。
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image (34).png" alt="" width="326"><figcaption><p>设置精度</p></figcaption></figure>
+
+</div>
 
 ### 显示方式
 
@@ -66,3 +78,8 @@ Teable提供从整数到小数后五位的6个精度等级供用户选择。
 
 </details>
 
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image.png" alt="" width="328"><figcaption></figcaption></figure>
+
+</div>
