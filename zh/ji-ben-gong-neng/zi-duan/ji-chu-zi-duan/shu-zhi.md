@@ -21,22 +21,22 @@ Teable表格支持数值类型的字段,用于输入和存储数字数据。该�
 <details>
 
 <summary>货币</summary>
-按照给定的货币符号显示，比如 ￥1.00
 
+按照给定的货币符号显示，比如 ￥1.00
 
 </details>
 
 <details>
 
 <summary>百分比</summary>
-按照百分比格式显示，比如 1%。注意，1% 的存储值是 0.01, 100% 的存储值是 1，百分值可以超过 100%
 
+按照百分比格式显示，比如 1%。注意，1% 的存储值是 0.01, 100% 的存储值是 1，百分值可以超过 100%
 
 </details>
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (33).png" alt="" width="323"><figcaption><p>设置格式化</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (33).png" alt="" width="323"><figcaption><p>设置格式化</p></figcaption></figure>
 
 </div>
 
@@ -46,7 +46,7 @@ Teable提供从整数到小数后五位的6个精度等级供用户选择。
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (34).png" alt="" width="326"><figcaption><p>设置精度</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (34).png" alt="" width="326"><figcaption><p>设置精度</p></figcaption></figure>
 
 </div>
 
@@ -80,6 +80,6 @@ Teable提供从整数到小数后五位的6个精度等级供用户选择。
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="328"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt="" width="328"><figcaption></figcaption></figure>
 
 </div>

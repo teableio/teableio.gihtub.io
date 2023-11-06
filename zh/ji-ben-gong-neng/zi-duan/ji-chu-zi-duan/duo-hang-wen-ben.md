@@ -6,7 +6,7 @@ Teable的多行文本字段允许录入长度不受限制的多段文本内容�
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption><p>多行文本</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (32).png" alt=""><figcaption><p>多行文本</p></figcaption></figure>
 
 </div>
 

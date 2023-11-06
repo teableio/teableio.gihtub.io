@@ -4,7 +4,7 @@ Teable文本字段用于输入单行文本,是一种非常常用的基础字段�
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (27).png" alt="" width="316"><figcaption><p>单行文本</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (27).png" alt="" width="316"><figcaption><p>单行文本</p></figcaption></figure>
 
 </div>
 
@@ -56,7 +56,7 @@ Teable支持在文本字段中设置四种常用显示方式：
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (28).png" alt="" width="314"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (28).png" alt="" width="314"><figcaption></figcaption></figure>
 
 </div>
 

@@ -23,7 +23,7 @@
 * [用户](yong-hu.md)
 * [工作区](gong-zuo-qu.md)
 * [应用](ying-yong.md)
-* [仪表盘](yi-biao-pan.md)
+* [仪表盘](../../yi-biao-pan.md)
 * [扩展插件](kuo-zhan-cha-jian.md)
 * [报告](bao-gao.md)
 * [设置](she-zhi.md)
