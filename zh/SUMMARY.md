@@ -2,7 +2,7 @@
 
 ## 快速开始
 
-* [Teable简介](README.md)
+* [Teable 简介](README.md)
 
 ## 基本功能
 
@@ -22,12 +22,16 @@
 * [数据表](ji-ben-gong-neng/shu-ju-biao/README.md)
   * [Teable数据表和电子表格的差异](ji-ben-gong-neng/shu-ju-biao/teable-shu-ju-biao-he-dian-zi-biao-ge-de-cha-yi.md)
 * [字段](ji-ben-gong-neng/zi-duan/README.md)
+  * [通用](ji-ben-gong-neng/zi-duan/tong-yong/README.md)
+    * [格式化](ji-ben-gong-neng/zi-duan/tong-yong/ge-shi-hua.md)
+    * [交互展现](ji-ben-gong-neng/zi-duan/tong-yong/jiao-hu-zhan-xian.md)
+    * [单值与多值](ji-ben-gong-neng/zi-duan/tong-yong/dan-zhi-yu-duo-zhi.md)
   * [单行文本](ji-ben-gong-neng/zi-duan/dan-hang-wen-ben.md)
   * [多行文本](ji-ben-gong-neng/zi-duan/duo-hang-wen-ben.md)
   * [数值](ji-ben-gong-neng/zi-duan/shu-zhi.md)
-  * [🟡 单选](ji-ben-gong-neng/zi-duan/dan-xuan.md)
-  * [🟡 多选](ji-ben-gong-neng/zi-duan/duo-xuan.md)
-  * [🟡 日期](ji-ben-gong-neng/zi-duan/ri-qi.md)
+  * [单选](ji-ben-gong-neng/zi-duan/dan-xuan.md)
+  * [多选](ji-ben-gong-neng/zi-duan/duo-xuan.md)
+  * [日期](ji-ben-gong-neng/zi-duan/ri-qi.md)
   * [评分](ji-ben-gong-neng/zi-duan/ping-fen.md)
   * [勾选](ji-ben-gong-neng/zi-duan/gou-xuan.md)
   * [自动编号](ji-ben-gong-neng/zi-duan/zi-dong-bian-hao.md)
