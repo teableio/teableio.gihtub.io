@@ -82,3 +82,5 @@
 * [🟡 卓越性能](gao-ji-te-xing/zhuo-yue-xing-neng.md)
 * [数据库可插拔](gao-ji-te-xing/shu-ju-ku-ke-cha-ba.md)
 * [原生SQL](gao-ji-te-xing/yuan-sheng-sql.md)
+* [Q & A](gao-ji-te-xing/q-and-a/README.md)
+  * [关联，汇总，引用对比](gao-ji-te-xing/q-and-a/guan-lian-hui-zong-yin-yong-dui-bi.md)
