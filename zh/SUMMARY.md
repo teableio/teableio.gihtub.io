@@ -84,3 +84,5 @@
 * [原生SQL](gao-ji-te-xing/yuan-sheng-sql.md)
 * [Q & A](gao-ji-te-xing/q-and-a/README.md)
   * [关联，汇总，引用对比](gao-ji-te-xing/q-and-a/guan-lian-hui-zong-yin-yong-dui-bi.md)
+* [博客](gao-ji-te-xing/bo-ke/README.md)
+  * [数据新生：Supabase 与 Airtable 的融合体](gao-ji-te-xing/bo-ke/shu-ju-xin-sheng-supabase-yu-airtable-de-rong-he-ti.md)
