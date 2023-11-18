@@ -24,7 +24,7 @@
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (1).png" alt="" width="375"><figcaption><p>重命名</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption><p>重命名</p></figcaption></figure>
 
 </div>
 
@@ -37,7 +37,7 @@
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption><p>删除应用</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt="" width="375"><figcaption><p>删除应用</p></figcaption></figure>
 
 </div>
 
