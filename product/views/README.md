@@ -6,7 +6,7 @@ In the world of productivity and multitasking, efficiency is key. Recognizing th
 
 #### Understanding Views in Teable
 
-Teable's view of management is intuitively split into two primary sections. The initial section showcases a list of your existing views within any selected base, offering quick access and overview. The subsequent section outlines the available core view types you can create within Teable, including Grid, and Form, (Gallery, Kanban, and Calendar views are coming soon), thus providing a versatile toolkit for data management.
+Teable's view of management is intuitively split into two primary sections. The initial section showcases a list of your existing views within any selected table, offering quick access and overview. The subsequent section outlines the available core view types you can create within Teable, including Grid, and Form, (Gallery, Kanban, and Calendar views are coming soon), thus providing a versatile toolkit for data management.
 
 It's important to note that all users, from Admins to Members, are empowered to modify views, ensuring a collaborative and flexible environment.
 
