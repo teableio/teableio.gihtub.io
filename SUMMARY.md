@@ -46,7 +46,10 @@
   * [Permission](product/collaboration/permission.md)
   * [Space invitations](product/collaboration/space-invitations.md)
   * [Base invitations](product/collaboration/base-invitations.md)
-* [API](product/api.md)
+
+## Developer
+
+* [API](developer/api.md)
 
 ***
 
