@@ -42,9 +42,10 @@
   * [Show as](product/fields/show-as.md)
   * [Single or multi value (advanced)](product/fields/single-or-multi-value-advanced.md)
 * [Records](product/records.md)
-* [Collaboration](product/collaboration.md)
-* [Share](product/share.md)
-* [Permission](product/permission.md)
+* [Collaboration](product/collaboration/README.md)
+  * [Permission](product/collaboration/permission.md)
+  * [Space invitations](product/collaboration/space-invitations.md)
+  * [Base invitations](product/collaboration/base-invitations.md)
 * [API](product/api.md)
 
 ***
