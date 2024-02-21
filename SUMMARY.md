@@ -46,4 +46,7 @@
 * [Share](product/share.md)
 * [Permission](product/permission.md)
 * [API](product/api.md)
-* [Blog](product/blog.md)
+
+***
+
+* [Blog](blog.md)
