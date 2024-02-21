@@ -19,6 +19,12 @@ Filtering is a key tool in data management, enabling users to quickly locate dat
 * Users can create condition groups by clicking the "Add Group" button, using "AND" or "OR" logic to connect conditions.
 * Groups can be nested within each other to implement complex filtering logic.
 
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
+
 **Supported Base Types and Operators**
 
 **Text Type**
