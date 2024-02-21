@@ -64,6 +64,10 @@
   * [多人协同](ji-ben-gong-neng/shi-tu/duo-ren-xie-tong.md)
   * [分享](ji-ben-gong-neng/shi-tu/fen-xiang.md)
 * [仪表盘](ji-ben-gong-neng/yi-biao-pan.md)
+* [协作](ji-ben-gong-neng/xie-zuo/README.md)
+  * [协作权限](ji-ben-gong-neng/xie-zuo/xie-zuo-quan-xian.md)
+  * [空间邀请](ji-ben-gong-neng/xie-zuo/kong-jian-yao-qing.md)
+  * [数据库邀请](ji-ben-gong-neng/xie-zuo/shu-ju-ku-yao-qing.md)
 
 ## 无代码开发
 
