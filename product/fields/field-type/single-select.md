@@ -28,8 +28,12 @@ The Single Select field allows users to choose one option from a predefined list
 
 Single Select fields not only help you organize and categorize data but also play a key role in the advanced functionalities of Teable:
 
-1. **Kanban View**: Based on Single Select fields, you can easily create Kanban views, organizing records into cards placed in corresponding columns. For example, a Single Select field labeled "Task Status" (e.g., "Not Started," "In Progress," "Completed") can provide a clear, visual overview of your task management process's progress.
-2. **Gantt Chart Color Coding**: Gantt charts offer a clear timeline view, showing the start and end dates of tasks and projects. The color attribute of Single Select fields can be used to set the color of task bars in Gantt charts, making them easier to distinguish. For instance, different project phases (Design, Development, Testing) can have distinct colors.
-3. **Data Grouping**: In various views, data can be grouped according to the value of a Single Select field, displaying information in a more organized manner. This is particularly useful when you want to view data according to a specific attribute (such as project status, department, or priority).
+1. **Data Grouping**: In various views, data can be grouped according to the value of a Single Select field, displaying information in a more organized manner. This is particularly useful when you want to view data according to a specific attribute (such as project status, department, or priority).
+2. [**Kanban View**](#user-content-fn-1)[^1]: Based on Single Select fields, you can easily create Kanban views, organizing records into cards placed in corresponding columns. For example, a Single Select field labeled "Task Status" (e.g., "Not Started," "In Progress," "Completed") can provide a clear, visual overview of your task management process's progress.
+3. [**Gantt Chart Color Coding**](#user-content-fn-2)[^2]: Gantt charts offer a clear timeline view, showing the start and end dates of tasks and projects. The color attribute of Single Select fields can be used to set the color of task bars in Gantt charts, making them easier to distinguish. For instance, different project phases (Design, Development, Testing) can have distinct colors.
 
 In summary, Single Select fields provide users with a straightforward and efficient way to select a specific option from a predefined list. When used correctly, it can ensure data consistency and accuracy.
+
+[^1]: Coming soon
+
+[^2]: Coming soon

@@ -1,6 +1,6 @@
 # Numeric
 
-Our platform supports numeric field types, allowing for the input and storage of numerical data. These fields are versatile, catering to various business needs such as financial analysis and inventory management.
+Numeric field types allow for the input and storage of numerical data. These fields are versatile, catering to various business needs such as financial analysis and inventory management.
 
 Numeric fields are strictly for numbers, including integers and decimals like "12" or "3.1415". Any non-numeric characters are automatically filtered out. You can also set numeric range constraints to ensure inputs fall within a specified interval.
 
@@ -22,7 +22,7 @@ Displays as a standard number, e.g., 1, 2.0
 
 <summary>Currency</summary>
 
-Displays with a currency symbol, e.g., ¥1.00
+Displays with a currency symbol, e.g., $1.00
 
 </details>
 
@@ -36,9 +36,21 @@ Displays in percentage format, e.g., 1%. Note: A 1% is stored as 0.01, and 100% 
 
 Formatting options enhance data presentation, making it more accessible and meaningful. This feature is not limited to numeric fields but can also be applied to formula fields, summary fields, and references for comprehensive data manipulation.
 
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image.png" alt="" width="323"><figcaption><p>Set Formatting</p></figcaption></figure>
+
+</div>
+
 #### Precision
 
-The platform offers six levels of precision, ranging from whole numbers to five decimal places, allowing users to select the level that best fits their data accuracy needs.
+It offers six levels of precision, ranging from whole numbers to five decimal places, allowing users to select the level that best fits their data accuracy needs.
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (1).png" alt="" width="326"><figcaption></figcaption></figure>
+
+</div>
 
 #### Display Modes
 
@@ -68,4 +80,10 @@ Users may choose a bar chart display, also with options for target values, color
 
 </details>
 
-These formatting and display features not only enhance the visual appeal of numeric data but also its utility, facilitating easier analysis and decision-making processes.
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (2).png" alt="" width="328"><figcaption></figcaption></figure>
+
+</div>
+
+These formatting and display features not only enhance the visual appeal of numeric data but also its utility, facilitating easier analysis and decision-making processes. See [formatting](../formatting.md) for details.

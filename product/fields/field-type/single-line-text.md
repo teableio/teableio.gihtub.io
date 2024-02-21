@@ -1,16 +1,14 @@
 # Single line text
 
-Single-line text fields are designed for inputting brief text and are a fundamental field type commonly used in databases. They are ideal for adding short text values in a table.
-
-![Single-Line Text](attachment://image.png)
+Single line text fields are designed for inputting brief text and are a fundamental field type commonly used in databases. They are ideal for adding short text values in a table.
 
 Users can enter text by clicking on a cell and typing directly. Standard text editing operations such as cut, copy, and paste are also supported.
 
 Entered text can be utilized for filtering and sorting purposes. It supports text processing functions for extraction among other operations. Moreover, users can easily set default values for text fields to minimize repetitive input.
 
-#### Interaction Display
+#### Show as
 
-There are four common interaction displays set for text fields:
+There are four common show as set for text fields:
 
 <details>
 
@@ -44,12 +42,10 @@ Text set to display as a phone number will open the user's default communication
 
 </details>
 
-#### Setting the Display Mode
+#### Setting the show as
 
-1. Right-click on the single-line text field.
+1. Right-click on the single line text field.
 2. Select "Edit Field."
 3. In the dialog that opens, choose the desired format and save.
 
-![Setting Display Mode](attachment://image2.png)
-
-Interaction displays are not only applicable in single-line text fields but can also be used in formula fields, summary fields, and references. For more details, please see Interaction Display.
+Show as are not only applicable in single line text fields but can also be used in formula fields, summary fields, and references. For more details, please see [show as](../show-as.md).

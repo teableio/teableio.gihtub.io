@@ -20,7 +20,7 @@ Date fields allow users to store and manage time-related information. They can b
   * `DD/MM/YYYY` (for example: 03/11/2023)
   * `MM/DD/YYYY` (for example: 11/03/2023)
   * `D MMM YYYY` (for example: 3 Nov 2023)
-  * ...and many other format options.
+  * ...and many other [format options](../formatting.md).
 
 ### Features and Functions
 
