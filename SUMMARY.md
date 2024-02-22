@@ -53,4 +53,4 @@
 
 ***
 
-* [Blog](blog.md)
+* [Blog](https://blog.teable.io)
