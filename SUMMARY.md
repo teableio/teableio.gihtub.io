@@ -49,7 +49,8 @@
 
 ## Developer
 
-* [API](developer/api.md)
+* [API](developer/api/README.md)
+  * [Access Token](developer/api/access-token.md)
 
 ***
 
