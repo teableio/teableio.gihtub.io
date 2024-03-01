@@ -47,7 +47,7 @@ Teable的数据表等同于数据库表的概念，这个概念有助于理解[T
 用户可以通过三种方式访问数据表：
 
 * [视图](../shi-tu/)
-* [API](../../gao-dai-ma-kai-fa/api.md)
+* [API](../../gao-dai-ma-kai-fa/api/)
 * [SQL查询语句](../../gao-ji-te-xing/yuan-sheng-sql.md)
 
 视图是上述方式中最直观的一种。用户可以通过各种视图对数据表进行检索、操作，并以此构建出复杂的应用。
