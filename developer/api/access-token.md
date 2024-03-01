@@ -6,7 +6,7 @@ Personal access tokens are tokens used for authentication and authorization. The
 
 ### Creating a Token
 
-1. Go to the [token management page](https://app.teable.cn/setting/personal-access-token) and click the "Create Token" button to create a new personal access token.
+1. Go to the [token management page](https://app.teable.io/setting/personal-access-token) and click the "Create Token" button to create a new personal access token.
 
 2. Give your token a name and optionally add a description.
 
@@ -26,14 +26,14 @@ You can manage existing tokens, including updating their name, description, scop
 
 #### Updating Permissions
 
-1. Go to the [token management page](https://app.teable.cn/setting/personal-access-token) and click the name of the existing token to enter its details page.
+1. Go to the [token management page](https://app.teable.io/setting/personal-access-token) and click the name of the existing token to enter its details page.
 2. Update the token's access scope, accessible bases, and spaces.
 
 #### Regenerating a Token
 
-1. Go to the [token management page](https://app.teable.cn/setting/personal-access-token) and click the name of the existing token to enter its details page.
+1. Go to the [token management page](https://app.teable.io/setting/personal-access-token) and click the name of the existing token to enter its details page.
 2. Click the "Regenerate Token" button and choose an expiration.
 
 #### Deleting a Token
 
-Go to the [token management page](https://app.teable.cn/setting/personal-access-token) and select the token you want to delete.
+Go to the [token management page](https://app.teable.io/setting/personal-access-token) and select the token you want to delete.
