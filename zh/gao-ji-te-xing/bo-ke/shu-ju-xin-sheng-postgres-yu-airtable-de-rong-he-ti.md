@@ -44,9 +44,7 @@ description: >-
 
 ### 更多的必备良好操作体验
 
-还有更多的类似组合式筛选，多级排序，拖拽排序能力，我们全部都具备。确保你从Airtable，Baserow，Nocodb, Monday.com，Smartsuite 迁移过来时，不禁发出一声感叹：这才是我想要的 spreadsheet-database 为什么我不早一点知道 Teable
-
-
+Teable 提供了更丰富的操作体验和筛选、排序、拖拽等功能，确保了从 Airtable、Baserow、Notion、Monday.com、Google Sheet 迁移过来的用户能够立即感受到这是他们一直在寻找的 spreadsheet-database。
 
 ### 数据关联和计算
 
