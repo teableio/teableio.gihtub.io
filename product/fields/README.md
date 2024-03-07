@@ -14,7 +14,7 @@ To add new fields within the grid view, follow these steps:
 
 
 
-    <figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 4. In the pop-up dialog, edit the field settings.
 5. Click "Save."
 
@@ -24,7 +24,7 @@ Fields can be edited both during the creation process and whenever modifications
 
 1.  Right-click on the field you wish to edit.&#x20;
 
-    <figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="359"><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt="" width="359"><figcaption></figcaption></figure>
 2. Select the "Edit Field" option from the menu.
 3. Make your edits in the dialog that appears.
 4. Click "Save."
@@ -45,7 +45,7 @@ For detailed information on each field type and its customization options, pleas
 
 1.  Right-click on the field you want to delete.&#x20;
 
-    <figure><img src="../../.gitbook/assets/image (4).png" alt="" width="353"><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (4) (1).png" alt="" width="353"><figcaption></figcaption></figure>
 2. Select the "Delete Field" option from the menu.
 3. Confirm the deletion in the dialog box.
 

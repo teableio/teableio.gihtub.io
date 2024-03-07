@@ -38,7 +38,7 @@ Formatting options enhance data presentation, making it more accessible and mean
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt="" width="323"><figcaption><p>Set Formatting</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt="" width="323"><figcaption><p>Set Formatting</p></figcaption></figure>
 
 </div>
 
@@ -48,7 +48,7 @@ It offers six levels of precision, ranging from whole numbers to five decimal pl
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt="" width="326"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt="" width="326"><figcaption></figcaption></figure>
 
 </div>
 
@@ -82,7 +82,7 @@ Users may choose a bar chart display, also with options for target values, color
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt="" width="328"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt="" width="328"><figcaption></figcaption></figure>
 
 </div>
 
