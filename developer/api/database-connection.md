@@ -34,7 +34,7 @@ This guide will walk you through setting up and managing database connections in
 
 The way to connect to the database slightly varies across different products, but the principle is generally the same. Here we provide a simple example:
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="563"><figcaption><p>connection example</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt="" width="563"><figcaption><p>Connection example</p></figcaption></figure>
 
 #### Closing Database Connections
 
