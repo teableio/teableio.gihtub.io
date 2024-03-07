@@ -36,7 +36,7 @@ description: 在 Teable 上开放原生数据库连接
 
 在不同的产品上，连接数据库的方式略有不同，但大同小异，我们这里进行一个简单的示例
 
-<figure><img src="../../.gitbook/assets/image (64).png" alt=""><figcaption><p>connection example</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (68).png" alt="" width="563"><figcaption><p>Connection example</p></figcaption></figure>
 
 ### 关闭数据库连接
 
@@ -45,7 +45,7 @@ description: 在 Teable 上开放原生数据库连接
 
 ### 数据库表中的内容
 
-**用户创建的字段**
+#### **用户创建的字段**
 
 您在表格中创建的所有字段。
 
@@ -55,7 +55,7 @@ description: 在 Teable 上开放原生数据库连接
 
 <figure><img src="../../.gitbook/assets/image (61).png" alt="" width="563"><figcaption><p>db field name</p></figcaption></figure>
 
-**Teable 系统字段**
+#### **Teable 系统字段**
 
 &#x20;系统字段无法被重命名
 
@@ -68,7 +68,10 @@ description: 在 Teable 上开放原生数据库连接
 7. `__last_modified_by` 最近修改人 ID
 8. 视图索引字段：以 `__row` 开头的字段，用于维护当前视图中记录的顺序。
 9. 外键：如果存在关联字段，会创建逻辑外键，命名以 `__fk` 开头。
-10. 中间表：以 `junction_` 开头的表，用于处理 ManyToMany 以及单向关联关系。
+
+#### 中间表
+
+以 `junction_` 开头的表，用于处理 ManyToMany 以及单向关联关系。
 
 ### 连接数限制
 
