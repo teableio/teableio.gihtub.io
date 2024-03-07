@@ -50,6 +50,7 @@
 ## Developer
 
 * [API](developer/api/README.md)
+  * [Database connection](developer/api/database-connection.md)
   * [Access Token](developer/api/access-token.md)
 
 ***
