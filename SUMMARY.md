@@ -53,8 +53,8 @@
   * [Access Token](developer/api/access-token.md)
   * [Scopes](developer/api/scopes.md)
   * [Errors](developer/api/errors.md)
+* [Database connection](developer/database-connection.md)
 
 ***
 
-* [Database connection](database-connection.md)
 * [Blog](https://blog.teable.io)
