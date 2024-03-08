@@ -77,7 +77,7 @@
 ## 高代码开发
 
 * [API](gao-dai-ma-kai-fa/api/README.md)
-  * [令牌](gao-dai-ma-kai-fa/api/access-token.md)
+  * [访问令牌](gao-dai-ma-kai-fa/api/access-token.md)
   * [作用域](gao-dai-ma-kai-fa/api/zuo-yong-yu.md)
   * [错误码](gao-dai-ma-kai-fa/api/cuo-wu-ma.md)
 * [数据库连接](gao-dai-ma-kai-fa/shu-ju-ku-lian-jie.md)
