@@ -93,7 +93,7 @@ Database connections act as bridges between applications and the database for ex
 
 ### Permission Explanation
 
-The created connection user's permission access range is limited to the current Base (referred to as a database in the Teable interface), which corresponds to a schema in Postgres. A schema in Postgres is a namespace concept that provides excellent permission isolation, ensuring the connection can only access tables within that schema. However, roles created in Postgres will have the ability to view all schema names, which is why when you use external
+The created connection user's permission access range is limited to the current Base, which corresponds to a schema in Postgres. A schema in Postgres is a namespace concept that provides excellent permission isolation, ensuring the connection can only access tables within that schema. However, roles created in Postgres will have the ability to view all schema names, which is why when you use external
 
 applications to connect to the database, you might see many BaseIds (actually schema names) as shown in the image below. Rest assured, except for this ID, no other user content can be accessed.
 
