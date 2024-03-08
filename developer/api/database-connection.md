@@ -6,7 +6,7 @@ description: Connect directly to the teable database
 
 This guide will walk you through setting up and managing database connections in Teable, including creating read-only connections, obtaining the BaseId, closing connections, as well as understanding the contents of database tables and how to modify Postgres table column names.
 
-#### Creating Database Connections
+### Creating Database Connections
 
 1. **Enter the table**: First, open the table you want to connect.
 2. **Select the API button**: Find and click the API button on the right side.
@@ -15,7 +15,7 @@ This guide will walk you through setting up and managing database connections in
 
 <figure><img src="../../.gitbook/assets/image.png" alt="" width="327"><figcaption><p>Postgres connection</p></figcaption></figure>
 
-**Connection Methods**
+#### **Connection Methods**
 
 * **Common database GUI**: Such as DataGrip, Navicat, TablePlus, etc.
 * **BI tools**: Such as PowerBI, Metabase, Superset, etc.
@@ -34,24 +34,42 @@ This guide will walk you through setting up and managing database connections in
 
 The way to connect to the database slightly varies across different products, but the principle is generally the same. Here we provide a simple example:
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt="" width="563"><figcaption><p>Connection example</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Connection example</p></figcaption></figure>
 
 #### Closing Database Connections
 
 1. **Enter the Database Connection interface**: Click delete in the Database Connection interface to close the connection.
 2. **Password clearing**: After deletion, the old password will be cleared. A new connection will involve a new set.
 
-#### Contents of Database Tables
+### Contents of Database Tables
 
-**User-Created Fields**
+Click the gear icon ⚙️ on the top right corner of the table to access the **Database Design Interface**. This section provides details on the table's name and structure within the database, which is invaluable for conducting external data queries.
+
+#### Database Table Names
+
+Renaming a table in Teable will not automatically update the table name in the physical database. You must explicitly change the table name in the database itself.
+
+<figure><img src="../../.gitbook/assets/image (8).png" alt="" width="375"><figcaption><p>table info</p></figcaption></figure>
+
+After you have completed renaming the table, you can directly query the first 100 rows of data in the table using the following SQL example:
+
+```sql
+SELECT * from "bseamGnQT65TVSCzIaC"."clients" limit 100
+```
+
+When querying, it's necessary to include the schema name, also known as BaseId, and utilize the physical database table names. **Please be aware that in Postgres, it is crucial to surround both schema and table names with double quotes " to correctly distinguish case sensitivity.**
+
+#### **User-Created Fields**
 
 All fields you create in the table.
 
-Note that the field (column) names in the database table might not exactly match the naming used in the Teable interface. Please check the field names in the database in the database design interface (the ⚙️ icon at the top right corner of the table) before making queries and making necessary modifications.
+Note that the field (column) names in the database table might not exactly match the naming used in the Teable interface. Please check the field names in the database in the database design interface before making queries and making necessary modifications.
 
 **Modifying field names in Teable does not automatically change dbFieldName. You must explicitly modify dbFieldName to change the actual column name in Postgres.**
 
-**Teable System Fields**
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>field management</p></figcaption></figure>
+
+#### **Teable System Fields**
 
 System fields cannot be renamed.
 
@@ -64,13 +82,16 @@ System fields cannot be renamed.
 7. `__last_modified_by` Last modifier ID
 8. View index fields: Fields starting with `__row`, used to maintain the order of records in the current view.
 9. Foreign keys: If there are linked fields, logical foreign keys are created, named starting with `__fk`.
-10. Junction tables: Tables starting with `junction_`, used to handle ManyToMany and one-way link relationships.
 
-#### Connection Limits
+#### Junction table
+
+Tables starting with `junction_`, used to handle ManyToMany and OneWay link relationships.
+
+### Connection Limits
 
 Database connections act as bridges between applications and the database for exchanging information. Our system allows a maximum of 3 such bridges (connections) at the same time. This means that only 3 applications can communicate directly with the database at any given time (an application may occupy multiple connections, depending on your settings). Exceeding this number means other users will have to wait until a connection becomes available. This limit helps us maintain system stability and efficiency, ensuring a good experience for all users. You can view the current number of connections in the connection settings interface.
 
-#### Permission Explanation
+### Permission Explanation
 
 The created connection user's permission access range is limited to the current Base (referred to as a database in the Teable interface), which corresponds to a schema in Postgres. A schema in Postgres is a namespace concept that provides excellent permission isolation, ensuring the connection can only access tables within that schema. However, roles created in Postgres will have the ability to view all schema names, which is why when you use external
 
@@ -78,7 +99,7 @@ applications to connect to the database, you might see many BaseIds (actually sc
 
 <figure><img src="../../.gitbook/assets/image (3).png" alt="" width="253"><figcaption><p>BasdId in TablePlus</p></figcaption></figure>
 
-#### Direct Database Writing
+### Direct Database Writing
 
 Teable does not allow direct database operations through external connections. Direct modification of database content is dangerous, as it could break the application logic, leading to crashes or data loss. Teable does not provide writable database connections. If you need to modify data, please do so through the Teable API, which offers finer permission control and good operation encapsulation.
 
