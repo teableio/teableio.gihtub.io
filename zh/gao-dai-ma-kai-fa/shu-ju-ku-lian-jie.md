@@ -13,7 +13,7 @@ description: 在 Teable 上开放原生数据库连接
 3. **选择 Postgresql Connection**：在弹出的选项中，选择 Postgresql Connection。
 4. **进入设置界面**：点击创建，系统将自动创建一个只读的 Postgres 用户，包括用户名、密码和数据库链接地址。
 
-<figure><img src="../../.gitbook/assets/image (62).png" alt="" width="327"><figcaption><p>pg connection</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (62).png" alt="" width="327"><figcaption><p>pg connection</p></figcaption></figure>
 
 #### 连接方式
 
@@ -26,17 +26,17 @@ description: 在 Teable 上开放原生数据库连接
 
 1. 点击任意表格进入界面，URL 上方以 `bse` 开头的字符串就是 baseId。
 
-<figure><img src="../../.gitbook/assets/image (59).png" alt=""><figcaption><p>baseId</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (59).png" alt=""><figcaption><p>baseId</p></figcaption></figure>
 
 2. 进入数据库设计界面（表格右上角的 ⚙ 图标），里面的 schema 名就是 baseId。
 
-<figure><img src="../../.gitbook/assets/image (60).png" alt="" width="362"><figcaption><p>Design page</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (60).png" alt="" width="362"><figcaption><p>Design page</p></figcaption></figure>
 
 ### 连接数据库
 
 在不同的产品上，连接数据库的方式略有不同，但大同小异，我们这里进行一个简单的示例
 
-<figure><img src="../../.gitbook/assets/image (68).png" alt=""><figcaption><p>Connection example</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (68).png" alt=""><figcaption><p>Connection example</p></figcaption></figure>
 
 ### 关闭数据库连接
 
@@ -53,7 +53,7 @@ description: 在 Teable 上开放原生数据库连接
 
 修改Teable 中的表名称不会同步修改数据库中的 table name，您必须显式的修改物理数据库中的表名。
 
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="375"><figcaption><p>table info</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt="" width="375"><figcaption><p>table info</p></figcaption></figure>
 
 当你完成表名修改之后，就可以直接使用 SQL 进行查询，下面是一个例子查询当前表格的前 100 行数据
 
@@ -71,7 +71,7 @@ SELECT * from "bseamGnQT65TVSCzIaC"."clients" limit 100
 
 **修改 teable 中的字段名并不会同步修改 dbFieldName, 您必须显式的修改 dbFieldName 以修改 Postgres 中实际的 column name**
 
-<figure><img src="../../.gitbook/assets/image (61).png" alt=""><figcaption><p>db field name</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (61).png" alt=""><figcaption><p>db field name</p></figcaption></figure>
 
 #### **Teable 系统字段**
 
@@ -99,7 +99,7 @@ SELECT * from "bseamGnQT65TVSCzIaC"."clients" limit 100
 
 创建的连接用户权限访问范围为当前所在的 Base (Teable界面上称数据库），它对应 Postgres 中的 schema, schema 是 Postgres 中命名空间概念，提供了非常好的权限隔离特性，保证当前连接仅可访问该 schema 中的表，但是 postgres 中创建的角色会拥有所有 schema 的名称查看能力，这也就是为什么当你使用外部应用连接上数据库是时可能会看到下图一样非常多的 baseId (实际上是schema 名称）。但是可以放心的是，除了这个 Id 之外任何其他的用户内容是无法被访问的。
 
-<figure><img src="../../.gitbook/assets/image (66).png" alt="" width="253"><figcaption><p> base id in TablePlus</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (66).png" alt="" width="253"><figcaption><p> base id in TablePlus</p></figcaption></figure>
 
 ### 直接写数据库
 
