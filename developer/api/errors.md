@@ -32,7 +32,7 @@ Error messages will return a JSON-encoded body containing error and information 
 | :--------------- | :--------------------------------------- |
 | 200              | Request has been successfully completed. |
 
-##  
+
 
 ## Error Codes
 
