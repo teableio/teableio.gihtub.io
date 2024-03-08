@@ -36,24 +36,42 @@ description: 在 Teable 上开放原生数据库连接
 
 在不同的产品上，连接数据库的方式略有不同，但大同小异，我们这里进行一个简单的示例
 
-<figure><img src="../../.gitbook/assets/image (68).png" alt="" width="563"><figcaption><p>Connection example</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (68).png" alt=""><figcaption><p>Connection example</p></figcaption></figure>
 
 ### 关闭数据库连接
 
 1. **进入 Database Connection 界面**：在 Database Connection 界面点击删除，即可关闭连接。
 2. **密码清除**：删除后旧的密码将被清除。重新新建将会是新的连接。
 
+
+
 ### 数据库表中的内容
+
+点击表格右上角的 ⚙️ 图标进入**数据库设计界面**，里面包含了关于当前表格在数据库中的名称和结构详情，对于如何在外部进行数据查询非常有帮助
+
+#### 数据库表名称
+
+修改Teable 中的表名称不会同步修改数据库中的 table name，您必须显式的修改物理数据库中的表名。
+
+<figure><img src="../../.gitbook/assets/image.png" alt="" width="375"><figcaption><p>table info</p></figcaption></figure>
+
+当你完成表名修改之后，就可以直接使用 SQL 进行查询，下面是一个例子查询当前表格的前 100 行数据
+
+```sql
+SELECT * from "bseamGnQT65TVSCzIaC"."clients" limit 100
+```
+
+查询的手需要带上 schema 名称也就是 BaseId, 并使用物理数据库表名进行查询，**请注意在 Postgres 中必须使用双引号`"` 将 schema 和 table 名称包住才能够正确的区分大小写。**
 
 #### **用户创建的字段**
 
 您在表格中创建的所有字段。
 
-注意，数据库表中的字段 (列) 名与用户在 Teable 界面上的命名不会完全一致，请在进行查询前先在数据库设计界面（表格右上角的⚙图标）页面检查字段在数据库中的名称，并进行必要的修改。
+注意，数据库表中的字段 (列) 名与用户在 Teable 界面上的命名不会完全一致，请在进行查询前先在数据库设计界面页面检查字段在数据库中的名称，并进行必要的修改。
 
 **修改 teable 中的字段名并不会同步修改 dbFieldName, 您必须显式的修改 dbFieldName 以修改 Postgres 中实际的 column name**
 
-<figure><img src="../../.gitbook/assets/image (61).png" alt="" width="563"><figcaption><p>db field name</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (61).png" alt=""><figcaption><p>db field name</p></figcaption></figure>
 
 #### **Teable 系统字段**
 

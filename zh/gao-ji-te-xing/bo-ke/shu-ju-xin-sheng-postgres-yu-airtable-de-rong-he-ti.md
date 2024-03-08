@@ -28,13 +28,13 @@ description: >-
 
 我们拥有所有必要的[字段类型](../../ji-ben-gong-neng/zi-duan/)，组成了构建应用的完备条件, 特别是处理数据关联和计算相关的强大基础。
 
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="325"><figcaption><p>字段列表</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="325"><figcaption><p>字段列表</p></figcaption></figure>
 
 ### 电子表格和实时协同
 
 是专业的数据库也是一个灵活的的电子表格，还可以和[协作者](../../ji-ben-gong-neng/xie-zuo/)进行实时协同
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### 无限滚动
 
