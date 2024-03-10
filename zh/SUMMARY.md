@@ -82,12 +82,12 @@
   * [错误码](gao-dai-ma-kai-fa/api/cuo-wu-ma.md)
 * [数据库连接](gao-dai-ma-kai-fa/shu-ju-ku-lian-jie.md)
 * [扩展](gao-dai-ma-kai-fa/kuo-zhan.md)
-* [🟡 嵌入](gao-dai-ma-kai-fa/qian-ru.md)
+* [嵌入](gao-dai-ma-kai-fa/qian-ru.md)
 
 ## 高级特性
 
-* [🟡 海量数据](gao-ji-te-xing/hai-liang-shu-ju.md)
-* [🟡 卓越性能](gao-ji-te-xing/zhuo-yue-xing-neng.md)
+* [海量数据](gao-ji-te-xing/hai-liang-shu-ju.md)
+* [卓越性能](gao-ji-te-xing/zhuo-yue-xing-neng.md)
 * [数据库可插拔](gao-ji-te-xing/shu-ju-ku-ke-cha-ba.md)
 * [原生SQL](gao-ji-te-xing/yuan-sheng-sql.md)
 * [博客](gao-ji-te-xing/bo-ke/README.md)
