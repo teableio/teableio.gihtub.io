@@ -16,7 +16,7 @@ layout:
     visible: true
 ---
 
-# ✅ 组织
+# 组织
 
 组织（Organization）是Teable中的最高管理层级。正如其字面意思，它通常代表一个团队、一家公司、一个机构或一整个集团。
 

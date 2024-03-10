@@ -6,10 +6,10 @@
 
 ## 基本功能
 
-* [✅ 组织](<README (1).md>)
-  * [✅ 管理员后台](ji-ben-gong-neng/zu-zhi/guan-li-yuan-hou-tai/README.md)
-    * [🟡 组织架构](ji-ben-gong-neng/zu-zhi/guan-li-yuan-hou-tai/zu-zhi-jia-gou.md)
-    * [🟡 用户](ji-ben-gong-neng/zu-zhi/guan-li-yuan-hou-tai/yong-hu.md)
+* [组织](<README (1).md>)
+  * [管理员后台](ji-ben-gong-neng/zu-zhi/guan-li-yuan-hou-tai/README.md)
+    * [组织架构](ji-ben-gong-neng/zu-zhi/guan-li-yuan-hou-tai/zu-zhi-jia-gou.md)
+    * [用户](ji-ben-gong-neng/zu-zhi/guan-li-yuan-hou-tai/yong-hu.md)
     * [工作区](ji-ben-gong-neng/zu-zhi/guan-li-yuan-hou-tai/gong-zuo-qu.md)
     * [应用](ji-ben-gong-neng/zu-zhi/guan-li-yuan-hou-tai/ying-yong.md)
     * [仪表盘](ji-ben-gong-neng/zu-zhi/guan-li-yuan-hou-tai/yi-biao-pan.md)
@@ -17,10 +17,10 @@
     * [报告](ji-ben-gong-neng/zu-zhi/guan-li-yuan-hou-tai/bao-gao.md)
     * [设置](ji-ben-gong-neng/zu-zhi/guan-li-yuan-hou-tai/she-zhi.md)
 * [工作区](ji-ben-gong-neng/gong-zuo-qu/README.md)
-  * [🟡 添加和移除工作区成员](ji-ben-gong-neng/gong-zuo-qu/tian-jia-he-yi-chu-gong-zuo-qu-cheng-yuan.md)
+  * [添加和移除工作区成员](ji-ben-gong-neng/gong-zuo-qu/tian-jia-he-yi-chu-gong-zuo-qu-cheng-yuan.md)
 * [应用](ji-ben-gong-neng/ying-yong.md)
 * [数据表](ji-ben-gong-neng/shu-ju-biao/README.md)
-  * [Teable数据表和电子表格的差异](ji-ben-gong-neng/shu-ju-biao/teable-shu-ju-biao-he-dian-zi-biao-ge-de-cha-yi.md)
+  * [Teable和电子表格的差异](ji-ben-gong-neng/shu-ju-biao/teable-shu-ju-biao-he-dian-zi-biao-ge-de-cha-yi.md)
 * [字段](ji-ben-gong-neng/zi-duan/README.md)
   * [基础字段](ji-ben-gong-neng/zi-duan/ji-chu-zi-duan/README.md)
     * [单行文本](ji-ben-gong-neng/zi-duan/ji-chu-zi-duan/dan-hang-wen-ben.md)
