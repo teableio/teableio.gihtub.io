@@ -1,8 +1,10 @@
 # Table of contents
 
-## start
-
 * [About](README.md)
+
+## Quick start
+
+* [Build a simple base](quick-start/build-a-simple-base.md)
 
 ## Product
 
