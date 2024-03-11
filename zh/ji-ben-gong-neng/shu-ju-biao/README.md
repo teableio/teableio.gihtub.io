@@ -6,7 +6,7 @@
 
 Teable的数据表等同于数据库表的概念，这个概念有助于理解[Teable和传统电子表格之间的差异](teable-shu-ju-biao-he-dian-zi-biao-ge-de-cha-yi.md)，以便更好地掌握Teable。
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>数据表</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>数据表</p></figcaption></figure>
 
 ### 添加数据表
 

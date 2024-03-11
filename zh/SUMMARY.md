@@ -1,8 +1,10 @@
 # Table of contents
 
+* [Teable 简介](README.md)
+
 ## 快速开始
 
-* [Teable 简介](README.md)
+* [构建一个数据库](kuai-su-kai-shi/gou-jian-yi-ge-shu-ju-ku.md)
 
 ## 基本功能
 

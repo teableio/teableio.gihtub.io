@@ -2,7 +2,7 @@
 
 应用是用于存储和处理特定项目所有信息的工具。每个工作区可以拥有复数个应用，而每个应用都可以独立工作，为特定项目或数据表集合提供清晰的信息结构。
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>应用</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>应用</p></figcaption></figure>
 
 熟悉数据库的用户则不难发现，应用相当于数据库。每个应用可以包含复数个数据表，就如同每个数据库可以有复数张数据库表。
 
@@ -24,7 +24,7 @@
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>重命名</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>重命名</p></figcaption></figure>
 
 </div>
 
@@ -37,7 +37,7 @@
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>删除应用</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>删除应用</p></figcaption></figure>
 
 </div>
 

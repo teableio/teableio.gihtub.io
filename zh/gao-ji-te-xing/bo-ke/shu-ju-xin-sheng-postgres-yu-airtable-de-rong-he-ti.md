@@ -18,7 +18,7 @@ description: >-
 
 这是 Teable 的表格视图界面，在这里，你所看到的每一张表格，对应的都是 Postgres 中的一张物理表。&#x20;
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 我们成功地将数据库的表格，转换为类似于 Airtable 的电子表格界面，并且确保这个界面足够丝滑顺畅。
 
@@ -28,13 +28,13 @@ description: >-
 
 我们拥有所有必要的[字段类型](../../ji-ben-gong-neng/zi-duan/)，组成了构建应用的完备条件, 特别是处理数据关联和计算相关的强大基础。
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="325"><figcaption><p>字段列表</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="325"><figcaption><p>字段列表</p></figcaption></figure>
 
 ### 电子表格和实时协同
 
 是专业的数据库也是一个灵活的的电子表格，还可以和[协作者](../../ji-ben-gong-neng/xie-zuo/)进行实时协同
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### 无限滚动
 
