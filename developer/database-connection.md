@@ -13,7 +13,7 @@ This guide will walk you through setting up and managing database connections in
 3. **Choose PostgreSQL Connection**: In the options that appear, select PostgreSQL Connection.
 4. **Enter the settings interface**: Click create, and the system will automatically create a read-only Postgres user, including username, password, and database link address.
 
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="327"><figcaption><p>Postgres connection</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt="" width="327"><figcaption><p>Postgres connection</p></figcaption></figure>
 
 #### **Connection Methods**
 
@@ -26,7 +26,7 @@ This guide will walk you through setting up and managing database connections in
 
 1. Click any table to enter its interface. The string starting with `bse` in the URL is the BaseId.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption><p>BaseId</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption><p>BaseId</p></figcaption></figure>
 
 2. Enter the database design interface (the ⚙️ icon in the top right corner of the table), where the `schema name` is the BaseId.
 
@@ -34,7 +34,7 @@ This guide will walk you through setting up and managing database connections in
 
 The way to connect to the database slightly varies across different products, but the principle is generally the same. Here we provide a simple example:
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Connection example</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p>Connection example</p></figcaption></figure>
 
 #### Closing Database Connections
 
@@ -49,7 +49,7 @@ Click the gear icon ⚙️ on the top right corner of the table to access the **
 
 Renaming a table in Teable will not automatically update the table name in the physical database. You must explicitly change the table name in the database itself.
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt="" width="375"><figcaption><p>table info</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt="" width="375"><figcaption><p>table info</p></figcaption></figure>
 
 After you have completed renaming the table, you can directly query the first 100 rows of data in the table using the following SQL example:
 
@@ -67,7 +67,7 @@ Note that the field (column) names in the database table might not exactly match
 
 **Modifying field names in Teable does not automatically change dbFieldName. You must explicitly modify dbFieldName to change the actual column name in Postgres.**
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>field management</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>field management</p></figcaption></figure>
 
 #### **Teable System Fields**
 
@@ -97,7 +97,7 @@ The created connection user's permission access range is limited to the current 
 
 applications to connect to the database, you might see many BaseIds (actually schema names) as shown in the image below. Rest assured, except for this ID, no other user content can be accessed.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="253"><figcaption><p>BasdId in TablePlus</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt="" width="253"><figcaption><p>BasdId in TablePlus</p></figcaption></figure>
 
 ### Direct Database Writing
 

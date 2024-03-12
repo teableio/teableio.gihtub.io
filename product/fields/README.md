@@ -14,7 +14,7 @@ To add new fields within the grid view, follow these steps:
 
 
 
-    <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 4. In the pop-up dialog, edit the field settings.
 5. Click "Save."
 
