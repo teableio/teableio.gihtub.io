@@ -95,10 +95,4 @@ Similarly, if you need to build a customized application interface for collabora
 
 
 
-#### Example
-
-**A view with filter**
-
-<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
-
 Congratulations, you have now successfully created an AI PDF Summary Base and mastered the basics of using Teable. As you continue to practice, you'll be able to use Teable more flexibly to manage and analyze your data.
