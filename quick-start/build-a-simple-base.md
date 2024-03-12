@@ -4,6 +4,8 @@ This article will guide you through creating an AI PDF Summary Base in Teable, s
 
 It might seem a bit complex for beginners, but I'll make the process as simple and understandable as possible. Let's tackle this task step by step.
 
+> you can find this template here: [AI PDF Summary](https://template.teable.io/t/recbPjbyvr6TxgrbCu8)
+
 #### Step One: Create Your Base
 
 1. **Create a New Base**: After logging into your Teable account, click the "Create New Base" button on the interface. You have the option to start from scratch or use a template. In this example, we'll choose "Create Empty Database".
