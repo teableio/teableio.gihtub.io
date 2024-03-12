@@ -14,39 +14,48 @@ It might seem a bit complex for beginners, but I'll make the process as simple a
 
 <figure><img src="../.gitbook/assets/image (11).png" alt="" width="363"><figcaption></figcaption></figure>
 
-#### Step Two: Create the PDF List Table
+#### Step Two: Create two tables&#x20;
 
-**Creating the Table:**
+After creating your Base, click the + sign on the left to create a table, and double-click the table name (default is “Table 1”) to rename it to “PDF List”, and create a table rename it to "PDF Category Table" as the same
 
-After creating your Base, click the + sign on the left to create a table, and double-click the table name (default is “Table 1”) to rename it to “PDF List”.
 
-**Adding Fields:**
 
-After creating the table, you will see three default fields. First, delete the last two fields as they are not needed here.
+**Configure Fields:**
+
+Now you will see three default fields in each field. Delete the last two fields as they are not needed here, in both two tables. now we have two tables each just having one field. that is clean!
 
 <figure><img src="../.gitbook/assets/image (12).png" alt="" width="375"><figcaption></figcaption></figure>
 
+* Go back to the "PDF List" table.
 * Rename the first field to FileName.
 * Click the add field button, choose “Attachment”, and name the field “PDF” to store PDF files.
 
-<figure><img src="../.gitbook/assets/image (13).png" alt="" width="352"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21).png" alt="" width="349"><figcaption></figcaption></figure>
 
 * Click the add field button, choose “Long Text”, and name the field “Text Content” to store the text content of the PDF files.
+
+<figure><img src="../.gitbook/assets/image (19).png" alt="" width="349"><figcaption></figcaption></figure>
+
 * Repeat the previous step, choose “Long Text”, and name the field “Summary” to store summaries of the PDF documents.
 * Lastly, click the add field button, choose “Link to another table”, then choose “Create New Table”, and name it “PDF Category”. This will create a new table and link it to the “PDF List” table through the “Category” field. After that, select “Single Select”, as each PDF belongs to one category only.
 
 <figure><img src="../.gitbook/assets/image (14).png" alt="" width="354"><figcaption></figcaption></figure>
 
-**Step Three: Create the PDF Category Table**
+**Step Three: Configure the PDF Category Table**
 
-Since the PDF Category table was automatically created in the previous step when creating the Category field, we now need to further configure it.
+Since the PDF Category table has been created in the previous step we now need to further configure it.
 
 1. **Configure the PDF Category Table**:
    * Teable has automatically created a “Name” field for us, which we will use to store the names of categories.
    * **PDF List**: This field has also been automatically created, corresponding to the Category field in the PDF List table.
 2. **Add Fields**:
    * **All Summary**: Click the add field button, choose “Lookup”, target table select “PDF List”, and from there select the “Summary” field. This will allow us to view summaries of all PDFs under each category in the PDF Category table.
-   * **Count**: Click the add field button, choose “Rollup”, target table select “PDF List”, rollup field select “FileName”, and rollup type select “Count”. This will display the number of PDF files under each category.
+
+<figure><img src="../.gitbook/assets/image (15).png" alt="" width="348"><figcaption></figcaption></figure>
+
+* **Count**: Click the add field button, choose “Rollup”, target table select “PDF List”, rollup field select “FileName”, and rollup type select “Count”. This will display the number of PDF files under each category.
+
+<figure><img src="../.gitbook/assets/image (16).png" alt="" width="354"><figcaption></figcaption></figure>
 
 **Step Four: Populate Data and Use Your Base**
 
@@ -83,5 +92,13 @@ Once your Base has accumulated enough data, you might need to perform data insig
 Similarly, if you need to build a customized application interface for collaboration with other co-workers, you can use open-source low-code software like AppSmith, flexibly reading and writing data through database connections + API.
 
 
+
+
+
+#### Example
+
+**A view with filter**
+
+<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 Congratulations, you have now successfully created an AI PDF Summary Base and mastered the basics of using Teable. As you continue to practice, you'll be able to use Teable more flexibly to manage and analyze your data.
