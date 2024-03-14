@@ -27,47 +27,49 @@ description: 本指南旨在详细介绍如何使用Docker Compose进行应用�
 
 请参照“安装”部分的指南，在您的服务器上安装Docker和Docker Compose。
 
-### 安装
+### 安装 Docker
 
 ```sh
-# To install the latest stable versions of Docker CLI, Docker Engine, and their
+# 下载最新版本的 Docker
 
-# 1. download the script
+# 1. 下载脚本
 $ curl -fsSL https://get.docker.com -o install-docker.sh
 
-# 2. verify the script's content
+# 2. 看下脚本是不是正确
 $ cat install-docker.sh
 
-# 3. (Optional) run the script with --dry-run to verify the steps it executes
+# 3. 执行一次校验
 $ sh install-docker.sh --dry-run
 
-# 4. run the script either as root, or using sudo to perform the installation.
+# 4. 执行安装过程
 $ sudo sh install-docker.sh
 
-# 5. verify the installation and output version information
+# 5. 验证安装是否正确
 $ docker --version
 $ docker-compose --version
 ```
 
-### 配置&#x20;
+### 配置项目 Docker&#x20;
 
 ### 获取Docker Compose配置文件
 
-本指南将使用Teable项目的Docker Compose配置示例。首先，您需要从GitHub获取配置文件：
+本指南将使用Teable项目的Docker Compose配置示例。首先，您需要下载此配置文件到服务器上（右键可获取地址）：
 
-```sh
-curl -O https://raw.githubusercontent.com/teableio/teable/develop/dockers/examples/cluster/docker-compose.yaml
-```
+{% file src="../.gitbook/assets/docker-compose.yaml" %}
 
 ### 部署
 
-配置好`docker-compose.yml`后，通过运行以下命令部署您的应用程序：
+下载好`docker-compose.yml`后，在文件所在目录运行以下命令部署您的应用程序：
 
 ```sh
 docker-compose up -d
 ```
 
 此命令以分离模式启动应用程序，在后台运行。
+
+### 访问应用
+
+应用将可在本机 80 端口被访问到
 
 ### 管理
 
