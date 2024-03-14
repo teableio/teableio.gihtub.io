@@ -86,6 +86,10 @@
 * [扩展](gao-dai-ma-kai-fa/kuo-zhan.md)
 * [嵌入](gao-dai-ma-kai-fa/qian-ru.md)
 
+## 私有化部署
+
+* [docker-compose](si-you-hua-bu-shu/docker-compose.md)
+
 ## 高级特性
 
 * [海量数据](gao-ji-te-xing/hai-liang-shu-ju.md)
