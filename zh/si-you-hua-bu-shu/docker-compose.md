@@ -53,11 +53,19 @@ $ docker-compose --version
 
 ### 获取Docker Compose配置文件
 
-本指南将使用Teable项目的Docker Compose配置示例。首先，您需要下载此配置文件到服务器上（右键可获取地址）：
+本指南将使用Teable项目的Docker Compose配置示例。首先，您需要下载此配置文件到服务器上
 
-{% file src="../.gitbook/assets/docker-compose.yaml" %}
+```bash
+curl -O https://teable.cn/config/docker-compose.yaml
+```
 
-### 部署
+### 配置环境变量
+
+1\. 创建 .env 文件
+
+
+
+### 启动
 
 下载好`docker-compose.yml`后，在文件所在目录运行以下命令部署您的应用程序：
 
@@ -79,4 +87,14 @@ docker-compose up -d
 * 停止服务：`docker-compose down`
 * 在更改配置后更新服务：`docker-compose up -d --no-deps --pull <service_name>`
 
-\
+### 更新镜像
+
+```bash
+# 1. 拉取最新镜像
+docker-compose pull
+
+# 2. 重启容器
+docker-compose up -d
+
+```
+
