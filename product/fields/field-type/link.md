@@ -16,17 +16,19 @@ Unidirectional and Bidirectional Links: If you want the data to be updated only 
 
 Defining the Link Relationship: Configure the current table's field and the corresponding linked field, deciding between **allowing a single select** or **allowing multiple select**. Through the combination of settings in both Link fields, we can define the management relationship between the data, explained in detail below.
 
-### Unidirectional and Bidirectional Links
+### Two-way and one-way Links
 
-Users can choose to create bidirectional links based on their needs.
+Users can choose to create bidirectional links based on their needs, If you turn on the create symmetric field option (Open by default), that will create a two-way link.
 
-#### Unidirectional Link
+<figure><img src="../../../.gitbook/assets/image.png" alt="" width="350"><figcaption></figcaption></figure>
+
+#### Two-way Link
+
+Definition: A link created in one table automatically creates a symmetric link in another table. Example: Like friend requests on Facebook, when you add someone as a friend, they also add you back.
+
+#### One-way Link
 
 Definition: A link created in one table that doesn't automatically create a link in another table. Example: Imagine following a celebrity on social media; it means you can see their updates, but they might not know who you are.
-
-#### Bidirectional Link
-
-Definition: A link created in one table automatically creates a corresponding link in another table. Example: Like friend requests on Facebook, when you add someone as a friend, they also add you back.
 
 ### Link Relationships
 
@@ -34,12 +36,7 @@ When building relationships in databases, we usually encounter the following typ
 
 ### Link Relationships and How to Establish Them
 
-| Relationship | Description                                                               | Example                                        | How to Create in Table A                                                      |
-| ------------ | ------------------------------------------------------------------------- | ---------------------------------------------- | ----------------------------------------------------------------------------- |
-| One-to-One   | A record in Table A is linked to only one record in Table B.              | An author and their unique autobiography.      | Single select in Table A field + Single select in Table B symmetric field     |
-| One-to-Many  | A record in Table A can be linked to multiple records in Table B.         | An author and their multiple books.            | Multiple select in Table A field + Single select in Table B symmetric field   |
-| Many-to-One  | Multiple records in Table A can be linked to one record in Table B.       | Multiple authors and a common publisher.       | Single select in Table A field + Multiple select in Table B symmetric field   |
-| Many-to-Many | Multiple records in Table A can be linked to multiple records in Table B. | Multiple authors and multiple literary awards. | Multiple select in Table A field + Multiple select in Table B symmetric field |
+<table data-card-size="large" data-view="cards"><thead><tr><th>Relationship</th><th>Description</th><th>Example</th><th>How to Create in Table A</th><th>Screen shot</th></tr></thead><tbody><tr><td>One-to-One</td><td>A record in Table A is linked to only one record in Table B.</td><td>An author and their unique autobiography.</td><td>trun off "Allow linking to multiple records<br>trun off "Allow symmetric field linking to multiple records"</td><td><img src="../../../.gitbook/assets/image (2).png" alt="" data-size="original"></td></tr><tr><td>One-to-Many</td><td>A record in Table A can be linked to multiple records in Table B.</td><td>An author and their multiple books.</td><td>trun on "Allow linking to multiple records<br>trun off "Allow symmetric field linking to multiple records"</td><td><img src="../../../.gitbook/assets/image (3).png" alt="" data-size="original"></td></tr><tr><td>Many-to-One<br>（default)</td><td>Multiple records in Table A can be linked to one record in Table B.</td><td>Multiple authors and a common publisher.</td><td>trun off "Allow linking to multiple records<br>trun on "Allow symmetric field linking to multiple records"</td><td><img src="../../../.gitbook/assets/image (1).png" alt="" data-size="original"></td></tr><tr><td>Many-to-Many</td><td>Multiple records in Table A can be linked to multiple records in Table B.</td><td>Multiple authors and multiple literary awards.</td><td>trun on "Allow linking to multiple records<br>trun on "Allow symmetric field linking to multiple records"</td><td><img src="../../../.gitbook/assets/image (4).png" alt="" data-size="original"></td></tr></tbody></table>
 
 #### Relationship Examples Explained
 
@@ -54,13 +51,11 @@ To better understand the types of relationships listed above, let's use authors 
 
 In a one-to-many relationship in Table A, the same record in Table B can only be selected once in Table A. In other words, once a record from Table B is chosen as a linked record in Table A, it will no longer appear in the selection list for other records in Table A. This is due to the nature of the link relationship.
 
-**Example**: Suppose we have an "Authors" table (Table A) and a "Books" table (Table B). In the "Authors" table, there's a one-to-many relationship field for selecting the books written by an author. Now, when we select "Harry Potter and the Philosopher's Stone" for an author, this book won't appear in the selection list for other authors because it
-
-'s already linked to one author. This ensures that each book can only be linked to one author, following the one-to-many relationship rule.
+**Example**: Suppose we have an "Authors" table (Table A) and a "Books" table (Table B). In the "Authors" table, there's a one-to-many relationship field for selecting the books written by an author. Now, when we select "Harry Potter and the Philosopher's Stone" for an author, this book won't appear in the selection list for other authors because it's already linked to one author. This ensures that each book can only be linked to one author, following the one-to-many relationship rule.
 
 ### Further Expansion
 
-After setting up Link fields, we can proceed to more advanced referencing and summarization operations. They work together to provide powerful capabilities for automatic data retrieval and summarization calculations. For more details, see the sections on Reference and Summarization fields.
+After setting up Link fields, we can proceed to more advanced lookup and rollup operations. They work together to provide powerful capabilities for automatic data retrieval and summarization calculations. For more details, see the sections on [Lookup](lookup.md) and [Rollup](rollup.md) fields.
 
 ### Conclusion
 

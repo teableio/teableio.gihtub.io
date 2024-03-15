@@ -53,7 +53,7 @@ Since the PDF Category table has been created in the previous step we now need t
 2. **Add Fields**:
    * **All Summary**: Click the add field button, choose “Lookup”, target table select “PDF List”, and from there select the “Summary” field. This will allow us to view summaries of all PDFs under each category in the PDF Category table.
 
-<figure><img src="../.gitbook/assets/image (15).png" alt="" width="348"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15) (1).png" alt="" width="348"><figcaption></figcaption></figure>
 
 * **Count**: Click the add field button, choose “Rollup”, target table select “PDF List”, rollup field select “FileName”, and rollup type select “Count”. This will display the number of PDF files under each category.
 
@@ -77,7 +77,7 @@ As you become more familiar with using Teable, you might want to add more featur
 
 The current view filters out content with empty TextContent and groups items by Category for a better visual layout.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 
 

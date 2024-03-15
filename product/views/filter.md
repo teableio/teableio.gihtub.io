@@ -21,7 +21,7 @@ Filtering is a key tool in data management, enabling users to quickly locate dat
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 

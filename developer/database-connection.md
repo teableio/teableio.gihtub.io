@@ -13,7 +13,7 @@ This guide will walk you through setting up and managing database connections in
 3. **Choose PostgreSQL Connection**: In the options that appear, select PostgreSQL Connection.
 4. **Enter the settings interface**: Click create, and the system will automatically create a read-only Postgres user, including username, password, and database link address.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt="" width="327"><figcaption><p>Postgres connection</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="327"><figcaption><p>Postgres connection</p></figcaption></figure>
 
 #### **Connection Methods**
 
@@ -26,7 +26,7 @@ This guide will walk you through setting up and managing database connections in
 
 1. Click any table to enter its interface. The string starting with `bse` in the URL is the BaseId.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption><p>BaseId</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt="" width="563"><figcaption><p>BaseId</p></figcaption></figure>
 
 2. Enter the database design interface (the ⚙️ icon in the top right corner of the table), where the `schema name` is the BaseId.
 
@@ -97,7 +97,7 @@ The created connection user's permission access range is limited to the current 
 
 applications to connect to the database, you might see many BaseIds (actually schema names) as shown in the image below. Rest assured, except for this ID, no other user content can be accessed.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt="" width="253"><figcaption><p>BasdId in TablePlus</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt="" width="253"><figcaption><p>BasdId in TablePlus</p></figcaption></figure>
 
 ### Direct Database Writing
 
