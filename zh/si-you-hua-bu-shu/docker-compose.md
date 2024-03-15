@@ -56,18 +56,33 @@ $ docker-compose --version
 本指南将使用Teable项目的Docker Compose配置示例。首先，您需要下载此配置文件到服务器上
 
 ```bash
-curl -O https://teable.cn/config/docker-compose.yaml
+curl -O https://sss.teable.cn/dev-ops/templates/docker-compose.tar.gz
 ```
 
-### 配置环境变量
+### 配置项目环境
 
-1\. 创建 .env 文件
+```sh
+# 1.创建数据目录
+mkdir -p /teable
 
+# 2.获取Docker Compose并且解压
+curl -O https://sss.teable.cn/dev-ops/templates/docker-compose.tar.gz
+tar -xvzf docker-compose.tar.gz -C /teable
 
+# 3.根据需要修改.env
+cd /teable/docker-compose
+cat .env
+```
 
 ### 启动
 
-下载好`docker-compose.yml`后，在文件所在目录运行以下命令部署您的应用程序：
+{% hint style="info" %}
+如何匹配.env? 参考: [环境变量](huan-jing-bian-liang.md)
+
+当使用模板进行部署时，您需要手动更新模板的 `.env` 文件，至少包括修改 `<MINIO_ENDPOINT>` 占位符
+{% endhint %}
+
+配置好`.env`后，运行以下命令部署您的应用程序：
 
 ```sh
 docker-compose up -d
@@ -75,17 +90,27 @@ docker-compose up -d
 
 此命令以分离模式启动应用程序，在后台运行。
 
+
+
 ### 访问应用
 
-应用将可在本机 80 端口被访问到
+端口默认为80，通过http://\<IP\_ADDRESS>访问Teable界面
+
+
 
 ### 管理
 
 要管理您的Docker Compose部署，请使用以下命令：
 
 * 查看正在运行的服务：`docker-compose ps`
+* 查看服务日志：
+  * `docker-compose logs -f`
+  * `docker-compose logs -f -n 200`
+  * `docker-compose logs -f -n 200 <service_name>`
 * 停止服务：`docker-compose down`
-* 在更改配置后更新服务：`docker-compose up -d --no-deps --pull <service_name>`
+* 在更改配置后更新服务：`docker-compose up -d --no-deps <service_name>`
+
+
 
 ### 更新镜像
 

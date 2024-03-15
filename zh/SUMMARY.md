@@ -88,6 +88,7 @@
 
 ## 私有化部署
 
+* [环境变量](si-you-hua-bu-shu/huan-jing-bian-liang.md)
 * [docker-compose](si-you-hua-bu-shu/docker-compose.md)
 
 ## 高级特性
