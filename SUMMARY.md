@@ -4,7 +4,7 @@
 
 ## Quick start
 
-* [Build a simple base](quick-start/build-a-simple-base.md)
+* [Build a Simple Base](quick-start/build-a-simple-base.md)
 
 ## Product
 
@@ -15,16 +15,16 @@
   * [Filter](product/views/filter.md)
   * [Group](product/views/group.md)
   * [Sort](product/views/sort.md)
-  * [View type](product/views/view-type/README.md)
+  * [View Type](product/views/view-type/README.md)
     * [Grid View](product/views/view-type/grid-view.md)
     * [Form View](product/views/view-type/kanban-view.md)
 * [Fields](product/fields/README.md)
-  * [Field type](product/fields/field-type/README.md)
-    * [Single line text](product/fields/field-type/single-line-text.md)
-    * [Multiple line text](product/fields/field-type/multiple-line-text.md)
+  * [Field Type](product/fields/field-type/README.md)
+    * [Single Line Text](product/fields/field-type/single-line-text.md)
+    * [Multiple Line Text](product/fields/field-type/multiple-line-text.md)
     * [Numeric](product/fields/field-type/numeric.md)
-    * [Single select](product/fields/field-type/single-select.md)
-    * [Multiple select](product/fields/field-type/multiple-select.md)
+    * [Single Select](product/fields/field-type/single-select.md)
+    * [Multiple Select](product/fields/field-type/multiple-select.md)
     * [Date](product/fields/field-type/date.md)
     * [Rating](product/fields/field-type/rating.md)
     * [Checkbox](product/fields/field-type/checkbox.md)
@@ -35,19 +35,19 @@
     * [Lookup](product/fields/field-type/lookup.md)
     * [Rollup](product/fields/field-type/rollup.md)
     * [User](product/fields/field-type/user.md)
-    * [Created by](product/fields/field-type/created-by.md)
-    * [Created time](product/fields/field-type/created-time.md)
-    * [Last modified by](product/fields/field-type/last-modified-by.md)
-    * [Last modified time](product/fields/field-type/last-modified-time.md)
-    * [Auto number](product/fields/field-type/auto-number.md)
+    * [Created By](product/fields/field-type/created-by.md)
+    * [Created Time](product/fields/field-type/created-time.md)
+    * [Last Modified By](product/fields/field-type/last-modified-by.md)
+    * [Last Modified Time](product/fields/field-type/last-modified-time.md)
+    * [Auto Number](product/fields/field-type/auto-number.md)
   * [Formatting](product/fields/formatting.md)
-  * [Show as](product/fields/show-as.md)
-  * [Single or multi value (advanced)](product/fields/single-or-multi-value-advanced.md)
+  * [Show As](product/fields/show-as.md)
+  * [Single or Multi-value (Advanced)](product/fields/single-or-multi-value-advanced.md)
 * [Records](product/records.md)
 * [Collaboration](product/collaboration/README.md)
   * [Permission](product/collaboration/permission.md)
-  * [Space invitations](product/collaboration/space-invitations.md)
-  * [Base invitations](product/collaboration/base-invitations.md)
+  * [Space Invitations](product/collaboration/space-invitations.md)
+  * [Base Invitations](product/collaboration/base-invitations.md)
 
 ## Developer
 
@@ -55,7 +55,12 @@
   * [Access Token](developer/api/access-token.md)
   * [Scopes](developer/api/scopes.md)
   * [Errors](developer/api/errors.md)
-* [Database connection](developer/database-connection.md)
+* [Database Connection](developer/database-connection.md)
+
+## deployment
+
+* [Docker Compose](deployment/docker-compose.md)
+* [Environment Variables](deployment/environment-variables.md)
 
 ***
 
