@@ -18,6 +18,7 @@
   * [View Type](product/views/view-type/README.md)
     * [Grid View](product/views/view-type/grid-view.md)
     * [Form View](product/views/view-type/kanban-view.md)
+    * [Kanban View](product/views/view-type/kanban-view-1.md)
 * [Fields](product/fields/README.md)
   * [Field Type](product/fields/field-type/README.md)
     * [Single Line Text](product/fields/field-type/single-line-text.md)
