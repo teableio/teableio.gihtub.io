@@ -46,17 +46,3 @@ After duplication, customize your table by:
 * Modifying specific field values.
 * Deleting irrelevant fields.
 * Reordering fields to suit your data structure.
-
-### Exporting Tables from Teable
-
-Teable supports data export, allowing users to download table data in preferred formats, and facilitating data synchronization and backup.
-
-#### Supported Export Formats
-
-* **Comma-separated values (CSV)**
-
-#### Exporting Your Table
-
-To export, click the ⋮ icon adjacent to a table, select "Export table," and then choose to download the entire table or a specific view. After selecting the file format, the downloaded file will be located in your device's default download folder.
-
-This guide also touches on importing data into Teable, further discussed in our support articles.

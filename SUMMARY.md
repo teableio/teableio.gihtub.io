@@ -12,6 +12,7 @@
 * [Bases](product/bases.md)
 * [Tables](product/tables/README.md)
   * [Import](product/tables/import.md)
+  * [Export](product/tables/export.md)
 * [Views](product/views/README.md)
   * [Filter](product/views/filter.md)
   * [Group](product/views/group.md)
