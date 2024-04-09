@@ -1,74 +1,99 @@
-# Form View
+# Kanban View
 
-Learn how to use Teable forms to collect information from anyone and automatically save it to the Teable database. Each form submission will create a new record in the table where the form view was created.
+### Introduction
 
-### Overview
+The Kanban View provides a dynamic way to visualize and manage your data by representing it as cards organized into various stacks on the board. This intuitive layout allows for effortless rearranging of information, as you can simply drag and drop the cards across different stacks to reflect changes in priority or status. Ideal for project management and workflow tracking, this view offers a clear and adaptable overview of tasks, making it easier to identify bottlenecks and allocate resources effectively.
 
-Forms are ideal for logging expenses, collecting feedback, creating polls and quizzes, gathering customer information, and more. Teable forms support file attachments, perform well on mobile devices, and can connect to the Teable API. Unlike other products that require you to build forms from scratch, Teable's form view automatically generates from your existing table, allowing you to rearrange and remove fields.
+### **Creating a Kanban View**
 
-You can customize your form by adding cover images and logos, customizing the form submission button, and removing Teable branding.
+1. Click the `Create new view` button.
+2. Select `Kanban View` from the dropdown
+3. Now you can configure the Kanban View's stack config, card config, filtering, and sorting.
 
-### **Step One: Add a New Form View**
+### Stack Operations
 
-To create a new form view, navigate to the table where you will collect new data. Open the view sidebar, then click the form option under the create header. If your view creation section is collapsed, you need to expand it first.
+#### **Changing Kanban stacking field**
 
-### **Step Two: Initial View Setup**
+{% hint style="info" %}
+Currently, it supports Single-select fields or User fields. Selecting User fields is only possible if "Allow adding multiple users" is toggled off for your preferred field(s).
+{% endhint %}
 
-You'll have the opportunity to give your form view a unique title and set the view as collaborative or personal. Note that you can lock the form view only after completing the initial form view setup. After setting the title and view permissions, click to create a new view.
+1. Click the `Stacked by` menu in the toolbar.
+2. From the dialog, choose a stacking field or create a new one by which you want to stack the records.
+3. If you wish to hide empty stacks, you can enable the `Hide empty stack` option.
+4. Click `Done` to save the changes.
 
-### **Step Three: Adding, Hiding, and Reordering Fields**
+#### **Collapse Stack**
 
-This opens the form builder, where you can further customize your form before sharing it with others. Advanced plans offer the ability to add cover images or logos to your form. You can add a description to your form by clicking the header area and adding a description.
+1. Click on the dropdown icon on the stack header.
+2. Select `Collapse stack` from the dropdown.
+3. Collapsed stack will be displayed as vertical bars on the Kanban View as displayed below.
 
-Fields on the form are automatically filled based on all fields displayed in the first grid view that appears in the table.
+#### Add a new Stack
 
-To change the order of fields on the form, click a field and drag it using its handle. To hide a field from the form, click the hide button in the upper right corner of the field you wish to hide, or drag the field to the left side of the form builder. To add a field to the form, drag it from the left onto the form. If you realize you want to add a field to the form that does not yet exist in your table, you can click the + Add Field to This Table button in the field sidebar. Sometimes you may need to return to the form later to add or remove fields. Simply return to the form view and adjust the settings. You can also customize a field's settings by clicking on the field, clicking the dropdown arrow next to the field name, and selecting the Customize Field Type option from the dropdown menu. This opens the same field customization menu you see in the grid view.
+{% hint style="info" %}
+When the stacking field is a User field, it is impossible to add a new stack.
+{% endhint %}
 
-### **Step Four: Customizing Form Fields**
+1. Click the `Add Stack` button.
+2. Fill in the new stack-related information, click outside the focus area or press the `Enter` key to complete the addition operation.
 
-In addition to customizing which fields appear on your form and their order, you can adjust how fields are displayed to the end user. Clicking any field in the form builder will pop up numerous display options. For all field types, you can change the field's name as displayed on the form and add a subtitle to provide useful context. Some field types offer additional display settings options, which will be introduced in the sections below.
+#### Rename Stack
 
-You can also toggle the required option to make filling out a field a prerequisite for submitting the form. Note that if you make a checkbox field required, the checkbox must be checked to submit the form.
+{% hint style="info" %}
+When the stacking field is a User field, it is impossible to rename the stack.
+{% endhint %}
 
-### **Step Five: Share Form URL**
+1. Click on the dropdown icon on the stack header.
+2. Select `Rename stack` from the dropdown.
 
-After completing your form, click the share form button in the view bar. This will give you a link you can copy and paste. Clicking the preview button will also directly take you to the form share link in your browser. The sections below will cover more form sharing options.
+#### **Delete Stack**
 
-### Additional Form Configuration Options
+{% hint style="info" %}
+When the stacking field is a User field, it is impossible to delete the stack.
+{% endhint %}
 
-**Adding a Cover Image**
+1. Click on the dropdown icon on the stack header.
+2. Select `Delete Stack` from the dropdown to delete the stack.
 
-To add a cover image, click the add cover image in the gray area and upload your desired image. You can also crop or rotate the image in the file selector. Note that the area for the form cover image is always 240px high and the width of your browser window. It's best to use cover images as background graphics, adding an interesting touch to your form, rather than for important information that might be cropped.
+#### Reorder Stack
 
-**Adding a Password**
+{% hint style="info" %}
+When the stacking field is a User field, it is impossible to reorder the stack.
+{% endhint %}
 
-When sharing the form, you can choose to set a password, which must be entered correctly before the form can be submitted.
+You can reorder the stacks on the Kanban view by dragging and dropping the stack to the desired position.
 
-**Adding a Logo (Advanced Feature Only)**
+### Card Operations
 
-To add a logo, click the add logo option and upload your desired image.
+#### **Customizing Kanban Cards**
 
-**Editing the Submit Label (Advanced Feature Only)**
+1. Click the `Customize cards` menu in the toolbar.
+2. Toggle on (or off) the various fields in the base to show or hide those fields on each card.
+3. You can also search for a field in the “Find a field” box in bases that contain many fields.
+4. Lastly, you can click `Hide all` or `Show all` to show or hide every field on each card.
+5. Additionally, you can set the displayed cover and the `Hide Field Name` option at the bottom of the pop-up dialog.
 
-To customize the form submission button/label, double-click the submit button, add your chosen text, then press enter/confirm.
+#### Move Cards within Stacks
 
-**Viewing Submitters**
+You can move cards within a stack by dragging and dropping the card to the desired position within the stack.
 
-Enabling this feature will automatically collect the form submitter's user information, allowing you to track form responses to specific individuals. A few notes on expected behavior:
+#### Add a New Card
 
-* Form submitters will be required to log in to Teable (if they have not already logged in on their browser) or create a Teable user account, so their name and email address can be collected with their form submission.
-* The responder's information will appear in the "Creator" field in the table where the form was created.
+1. Click on `Add Card` button on the stack footer.
+2. This opens up an expanded record where you can enter the data for the new card.
 
-**Showing or Hiding Teable Branding (Advanced Feature Only)**
+#### Insert a New Card
 
-To add or remove Teable branding, click the show Teable branding button at the bottom of the form builder.
+1. Right-click on the card to access the context menu.
+2. Select the `Insert card above` or `Insert card below` options to insert a new card above or below the current card.
 
-### Customizing Form Fields
+#### Edit an Existing Card
 
-**Adding Conditional Logic to Form Fields**
+1. Click directly on the card or right-click on the card to bring up the menu, and then select the `Expand card` option to expand the card.
+2. You can edit the record in the expanded record and save it.
 
-Sometimes, you may want to limit which form fields appear based on certain conditions. Some examples include:
+#### **Delete a Single Card**
 
-* Hiding certain fields unless another field option is selected.
-* Showing fields to help submitters provide more in-depth information.
-* Displaying fields related to specific teams or individuals based on previous form field entries. The conditional logic feature in the form view settings works the same as in other Teable interfaces.
+1. Right-click on the card to access the context menu.
+2. Select the `Delete card` option to delete the card.
