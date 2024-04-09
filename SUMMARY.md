@@ -9,9 +9,9 @@
 ## Product
 
 * [Spaces](product/spaces.md)
-* [Bases](product/bases/README.md)
-  * [Import](product/bases/import.md)
-* [Tables](product/tables.md)
+* [Bases](product/bases.md)
+* [Tables](product/tables/README.md)
+  * [Import](product/tables/import.md)
 * [Views](product/views/README.md)
   * [Filter](product/views/filter.md)
   * [Group](product/views/group.md)
