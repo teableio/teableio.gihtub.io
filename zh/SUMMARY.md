@@ -93,6 +93,11 @@
 * [环境变量](si-you-hua-bu-shu/huan-jing-bian-liang.md)
 * [docker-compose](si-you-hua-bu-shu/docker-compose.md)
 
+***
+
+* [场景示例](chang-jing-shi-li/README.md)
+  * [客户管理系统](chang-jing-shi-li/ke-hu-guan-li-xi-tong.md)
+
 ## 高级特性
 
 * [海量数据](gao-ji-te-xing/hai-liang-shu-ju.md)
