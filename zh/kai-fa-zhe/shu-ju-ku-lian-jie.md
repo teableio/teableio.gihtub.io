@@ -2,7 +2,7 @@
 description: 在 Teable 上开放原生数据库连接
 ---
 
-# 数据库连接
+# 通过 SQL 访问表格数据
 
 本文档将指导您如何在 Teable 中设置和管理数据库连接，包括创建只读连接、获取 BaseId、关闭连接以及了解数据库表中的内容和如何修改数据库列名。
 
@@ -43,8 +43,6 @@ description: 在 Teable 上开放原生数据库连接
 1. **进入 Database Connection 界面**：在 Database Connection 界面点击删除，即可关闭连接。
 2. **密码清除**：删除后旧的密码将被清除。重新新建将会是新的连接。
 
-
-
 ### 数据库表中的内容
 
 点击表格右上角的 ⚙️ 图标进入**数据库设计界面**，里面包含了关于当前表格在数据库中的名称和结构详情，对于如何在外部进行数据查询非常有帮助
@@ -53,7 +51,7 @@ description: 在 Teable 上开放原生数据库连接
 
 修改Teable 中的表名称不会同步修改数据库中的 table name，您必须显式的修改物理数据库中的表名。
 
-<figure><img src="../.gitbook/assets/image (3).png" alt="" width="375"><figcaption><p>table info</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt="" width="375"><figcaption><p>table info</p></figcaption></figure>
 
 当你完成表名修改之后，就可以直接使用 SQL 进行查询，下面是一个例子查询当前表格的前 100 行数据
 
@@ -75,9 +73,9 @@ SELECT * from "bseamGnQT65TVSCzIaC"."clients" limit 100
 
 #### **Teable 系统字段**
 
-&#x20;系统字段无法被重命名
+系统字段无法被重命名
 
-1. &#x20;`__id` 唯一 ID
+1. `__id` 唯一 ID
 2. `__version` 版本号
 3. `__auto_number` 自增数字，主键
 4. `__created_time` 创建时间
@@ -99,7 +97,7 @@ SELECT * from "bseamGnQT65TVSCzIaC"."clients" limit 100
 
 创建的连接用户权限访问范围为当前所在的 Base (Teable界面上称数据库），它对应 Postgres 中的 schema, schema 是 Postgres 中命名空间概念，提供了非常好的权限隔离特性，保证当前连接仅可访问该 schema 中的表，但是 postgres 中创建的角色会拥有所有 schema 的名称查看能力，这也就是为什么当你使用外部应用连接上数据库是时可能会看到下图一样非常多的 baseId (实际上是schema 名称）。但是可以放心的是，除了这个 Id 之外任何其他的用户内容是无法被访问的。
 
-<figure><img src="../.gitbook/assets/image (66).png" alt="" width="253"><figcaption><p> base id in TablePlus</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (66).png" alt="" width="253"><figcaption><p>base id in TablePlus</p></figcaption></figure>
 
 ### 直接写数据库
 

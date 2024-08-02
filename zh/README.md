@@ -4,7 +4,7 @@ Teable 是一款企业级高性能多维表格解决方案，通过无代码方�
 
 平台提供实时协作、自动化工作流和无限行数扩展，为企业提供安全可控、稳定可靠的数据管理平台，是飞书多维表格的私有部署替代方案。
 
-<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption><p>Teable界面</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (7) (1).png" alt=""><figcaption><p>Teable界面</p></figcaption></figure>
 
 
 

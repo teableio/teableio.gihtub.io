@@ -19,11 +19,11 @@
 
 管理员可以点击管理员后台左侧导航栏中的链接跳转到对应功能页面。请点击下方链接查看相关话题：
 
-* [组织架构](zu-zhi-jia-gou.md)
+* [组织架构](broken-reference)
 * [用户](yong-hu.md)
 * [工作区](gong-zuo-qu.md)
-* [应用](ying-yong.md)
-* [仪表盘](../../yi-biao-pan.md)
-* [扩展插件](kuo-zhan-cha-jian.md)
-* [报告](bao-gao.md)
+* [应用](broken-reference)
+* [仪表盘](../yi-biao-pan.md)
+* [扩展插件](broken-reference)
+* [报告](broken-reference)
 * [设置](she-zhi.md)

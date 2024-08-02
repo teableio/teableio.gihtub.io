@@ -16,9 +16,9 @@ description: >-
 
 我们当然不是第一个尝试将表格界面作为数据库编辑方式的产品，有很多广为人知的解决方案都采用了类似的形式。但是我们希望更进一步，让一个团队中的所有成员都可以直接在同一个数据库上进行协作和搭建应用，并围绕这一点补充所有所需要的基础能力。
 
-这是 Teable 的表格视图界面，在这里，你所看到的每一张表格，对应的都是 Postgres 中的一张物理表。&#x20;
+这是 Teable 的表格视图界面，在这里，你所看到的每一张表格，对应的都是 Postgres 中的一张物理表。
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 我们成功地将数据库的表格，转换为类似于 Airtable 的电子表格界面，并且确保这个界面足够丝滑顺畅。
 
@@ -28,13 +28,13 @@ description: >-
 
 我们拥有所有必要的[字段类型](../../ji-ben-gong-neng/zi-duan/)，组成了构建应用的完备条件, 特别是处理数据关联和计算相关的强大基础。
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="325"><figcaption><p>字段列表</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt="" width="325"><figcaption><p>字段列表</p></figcaption></figure>
 
 ### 电子表格和实时协同
 
 是专业的数据库也是一个灵活的的电子表格，还可以和[协作者](../../ji-ben-gong-neng/xie-zuo/)进行实时协同
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### 无限滚动
 
@@ -85,7 +85,7 @@ Airtable 在表格式数据库交互方面确实提供了革命性的创新，�
 
 ### 使用 Teable API 开发应用
 
-**场景描述**： 开发者可以利用 Teable 的强大 [API](../../gao-dai-ma-kai-fa/api/) 和**数据库直连**能力开发面向客户/用户的应用程序。同时，使用 Teable 的表格界面作为运营后台，方便非技术人员管理和更新应用内容，如更新产品列表、调整定价策略等。
+**场景描述**： 开发者可以利用 Teable 的强大 [API](../../kai-fa-zhe/api/) 和**数据库直连**能力开发面向客户/用户的应用程序。同时，使用 Teable 的表格界面作为运营后台，方便非技术人员管理和更新应用内容，如更新产品列表、调整定价策略等。
 
 **案例应用**： 一家创业公司开发了一个个性化旅游推荐应用，使用 Teable API 处理用户数据和推荐算法。他们还创建了一个用于内容管理的 Teable 后台，让市场团队能够轻松更新旅游目的地信息、特价活动和用户反馈。这种方式大大简化了运营流程，并使得产品更新更加迅速和灵活。
 
