@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Teable 简介](README.md)
+* [Teable 多维表格简介](README.md)
 
 ## 快速开始
 
