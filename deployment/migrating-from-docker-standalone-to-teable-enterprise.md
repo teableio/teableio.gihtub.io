@@ -16,8 +16,6 @@ Before starting the upgrade, make sure to backup your data:
 Replace your old docker-compose.yaml with the following:
 
 ```yaml
-version: '3.9'
-
 services:
   teable:
     image: ghcr.io/teableio/teable-ee:latest
