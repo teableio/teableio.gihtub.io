@@ -107,7 +107,7 @@ vim docker-compose.yaml
 
 {% tabs %}
 {% tab title="企业版" %}
-docker-compose.yaml
+docker-compose.yaml:
 
 ```yaml
 version: '3.9'
@@ -223,9 +223,11 @@ BACKEND_CACHE_REDIS_URI=redis://default:${REDIS_PASSWORD}@${REDIS_HOST}:${REDIS_
 {% endtab %}
 
 {% tab title="社区版" %}
-**不包括 Redis**
+{% hint style="info" %}
+注意：社区版最小部署缺少 redis 无法直接升级企业版，建议增加 redis 组件（下方方案)
+{% endhint %}
 
-> 注意：社区版最小部署缺少 redis 无法直接升级企业版，建议增加 redis 组件（下方方案）
+**不包括 Redis**
 
 docker-compose.yaml:
 
@@ -439,7 +441,7 @@ BACKEND_CACHE_REDIS_URI=redis://default:${REDIS_PASSWORD}@${REDIS_HOST}:${REDIS_
 
 #### **增加存储服务（可选）：**
 
-Teable 默认使用本地存储管理附件、媒体资源，可以添加 minio 或云存储来获取更强大、稳定的服务
+Teable 默认使用本地存储管理附件资源，可以添加 minio 或云存储来获取更强大、稳定的服务
 
 {% tabs %}
 {% tab title="docker-compose 增加 minio" %}
@@ -602,7 +604,9 @@ BACKEND_STORAGE_PRIVATE_BUCKET: your-private-bucket
 
 在当前目录下执行启动应用，等待启动完毕访问 127.0.0.1:3000 即可进入应用
 
-> 注意如果未配置 https 则无法使用表格中的复制、粘贴功能。
+{% hint style="info" %}
+注意如果未配置 https 则无法使用表格中的复制、粘贴功能。
+{% endhint %}
 
 ```bash
 docker-compose pull
