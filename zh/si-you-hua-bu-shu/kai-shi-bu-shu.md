@@ -1,28 +1,42 @@
 ---
-description: Teable 提供多种部署方案，以满足不同规模和需求的用户。本指南将帮助您选择最适合的部署方式。
+description: Teable 私有化版本提供多种部署方案，根据下方文档可以自助完成部署
 ---
 
 # 开始部署
 
 ## 部署方案概览
 
-1. [一键云部署](kai-shi-bu-shu.md#yi-jian-yun-bu-shu-tui-jian)
+1. [一键云部署（推荐）](kai-shi-bu-shu.md#yi-jian-yun-bu-shu-tui-jian)
 2. [Docker Compose  部署](kai-shi-bu-shu.md#docker-compose)
 3. [Kubernetes 集群部署](kai-shi-bu-shu.md#kubernetes-k8s)
 
 ## 镜像版本
 
+Teable 镜像分为企业版和社区版两个版本，在镜像名称后添加 -ee 后缀即可切换。
+
 ### 企业版
 
-企业版可免费使用社区版包含的本全部功能，并支持使用 license 订阅企业版本独有功能，企业版功能可在[价格页面](https://teable.cn/pricing)查阅。企业版本数据与社区版本兼容可互相切换。
+```
+registry.cn-shenzhen.aliyuncs.com/teable/teable-ee
+registry.cn-shenzhen.aliyuncs.com/teable/teable-db-migrate-ee
+```
+
+企业版可免费使用社区版包含的本全部功能，并支持使用 License 订阅企业版本独有功能，企业版功能可在[价格页面](https://app.teable.cn/setting/license-plan)查阅。企业版本数据与社区版本兼容，版本可以互相切换。
 
 ### 社区版
+
+```
+registry.cn-shenzhen.aliyuncs.com/teable/teable
+registry.cn-shenzhen.aliyuncs.com/teable/teable-db-migrate
+```
 
 社区版是由开源代码构建出来的镜像，不包含企业版本的任何功能。数据与企业版兼容，可随时切换为企业版本。
 
 
 
 详细部署方案
+
+***
 
 ## 一键云部署 (推荐)
 
@@ -40,11 +54,11 @@ description: Teable 提供多种部署方案，以满足不同规模和需求的
 
 #### Sealos
 
-> 对国内支持友好
+对国内支持友好
 
-一键部署企业版
+**一键部署企业版**
 
-[一键部署社区版](https://cloud.sealos.io/?openapp=system-template%3FtemplateName%3Dteable)
+[**一键部署社区版**](https://cloud.sealos.io/?openapp=system-template%3FtemplateName%3Dteable)
 
 
 
@@ -54,7 +68,7 @@ description: Teable 提供多种部署方案，以满足不同规模和需求的
 
 ## Docker Compose 部署
 
-**适用规模**：推荐 0-100人
+**适用规模**：推荐 0-500人
 
 | 优点    | 缺点        |
 | ----- | --------- |
@@ -537,6 +551,7 @@ STORAGE_PREFIX=${PROTOCAL}://${PUBLIC_HOST}:${BACKEND_STORAGE_MINIO_PORT}
 
 ```sh
 # ...前面的内容
+# 使用 minio provider
 BACKEND_STORAGE_PROVIDER=minio
 # 公共桶名称
 BACKEND_STORAGE_PUBLIC_BUCKET=public
@@ -560,7 +575,6 @@ STORAGE_PREFIX=https://minio.example.com
 
 ```sh
 # ...前面的内容
-
 # 使用 s3 标准 provider
 BACKEND_STORAGE_PROVIDER: s3
 # 可用区名称
@@ -613,7 +627,7 @@ docker-compose up -d
 
 {% tabs %}
 {% tab title="企业版" %}
-```
+```sh
 version: '3.9'
 
 services:
@@ -649,7 +663,6 @@ services:
       - teable
 
   teable-cache:
-    # 该地址为官方原版镜像的加速地址，可自行替换 redis:7.2.4
     image: registry.cn-shenzhen.aliyuncs.com/teable/redis:7.2.4
     restart: always
     expose:
@@ -676,7 +689,7 @@ volumes:
 {% endtab %}
 
 {% tab title="社区版" %}
-```
+```shell
 version: '3.9'
 
 services:
@@ -712,7 +725,6 @@ services:
       - teable
 
   teable-cache:
-    # 该地址为官方原版镜像的加速地址，可自行替换 redis:7.2.4
     image: registry.cn-shenzhen.aliyuncs.com/teable/redis:7.2.4
     restart: always
     expose:
@@ -781,7 +793,7 @@ POSTGRES_USER=teable
 | 容灾能力强   | 初始资源要求高   |
 | 支持广泛的配置 |           |
 
-**集群部署仅支持企业版，请联系我们获取定制方案**
+**集群部署仅支持企业版100人以上 License 计划，请**[**联系我们**](https://app.teable.cn/share/shrg1ljiQXm4goJ7Cu9/view)**获取定制方案**
 
 
 
