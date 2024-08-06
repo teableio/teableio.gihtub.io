@@ -455,7 +455,7 @@ docker-compose.yaml:
 version: '3.9'
 
 services:
-  # 前面的配置
+  # ...前面的内容
   teable-storage:
     image: registry.cn-shenzhen.aliyuncs.com/teable/minio:RELEASE.2024-02-17T01-15-57Z
     ports:
@@ -492,7 +492,8 @@ networks:
 volumes:
   teable-db: {}
   teable-cache: {}
-  teable-storage: {} // 增加一个卷
+  # 增加一个卷
+  teable-storage: {}
 
 ```
 
@@ -574,6 +575,8 @@ STORAGE_PREFIX=https://minio.example.com
 
 {% tab title="连接阿里云 oss" %}
 开始之前，你需要在阿里云上创建两个桶。一个公开桶存储头像和表单头图，一个私有桶用来存储附件内容。
+
+.env:
 
 ```sh
 # ...前面的内容
