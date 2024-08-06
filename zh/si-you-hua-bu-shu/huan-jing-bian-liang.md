@@ -1,14 +1,55 @@
+---
+description: 这里列举了Teable 所有可用的环境变量以及相关解释
+---
+
 # 环境变量
 
 
 
-### 安全配置
-
-<table><thead><tr><th width="331.3333333333333">变量名</th><th>描述</th><th>默认值</th></tr></thead><tbody><tr><td>NEXT_ENV_IMAGES_ALL_REMOTE</td><td>是否允许优化所有远程图像，以防止恶意使用</td><td>false</td></tr></tbody></table>
-
-
-
-### 后端配置
-
-<table><thead><tr><th width="379.3333333333333">变量名</th><th width="211">描述</th><th>默认值</th></tr></thead><tbody><tr><td>PUBLIC_ORIGIN</td><td>服务访问地址<br>http://127.0.0.1:3000</td><td></td></tr><tr><td>API_DOC_DISENABLED</td><td>是否禁用api文档</td><td>false</td></tr><tr><td></td><td></td><td></td></tr><tr><td>PRISMA_DATABASE_URL</td><td>数据库URL</td><td></td></tr><tr><td>PUBLIC_DATABASE_ADDRESS</td><td>用于外部数据库访问</td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td>BACKEND_CACHE_PROVIDER</td><td>缓存存储模式:<br>memory<br>sqlite<br>redis</td><td>sqlite</td></tr><tr><td>BACKEND_CACHE_REDIS_URI</td><td>redis必填，redis连接地址:<br>redis://:password@127.0.0.1:6380/4<br>redis://username:password@127.0.0.1:6380/4</td><td></td></tr><tr><td>BACKEND_CACHE_SQLITE_URI</td><td>sqlite必填，sqlite连接地址</td><td>sqlite://.assets/.cache.db</td></tr><tr><td></td><td></td><td></td></tr><tr><td>BACKEND_MAIL_HOST</td><td><p>需要发送邮件时填写如下</p><p>邮件服务 HOST</p></td><td></td></tr><tr><td>BACKEND_MAIL_PORT</td><td>邮件服务 PORT</td><td>465</td></tr><tr><td>BACKEND_MAIL_SECURE</td><td>使用 TLS/STARTTLS 安全发送电子邮件</td><td>true</td></tr><tr><td>BACKEND_MAIL_SENDER</td><td>发件人地址</td><td></td></tr><tr><td>BACKEND_MAIL_SENDER_NAME</td><td>发件人名称</td><td></td></tr><tr><td>BACKEND_MAIL_AUTH_USER</td><td>邮件服务账号</td><td></td></tr><tr><td>BACKEND_MAIL_AUTH_PASS</td><td>邮件服务密码<br>一般不是直接 web 登录密码，是独立设置的邮件授权码</td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td>BACKEND_STORAGE_PROVIDER</td><td>对象存储模式:<br>local<br>minio</td><td>local</td></tr><tr><td>BACKEND_STORAGE_PUBLIC_BUCKET</td><td>公开资源桶名</td><td>public</td></tr><tr><td>BACKEND_STORAGE_PRIVATE_BUCKET</td><td>私有资源桶名</td><td>private</td></tr><tr><td>BACKEND_STORAGE_LOCAL_PATH</td><td>local模式必填，</td><td>.assets/uploads</td></tr><tr><td>BACKEND_STORAGE_MINIO_ENDPOINT</td><td>mino模式必填，minio服务域名</td><td></td></tr><tr><td>BACKEND_STORAGE_MINIO_PORT</td><td>mino模式必填，minio服务端口</td><td>9000</td></tr><tr><td>BACKEND_STORAGE_MINIO_USE_SSL</td><td>mino模式必填，使用https?</td><td>false</td></tr><tr><td>BACKEND_STORAGE_MINIO_ACCESS_KEY</td><td>mino模式必填，minio用户名</td><td></td></tr><tr><td>BACKEND_STORAGE_MINIO_SECRET_KEY</td><td>mino模式必填，minio密码</td><td></td></tr><tr><td>STORAGE_PREFIX</td><td>预览资源前缀地址<br>local: 非必填，<br>minio: minio服务域名+端口</td><td></td></tr></tbody></table>
+| 环境变量                                         | 描述                                                      | 默认值              | 是否必需 | 示例                                               |
+| -------------------------------------------- | ------------------------------------------------------- | ---------------- | ---- | ------------------------------------------------ |
+| PUBLIC\_ORIGIN                               | 用于生成完整 URL 的公共源，必须设置为您的应用程序访问地址                         | -                | 是    | https://app.teable.io                            |
+| SECRET\_KEY                                  | 用于 JWT、会话和共享的密钥，请使用强密码                                  | defaultSecretKey | 是    | yourStrongSecretKey                              |
+| BACKEND\_STORAGE\_PROVIDER                   | 存储提供商，可选值：local、minio、s3                                | local            | -    | s3                                               |
+| BACKEND\_STORAGE\_S3\_REGION                 | S3 云存储区域，当 BACKEND\_STORAGE\_PROVIDER 为 s3 时需要配置        | -                | -    | us-east-2                                        |
+| BACKEND\_STORAGE\_S3\_ENDPOINT               | S3 云存储端点，当 BACKEND\_STORAGE\_PROVIDER 为 s3 时需要配置        | -                | -    | https://s3.us-east-2.amazonaws.com               |
+| BACKEND\_STORAGE\_S3\_ACCESS\_KEY            | S3 云存储访问密钥，当 BACKEND\_STORAGE\_PROVIDER 为 s3 时需要配置      | -                | -    | your\_access\_key                                |
+| BACKEND\_STORAGE\_S3\_SECRET\_KEY            | S3 云存储秘密密钥，当 BACKEND\_STORAGE\_PROVIDER 为 s3 时需要配置      | -                | -    | your\_secret\_key                                |
+| BACKEND\_CACHE\_PROVIDER                     | 缓存提供商，可选值：sqlite、memory、redis                           | sqlite           | -    | redis                                            |
+| BACKEND\_CACHE\_REDIS\_URI                   | Redis 缓存连接 URI，当 BACKEND\_CACHE\_PROVIDER 为 redis 时需要配置 | -                | -    | redis://default:teable@127.0.0.1:6379/0          |
+| MICROSOFT\_CLARITY\_ID                       | Microsoft Clarity 指标 ID，用于启用 Microsoft Clarity 分析       | -                | -    | your-metrics-id                                  |
+| TEMPLATE\_SPACE\_ID                          | 模板基础所在的空间 ID，用于模板中心操作的基本信息                              | -                | -    | your-template-space-id                           |
+| TEMPLATE\_SITE\_LINK                         | 模板站点链接，需要设置此值才能启用从模板创建的功能                               | -                | -    | https://template.teable.io                       |
+| PORT                                         | 应用程序运行的端口                                               | 3000             | -    | 3000                                             |
+| LOG\_LEVEL                                   | 日志级别，可选值：fatal、error、warn、info、debug、trace              | info             | -    | debug                                            |
+| ENABLE\_GLOBAL\_ERROR\_LOGGING               | 是否启用 4xx 错误日志记录                                         | false            | -    | true                                             |
+| PRISMA\_DATABASE\_URL                        | 数据库连接 URL，必须配置                                          | -                | 是    | postgresql://teable:teable@127.0.0.1:5432/teable |
+| PUBLIC\_DATABASE\_PROXY                      | 外部数据库访问代理，配置此项才能启用空间数据库外部访问功能                           | -                | -    | 127.0.0.1:5432                                   |
+| API\_DOC\_DISENABLED                         | 是否禁用 API 文档                                             | false            | -    | true                                             |
+| BACKEND\_GITHUB\_CLIENT\_ID                  | GitHub OAuth 客户端 ID                                     | -                | -    | github\_client\_id                               |
+| BACKEND\_GITHUB\_CLIENT\_SECRET              | GitHub OAuth 客户端密钥                                      | -                | -    | github\_client\_secret                           |
+| BACKEND\_GOOGLE\_CLIENT\_ID                  | Google OAuth 客户端 ID                                     | -                | -    | google\_client\_id                               |
+| BACKEND\_GOOGLE\_CLIENT\_SECRET              | Google OAuth 客户端密钥                                      | -                | -    | google\_client\_secret                           |
+| BACKEND\_GOOGLE\_CALLBACK\_URL               | Google OAuth 回调 URL                                     | -                | -    | https://app.teable.io/api/auth/google/callback   |
+| BACKEND\_OIDC\_CLIENT\_ID                    | OIDC 客户端 ID                                             | -                | -    | google\_client\_id                               |
+| BACKEND\_OIDC\_CLIENT\_SECRET                | OIDC 客户端密钥                                              | -                | -    | google\_client\_secret                           |
+| BACKEND\_OIDC\_CALLBACK\_URL                 | OIDC 回调 URL                                             | -                | -    | https://app.teable.io/api/auth/oidc/callback     |
+| BACKEND\_OIDC\_USER\_INFO\_URL               | OIDC 用户信息 URL                                           | -                | -    | https://openidconnect.googleapis.com/v1/userinfo |
+| BACKEND\_OIDC\_TOKEN\_URL                    | OIDC 令牌 URL                                             | -                | -    | https://oauth2.googleapis.com/token              |
+| BACKEND\_OIDC\_AUTHORIZATION\_URL            | OIDC 授权 URL                                             | -                | -    | https://accounts.google.com/o/oauth2/auth        |
+| BACKEND\_OIDC\_ISSUER                        | OIDC 发行者 URL                                            | -                | -    | https://accounts.google.com                      |
+| BACKEND\_OIDC\_OTHER                         | OIDC 其他配置，JSON 格式                                       | -                | -    | {"scope": \["email", "profile"]}                 |
+| SOCIAL\_AUTH\_PROVIDERS                      | 社交认证提供商列表，多个提供商用逗号分隔                                    | -                | -    | github,google,oidc                               |
+| BACKEND\_MAIL\_HOST                          | 邮件服务器主机                                                 | -                | -    | smtp.gmail.com                                   |
+| BACKEND\_MAIL\_PORT                          | 邮件服务器端口                                                 | -                | -    | 465                                              |
+| BACKEND\_MAIL\_SECURE                        | 是否使用安全连接                                                | -                | -    | true                                             |
+| BACKEND\_MAIL\_SENDER                        | 发件人邮箱地址                                                 | -                | -    | noreply@company.com                              |
+| BACKEND\_MAIL\_SENDER\_NAME                  | 发件人名称                                                   | -                | -    | noreply                                          |
+| BACKEND\_MAIL\_AUTH\_USER                    | 邮件服务器认证用户名                                              | -                | -    | username                                         |
+| BACKEND\_MAIL\_AUTH\_PASS                    | 邮件服务器认证密码                                               | -                | -    | usertoken                                        |
+| BACKEND\_SESSION\_EXPIRES\_IN                | 会话过期时间                                                  | 7d               | -    | 7d                                               |
+| BACKEND\_SESSION\_SECRET                     | 会话密钥，如果不设置则使用 SECRET\_KEY                               | SECRET\_KEY      | -    | your\_session\_secret                            |
+| BACKEND\_JWT\_EXPIRES\_IN                    | JWT 过期时间                                                | 20d              | -    | 20d                                              |
+| BACKEND\_JWT\_SECRET                         | JWT 密钥，如果不设置则使用 SECRET\_KEY                             | SECRET\_KEY      | -    | your\_jwt\_secret                                |
+| BACKEND\_RESET\_PASSWORD\_EMAIL\_EXPIRES\_IN | 重置密码邮件过期时间                                              | 30m              | -    | 30m                                              |
 

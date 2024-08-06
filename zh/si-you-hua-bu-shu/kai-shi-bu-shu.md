@@ -50,7 +50,8 @@ registry.cn-shenzhen.aliyuncs.com/teable/teable-db-migrate
 
 **系统要求**：
 
-* 最低 1c/2g
+* 应用节点最低 1c/2g
+* 数据库最低 1c/2g
 
 #### Sealos
 
@@ -59,6 +60,12 @@ registry.cn-shenzhen.aliyuncs.com/teable/teable-db-migrate
 **一键部署企业版**
 
 [**一键部署社区版**](https://cloud.sealos.io/?openapp=system-template%3FtemplateName%3Dteable)
+
+### 下一步
+
+[配置邮件服务](kai-shi-bu-shu.md#qi-yong-you-jian-fu-wu)
+
+
 
 
 
@@ -76,9 +83,17 @@ registry.cn-shenzhen.aliyuncs.com/teable/teable-db-migrate
 | 自主可控  |           |
 | 灵活可配置 |           |
 
-**系统要求**：
 
-最低 2c/4g
+
+**服务器环境**
+
+确保您的服务器满足以下基本要求：
+
+* 操作系统：建议使用Linux发行版，如Ubuntu 20.04 LTS。
+* 内存：至少4GB RAM。
+* CPU：至少2核。
+* 磁盘空间：至少40GB的可用空间。
+* 网络：具有稳定的互联网连接，并允许必要的端口访问。
 
 #### 先决条件
 
@@ -86,6 +101,20 @@ registry.cn-shenzhen.aliyuncs.com/teable/teable-db-migrate
 
 * 理解Docker和容器化原理的基本知识。
 * 在您的机器上安装了Docker和Docker Compose。访问官方Docker文档了解安装指南。
+
+### **安装 Docker**
+
+```bash
+# 下载最新版本的 Docker
+curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
+
+
+# 验证安装是否正确
+docker --version
+docker-compose --version
+```
+
+### 安装应用
 
 #### 1. 创建 docker-compose 文件
 
@@ -784,6 +813,12 @@ POSTGRES_USER=teable
 
 
 
+### 下一步
+
+[配置邮件服务](kai-shi-bu-shu.md#qi-yong-you-jian-fu-wu)
+
+[配置外部数据库连接](kai-shi-bu-shu.md#qi-yong-wai-bu-shu-ju-ku-lian-jie-gong-neng)
+
 
 
 ***
@@ -801,6 +836,48 @@ POSTGRES_USER=teable
 | 支持广泛的配置 |           |
 
 **集群部署仅支持企业版100人以上 License 计划，请**[**联系我们**](https://app.teable.cn/share/shrg1ljiQXm4goJ7Cu9/view)**获取定制方案**
+
+
+
+***
+
+
+
+## 启用邮件服务
+
+启用邮件服务可以开启站内的邮件通知，用户自助修改密码等功能，请根据邮件服务提供商的信息配置如下环境变量启用邮件服务
+
+```
+BACKEND_MAIL_HOST=mail.example.com
+BACKEND_MAIL_PORT=465
+BACKEND_MAIL_SECURE=true
+BACKEND_MAIL_SENDER=noreply@company.com
+BACKEND_MAIL_SENDER_NAME=noreply
+BACKEND_MAIL_AUTH_USER=username
+BACKEND_MAIL_AUTH_PASS=usertoken
+```
+
+## 启用外部数据库连接功能
+
+<figure><img src="../.gitbook/assets/image (88).png" alt="" width="375"><figcaption></figcaption></figure>
+
+Teable 可以在应用中自动创建数据库角色允许外部应用对表格数据的安全访问功能，要启用此功能，需要额外配置 `PUBLIC_DATABASE_PROXY` 环境变量
+
+要将该参数配置为外部可访问的数据库 ip 或域名 + 端口号。如果你使用前面的 docker-compose 部署，则外部访问端口为 45432。其他方式请根据具体配置来进行
+
+```
+PUBLIC_DATABASE_PROXY=db-proxy.example.com:port
+```
+
+
+
+## 更多环境变量配置
+
+[环境变量](huan-jing-bian-liang.md)
+
+
+
+***
 
 
 

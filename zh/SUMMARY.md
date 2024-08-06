@@ -82,7 +82,6 @@
 ## 私有化部署
 
 * [开始部署](si-you-hua-bu-shu/kai-shi-bu-shu.md)
-* [docker-compose](si-you-hua-bu-shu/docker-compose.md)
 * [环境变量](si-you-hua-bu-shu/huan-jing-bian-liang.md)
 
 ## 横向对比
