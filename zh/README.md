@@ -10,10 +10,10 @@ Teable 是一款企业级高性能多维表格解决方案，通过无代码方�
 
 ### 快速体验
 
-* 访问在线版本 [https://app.teable.cn](https://app.teable.cn)
-* 通过 [docker compose](broken-reference) 部署
-* 通过 Sealos 一键云部署
-* 微信扫码联系客服支持&#x20;
+* [在线体验](https://app.teable.cn)
+* [私有化部署](broken-reference)
+* [联系客服](https://app.teable.cn/share/shrg1ljiQXm4goJ7Cu9/view)
+* 技术讨论群&#x20;
 
 <div align="left">
 
