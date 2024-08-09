@@ -16,18 +16,22 @@ Teable 镜像分为企业版和社区版两个版本，在镜像名称后添加 
 
 ### 企业版
 
-```
-registry.cn-shenzhen.aliyuncs.com/teable/teable-ee
-registry.cn-shenzhen.aliyuncs.com/teable/teable-db-migrate-ee
+```sh
+# 应用
+registry.cn-shenzhen.aliyuncs.com/teable/teable-ee:latest
+# 数据库初始化
+registry.cn-shenzhen.aliyuncs.com/teable/teable-db-migrate-ee:latest
 ```
 
 企业版可免费使用社区版包含的本全部功能，并支持使用 License 订阅企业版本独有功能，企业版功能可在[价格页面](https://app.teable.cn/setting/license-plan)查阅。企业版本数据与社区版本兼容，版本可以互相切换。
 
 ### 社区版
 
-```
-registry.cn-shenzhen.aliyuncs.com/teable/teable
-registry.cn-shenzhen.aliyuncs.com/teable/teable-db-migrate
+```sh
+# 应用
+registry.cn-shenzhen.aliyuncs.com/teable/teable:latest
+# 数据库初始化
+registry.cn-shenzhen.aliyuncs.com/teable/teable-db-migrate:latest
 ```
 
 社区版是由开源代码构建出来的镜像，不包含企业版本的任何功能。数据与企业版兼容，可随时切换为企业版本。
@@ -55,11 +59,9 @@ registry.cn-shenzhen.aliyuncs.com/teable/teable-db-migrate
 
 #### Sealos
 
-对国内支持友好
+有免费额度，对国内支持友好，按量计费
 
-**一键部署企业版**
-
-[**一键部署社区版**](https://cloud.sealos.io/?openapp=system-template%3FtemplateName%3Dteable)
+[**一键部署企业版**](https://cloud.sealos.io/?openapp=system-template%3FtemplateName%3Dteable)
 
 ### 下一步
 
