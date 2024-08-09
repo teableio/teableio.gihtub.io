@@ -62,7 +62,7 @@
 
 ## deployment
 
-* [Docker Compose](deployment/docker-compose.md)
+* [Install Teable](deployment/docker-compose.md)
 * [Environment Variables](deployment/environment-variables.md)
 * [Migrating from docker-standalone to Teable Enterprise](deployment/migrating-from-docker-standalone-to-teable-enterprise.md)
 
