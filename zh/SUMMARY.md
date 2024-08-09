@@ -83,6 +83,7 @@
 
 * [开始部署](si-you-hua-bu-shu/kai-shi-bu-shu.md)
 * [环境变量](si-you-hua-bu-shu/huan-jing-bian-liang.md)
+* [技术架构](si-you-hua-bu-shu/ji-shu-jia-gou.md)
 
 ## 横向对比
 
