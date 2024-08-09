@@ -199,7 +199,7 @@ services:
         condition: service_healthy
 
   teable-cache:
-    image: redis:7.2.4
+    image: registry.cn-shenzhen.aliyuncs.com/teable/redis:7.2.4
     restart: always
     expose:
       - '6379'
@@ -387,7 +387,7 @@ services:
       retries: 3
 
   teable-db:
-    image: postgres:15.4
+    image: registry.cn-shenzhen.aliyuncs.com/teable/postgres:15.4
     restart: always
     ports:
       - '42345:5432'
@@ -416,7 +416,7 @@ services:
         condition: service_healthy
 
   teable-cache:
-    image: redis:7.2.4
+    image: registry.cn-shenzhen.aliyuncs.com/teable/redis:7.2.4
     restart: always
     expose:
       - '6379'
