@@ -12,9 +12,8 @@ Teable images are available in two editions: Enterprise Edition (EE) and Communi
 
 ### EE
 
-In preview
 {% hint style="info" %}
-EE version is now in the preview test, mail to support@teable.io we will give a 1-month trial license
+Enterprise Edition is now in the preview test, mail to support@teable.io we will give a 1-month trial license
 {% endhint %}
 
 ```sh
