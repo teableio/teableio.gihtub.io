@@ -36,23 +36,17 @@ ghcr.io/teableio/teable-db-migrate:latest
 
 The Community Edition is an image built from open-source code and does not include any features of the Enterprise Edition. Data is compatible with the Enterprise Edition, allowing for seamless switching to the Enterprise version at any time.
 
-
-
 ### Migrate from the CE
 
 {% content-ref url="migrating-from-docker-standalone-to-teable-enterprise.md" %}
 [migrating-from-docker-standalone-to-teable-enterprise.md](migrating-from-docker-standalone-to-teable-enterprise.md)
 {% endcontent-ref %}
 
-
-
 Details
 
 ***
 
 ## One-Click Cloud Deployment
-
-
 
 #### Sealos
 
@@ -64,11 +58,7 @@ Offers free quota, Includes Chinese regions, pay-as-you-go pricing
 
 [Configure email service](docker-compose.md#qi-yong-you-jian-fu-wu)
 
-
-
 ***
-
-
 
 ## Docker Compose
 
@@ -116,7 +106,7 @@ Create a docker-compose.yaml file and a .env file, then paste the following cont
 vim docker-compose.yaml
 ```
 
-#### Minimum dependencies**：**
+#### Minimum dependencies\*\*：\*\*
 
 {% tabs %}
 {% tab title="EE" %}
@@ -226,13 +216,16 @@ POSTGRES_PORT=5432
 POSTGRES_DB=teable
 POSTGRES_USER=teable
 
+# Redis
+REDIS_HOST=teable-cache
+REDIS_PORT=6379
+REDIS_DB=0
+
 # App
 PRISMA_DATABASE_URL=postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOST}:${POSTGRES_PORT}/${POSTGRES_DB}
 BACKEND_CACHE_PROVIDER=redis
 BACKEND_CACHE_REDIS_URI=redis://default:${REDIS_PASSWORD}@${REDIS_HOST}:${REDIS_PORT}/${REDIS_DB}
 ```
-
-
 {% endtab %}
 
 {% tab title="CE" %}
@@ -337,7 +330,7 @@ PRISMA_DATABASE_URL=postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRE
 
 **Incloude Redis (Recommend)**
 
-docker-compose-yaml**:**
+docker-compose-yaml\*\*:\*\*
 
 ```yaml
 version: '3.9'
@@ -443,6 +436,11 @@ POSTGRES_PORT=5432
 POSTGRES_DB=teable
 POSTGRES_USER=teable
 
+# Redis
+REDIS_HOST=teable-cache
+REDIS_PORT=6379
+REDIS_DB=0
+
 # App
 PRISMA_DATABASE_URL=postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOST}:${POSTGRES_PORT}/${POSTGRES_DB}
 BACKEND_CACHE_PROVIDER=redis
@@ -452,7 +450,7 @@ BACKEND_CACHE_REDIS_URI=redis://default:${REDIS_PASSWORD}@${REDIS_HOST}:${REDIS_
 {% endtab %}
 {% endtabs %}
 
-**Adding Storage Service (Optional):**&#x20;
+**Adding Storage Service (Optional):**
 
 By default, Teable uses local storage to manage attachment resources. You can add MinIO or cloud storage for a more powerful and stable service.
 
@@ -554,8 +552,6 @@ BACKEND_STORAGE_MINIO_ACCESS_KEY=${MINIO_ACCESS_KEY}
 BACKEND_STORAGE_MINIO_SECRET_KEY=${MINIO_SECRET_KEY}
 STORAGE_PREFIX=${PROTOCAL}://${PUBLIC_HOST}:${BACKEND_STORAGE_MINIO_PORT}
 ```
-
-
 {% endtab %}
 
 {% tab title="External minio" %}
@@ -612,8 +608,6 @@ The above process can be applied to most cloud providers, not just Amazon S3.
 {% endtab %}
 {% endtabs %}
 
-
-
 **Starting the Application**
 
 Execute the application launch command in the current directory. Once the startup is complete, access 127.0.0.1:3000 to enter the application.
@@ -628,18 +622,16 @@ docker-compose pull
 docker-compose up -d
 ```
 
-
-
 **Using a Hosted Database (Optional)**
 
 If you wish to use a hosted database, you can further streamline the deployment process:
 
-1. Remove  `services.teable-db`&#x20;
+1. Remove `services.teable-db`
 2. Remove `service.teable-db-migrate.depends_on`
 3. Remove `volumes.teable-db`
 4. Update the `.env` file, replacing it with the configuration for your hosted database
 
-**Full example**&#x20;
+**Full example**
 
 `docker-compose.yaml`
 
@@ -783,8 +775,6 @@ POSTGRES_USER=teable
 Note that `127.0.0.1` is the internal network of the container. If you want to connect to a database deployed on your local machine, do not use `127.0.0.1` for `POSTGRES_HOST`. Instead, use `host.docker.internal` as the local address, otherwise, the connection will fail.
 {% endhint %}
 
-
-
 **The same principle applies if you're using an externally hosted Redis:**
 
 * Remove service.teable-cache
@@ -792,19 +782,13 @@ Note that `127.0.0.1` is the internal network of the container. If you want to c
 * Remove volumes.teable-cache
 * Update the .env file, replacing it with the configuration for your hosted Redis
 
-
-
 ### Next steps
 
 [Configure email service](docker-compose.md#qi-yong-you-jian-fu-wu)
 
 [Configure external database connection for base](docker-compose.md#qi-yong-wai-bu-shu-ju-ku-lian-jie-gong-neng)
 
-
-
 ***
-
-
 
 ## Enabling email service
 
@@ -832,17 +816,11 @@ This parameter should be set to an externally accessible database IP or domain +
 PUBLIC_DATABASE_PROXY=db-proxy.example.com:port
 ```
 
-
-
 ## Environment variables
 
 [Environment variables table](docker-compose.md#environment-variables)
 
-
-
 ***
-
-
 
 ## Support and Feedback
 
