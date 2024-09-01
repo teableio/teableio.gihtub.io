@@ -41,7 +41,7 @@ POST /table/{tableId}/record
         }
       ]
       ```
-  * 说明：每个记录都是一个包含 `fields` 对象的项。`fields` 对象包含字段名和对应的值。
+  * 说明：每个记录都是一个包含 `fields` 对象的项。`fields` 对象包含字段名和对应的值，每一种字段值结构都不一样，详情请[查看记录字段值类型](ji-lu-zi-duan-zhi-lei-xing.md)。
 * **fieldKeyType（可选）**
   * 描述：指定字段键的类型
   * 类型：字符串
@@ -104,13 +104,13 @@ POST /table/{tableId}/record
   * 类型：对象
   *   包含以下属性： a. viewId
 
-      * 描述：视图的 ID
+      * 描述：视图的 ID [（如何获取）](../huo-qu-id.md#viewid)
       * 类型：字符串
       * 示例：`"viwABCDEFGHIJKLMN"`
 
       b. anchorId
 
-      * 描述：锚点记录的 ID
+      * 描述：锚点记录的 ID[（如何获取）](../huo-qu-id.md#recordid)
       * 类型：字符串
       * 示例：`"rec123456789ABCDE"`
 

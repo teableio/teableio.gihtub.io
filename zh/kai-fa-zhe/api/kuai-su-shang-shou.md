@@ -153,3 +153,19 @@ except Exception as e:
 
 ## 更多 API
 
+记录增删改查 API 作为最常用的 API 我们准备了完善的说明文档
+
+{% content-ref url="ji-lu/chuang-jian-ji-lu.md" %}
+[chuang-jian-ji-lu.md](ji-lu/chuang-jian-ji-lu.md)
+{% endcontent-ref %}
+
+{% content-ref url="ji-lu/geng-xin-ji-lu.md" %}
+[geng-xin-ji-lu.md](ji-lu/geng-xin-ji-lu.md)
+{% endcontent-ref %}
+
+{% content-ref url="ji-lu/shan-chu-ji-lu.md" %}
+[shan-chu-ji-lu.md](ji-lu/shan-chu-ji-lu.md)
+{% endcontent-ref %}
+
+其他的 API 可以在 [Swagger文档](https://app.teable.cn/docs) （可以在线调试）或者 [Redoc文档](https://app.teable.cn/redocs) （说明信息更丰富）中查看，这里包括了 Teable 所有可用的 API。
+

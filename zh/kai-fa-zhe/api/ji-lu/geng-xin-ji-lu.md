@@ -12,8 +12,8 @@ PATCH /table/{tableId}/record/{recordId}
 
 #### 路径参数
 
-* tableId (string): 表的唯一标识符。
-* recordId (string): 要更新的记录的唯一标识符。
+* tableId (string): 表的唯一标识符[（如何获取）](../huo-qu-id.md#tableid)。
+* recordId (string): 要更新的记录的唯一标识符[ (如何获取）](../huo-qu-id.md#recordid)。
 
 #### 请求体
 
@@ -31,7 +31,12 @@ PATCH /table/{tableId}/record/{recordId}
         }
       }
       ```
-  * 说明：`fields` 对象包含要更新的字段名和对应的新值。
+  * 说明：`fields` 对象包含要更新的字段名和对应的新值。每一种字段值结构都不一样，详情请[查看记录字段值类型](ji-lu-zi-duan-zhi-lei-xing.md)
+
+{% hint style="info" %}
+要清空一个字段的值请显式的传递 `null,`如果字段名没有传递则不会进行任何更新
+{% endhint %}
+
 * **fieldKeyType（可选）**
   * 描述：指定字段键的类型
   * 类型：字符串
@@ -127,44 +132,39 @@ PATCH /table/{tableId}/record/{recordId}
 
 #### 示例代码
 
-
 {% tabs %}
 {% tab title="CURL" %}
 ```typescript
-curl -X POST 'https://app.teable.cn/table/__tableId__/record' \
+curl -X PATCH 'https://app.teable.cn/table/__tableId__/record/__recordId__' \
   -H 'Authorization: Bearer __token__' \
   -H 'Content-Type: application/json' \
   -d '{
-    "records": [
-      {
-        "fields": {
-          "Name": "John Doe",
-          "Age": 30
-        }
+    "record": {
+      "fields": {
+        "Name": "John Doe",
+        "Age": 31
       }
-    ]
+    }
   }'
 ```
 {% endtab %}
 
 {% tab title="JS SDK" %}
 ```typescript
-import { configApi, createRecords } from '@teable/openapi';
+import { configApi, updateRecord } from '@teable/openapi';
 
 configApi({
   endpoint: 'https://app.teable.cn',
   token,
 });
 
-const response = await createRecords('__tableId__', {
-  records: [
-    {
-      fields: {
-        Name: 'John Doe',
-        Age: 30
-      }
+const response = await updateRecord('__tableId__', '__recordId__', {
+  record: {
+    fields: {
+      Name: 'John Doe',
+      Age: 31
     }
-  ]
+  }
 });
 
 console.log(response.data);
@@ -173,21 +173,19 @@ console.log(response.data);
 
 {% tab title="TypeScript" %}
 ```typescript
-const response = await fetch('https://app.teable.cn/table/__tableId__/record', {
-  method: 'POST',
+const response = await fetch('https://app.teable.cn/table/__tableId__/record/__recordId__', {
+  method: 'PATCH',
   headers: {
     'Authorization': 'Bearer __token__',
     'Content-Type': 'application/json'
   },
   body: JSON.stringify({
-    records: [
-      {
-        fields: {
-          Name: 'John Doe',
-          Age: 30
-        }
+    record: {
+      fields: {
+        Name: 'John Doe',
+        Age: 31
       }
-    ]
+    }
   })
 });
 
@@ -199,21 +197,19 @@ console.log(await response.json());
 ```python
 import requests
 
-response = requests.post(
-    'https://app.teable.cn/table/__tableId__/record',
+response = requests.patch(
+    'https://app.teable.cn/table/__tableId__/record/__recordId__',
     headers={
         'Authorization': 'Bearer __token__',
         'Content-Type': 'application/json'
     },
     json={
-        'records': [
-            {
-                'fields': {
-                    'Name': 'John Doe',
-                    'Age': 30
-                }
+        'record': {
+            'fields': {
+                'Name': 'John Doe',
+                'Age': 31
             }
-        ]
+        }
     }
 )
 
