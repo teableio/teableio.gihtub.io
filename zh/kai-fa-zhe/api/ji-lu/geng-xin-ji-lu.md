@@ -17,6 +17,21 @@ PATCH /table/{tableId}/record/{recordId}
 
 #### 请求体
 
+* **record（必填）**
+  * 描述：要更新的记录数据
+  * 类型：对象
+  *   示例：
+
+      ```javascript
+      {
+        "fields": {
+          "Name": "John Doe",
+          "Age": 31,
+          "Email": "john.doe@example.com"
+        }
+      }
+      ```
+  * 说明：`fields` 对象包含要更新的字段名和对应的新值。
 * **fieldKeyType（可选）**
   * 描述：指定字段键的类型
   * 类型：字符串
@@ -25,44 +40,65 @@ PATCH /table/{tableId}/record/{recordId}
     * "id"：使用字段 ID 作为键
   * 示例：`"name"` 或 `"id"`
   * 说明：如果不指定，默认使用字段名作为键。
+  * 用法：
+    *   当设置为 "name" 时：
 
+        复制
+
+        ```javascript
+        {
+          fields: {
+            "Name": "John Doe",
+            "Age": 30
+          }
+        }
+        ```
+    *   当设置为 "id" 时：
+
+        复制
+
+        ```javascript
+        {
+          fields: {
+            "fldABCDEFGHIJKLMN": "John Doe",
+            "fldOPQRSTUVWXYZ12": 30
+          }
+        }
+        ```
 * **typecast（可选）**
-  * 描述：是否自动转换字段值类型
+  * 描述：是否自动转换字段值类型，默认会严格校验，需要保证输入的值符合当前字段的数据类型，如果开启则会尝试自动进行转换。
   * 类型：布尔值
   * 可选值：true 或 false
   * 示例：`true`
   * 说明：如果设置为 true，系统会尝试将输入值转换为正确的字段值类型。
+  * 用法示例：
+    *   关联字段：可以直接使用主键文本进行关联
 
-* **record（必填）**
-  * 描述：要更新的记录数据
-  * 类型：对象
-  * 示例：
-    ```javascript
-    {
-      "fields": {
-        "Name": "John Doe",
-        "Age": 31,
-        "Email": "john.doe@example.com"
-      }
-    }
-    ```
-  * 说明：`fields` 对象包含要更新的字段名和对应的新值。
+        复制
 
-* **order（可选）**
-  * 描述：指定更新后记录在指定视图中的位置
-  * 类型：对象
-  * 包含以下属性：
-    * viewId (string): 视图的 ID
-    * anchorId (string): 锚点记录的 ID
-    * position (string): 相对于锚点记录的位置，可选值为 "before" 或 "after"
-  * 示例：
-    ```javascript
-    {
-      "viewId": "viwABCDEFGHIJKLMN",
-      "anchorId": "rec123456789ABCDE",
-      "position": "after"
-    }
-    ```
+        ```javascript
+        {
+          "User table": "张三"
+        }
+        ```
+    *   日期字段：可以使用非标准格式的日期字符串
+
+        复制
+
+        ```javascript
+        {
+          "Date": "2023-05-15"
+        }
+        ```
+    *   用户字段：可以直接使用用户名
+
+        复制
+
+        ```javascript
+        {
+          "Assigned To": "John Doe"
+        }
+        ```
 
 ### 响应
 
@@ -72,3 +108,22 @@ PATCH /table/{tableId}/record/{recordId}
 * 响应体: 返回更新后的记录数据。
 
 **示例响应体**
+
+```javascript
+{
+    "id": "rec123456789ABCDE",
+    "fields": {
+        "Name": "John Doe",
+        "Age": 31,
+        "Email": "john.doe@example.com"
+    }
+}
+```
+
+#### 错误响应
+
+* 状态码: 400 Bad Request: 请求体格式错误或缺少必需字段。
+* 状态码: 404 Not Found: 指定的表 tableId 或记录 recordId 不存在。
+
+#### 示例代码
+
