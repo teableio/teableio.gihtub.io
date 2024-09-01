@@ -72,7 +72,7 @@
 
 我们当前 Base 的首要设计目标是存储 PDF 通过 AI 解析过后生成的文本内容和摘要信息，一遍后续随时取用，我们可以设计一个工作流，将 PDF 通过第三方 AI 工具进行解析之后，使用 API 写回到单元格中。
 
-要使用 Teable 使用 API 的来进行数据写入首先要创建[ Access Token](../kai-fa-zhe/api/access-token.md)，然后[阅读 API 文档](../kai-fa-zhe/api/#api-wen-dang)并进行调试。
+要使用 Teable 使用 API 的来进行数据写入首先要创建[ Access Token](broken-reference)，然后[阅读 API 文档](../kai-fa-zhe/api/#api-wen-dang)并进行调试。
 
 **第七步：集成第三方平台**
 

@@ -13,7 +13,7 @@ Teable的表格等同于数据库中表的概念，这个概念有助于理解[T
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (10) (1).png" alt="" width="237"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1) (1).png" alt="" width="237"><figcaption></figcaption></figure>
 
 </div>
 
@@ -25,7 +25,7 @@ Teable的表格等同于数据库中表的概念，这个概念有助于理解[T
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (11) (1).png" alt="" width="235"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1) (1).png" alt="" width="235"><figcaption></figcaption></figure>
 
 </div>
 
@@ -36,7 +36,7 @@ Teable的表格等同于数据库中表的概念，这个概念有助于理解[T
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt="" width="257"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1).png" alt="" width="257"><figcaption></figcaption></figure>
 
 </div>
 

@@ -4,7 +4,7 @@
 
 更重要的是，只有在同一工作区内的用户才能访问该工作区内的应用和数据。因此，即便是组织的主管理员，在未加入特定工作区的情况下，也无法访问该工作区内的数据。这一特性为我们的组织提供了数据安全和隐私保护的有力保障。
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>工作区</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>工作区</p></figcaption></figure>
 
 ### 创建新的工作区
 

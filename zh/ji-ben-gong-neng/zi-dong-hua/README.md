@@ -10,7 +10,7 @@ Teable 的自动化功能是一个强大的工具，允许用户创建自动化�
 * 测试：提供了在实际部署前测试自动化流程的功能，确保其按预期工作。
 * 执行日志：记录自动化的运行历史，用于监控和故障排查。
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p> 自动化功能预览</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p> 自动化功能预览</p></figcaption></figure>
 
 ### 创建自动化工作流程
 
@@ -22,12 +22,12 @@ Teable 的自动化功能是一个强大的工具，允许用户创建自动化�
 * 选择要监听的表格。&#x20;
 * 选择要监听的具体字段。
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * 配置完成后，点击"测试"按钮。&#x20;
 * 系统会显示触发器的测试结果，通常是当前表格中一条记录的内容。
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="563"><figcaption><p>测试结果</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt="" width="563"><figcaption><p>测试结果</p></figcaption></figure>
 
 #### 2. 创建动作
 
@@ -36,11 +36,11 @@ Teable 的自动化功能是一个强大的工具，允许用户创建自动化�
 * 配置新记录的字段值
 * 从动态记录中选择来自触发器的值。&#x20;
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * 点击"**生成预览**"按钮验证动作配置。或者点击“**按配置运行**”按钮，创建一条真实的记录并获取返回值
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 #### 3. 添加条件判断（可选）
 
@@ -67,9 +67,9 @@ Teable 的自动化功能是一个强大的工具，允许用户创建自动化�
 3. 点击"执行运行历史"查看历史记录。
 4. 检查最新的执行记录，确认自动化是否按预期执行。
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### 自动化流程的典型工作方式
 
@@ -82,7 +82,7 @@ Teable 的自动化功能是一个强大的工具，允许用户创建自动化�
 
 当你要修改一条正在运行的自动化时，为了方便调试，对自动化配置的修改动作不会立即在运行的自动化中生效，而是会在页面上弹出一条提示，当你确认更新之后，自动化才会被应用到正在运行的流程中去。你可以放心的对自动化进行修改而不怕意外打断现有的流程。
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 
 

@@ -20,9 +20,7 @@ description: 本文将介绍如何快速上手 Teable API 以及使用 API SDK
 
 ### 第二步：调用 API 接口[​](https://developers.vika.cn/api/quick-start#%E7%AC%AC%E4%BA%8C%E6%AD%A5%E8%B0%83%E7%94%A8-api-%E6%8E%A5%E5%8F%A3%E5%AE%9E%E7%8E%B0%E6%95%B0%E6%8D%AE%E7%9A%84%E5%A2%9E%E5%88%A0%E6%94%B9%E6%9F%A5) <a href="#di-er-bu-diao-yong-api-jie-kou-shi-xian-shu-ju-de-zeng-shan-gai-cha" id="di-er-bu-diao-yong-api-jie-kou-shi-xian-shu-ju-de-zeng-shan-gai-cha"></a>
 
-你可以选择以下任一方式向 API 服务器发送请求。
-
-首先选择一个你想要操作的表格，并获得表格 Id [(如何获取？)](ru-he-huo-qu-id.md#tableid)
+你可以选择以下任一方式向 API 服务器发送请求, 首先选择一个你想要操作的表格，并获得表格 ID [(如何获取？)](huo-qu-id.md#tableid)
 
 {% hint style="info" %}
 注意：在执行下列代码前，你需要将 `__tableId__` 和 `__token__` 替换为真实的表格 ID 和 API Token。
@@ -66,7 +64,18 @@ getRecords(tableId)
 ### Fetch
 
 ```typescript
-async function getRecords(token: string, tableId: string): Promise<any> {
+async function getRecords(token: string, tableId: string): Promise<{
+    records: {
+        id: string;
+        fields: Record<string, unknown>;
+        name?: string;
+        autoNumber?: number;
+        createdTime?: string;
+        lastModifiedTime?: string;
+        createdBy?: string;
+        lastModifiedBy?: string;
+    }[];
+}> {
   const url = `https://app.teable.cn/api/table/${tableId}/record`;
   const response = await fetch(url, {
     method: 'GET',
@@ -79,7 +88,6 @@ async function getRecords(token: string, tableId: string): Promise<any> {
   return await response.json();
 }
 
-// 使用示例
 const token = '__token__';
 const tableId = '__tableId__';
 
@@ -143,4 +151,5 @@ except Exception as e:
 获取记录时支持指定 视图，筛选条件，排序条件，fieldKeyType (以 Id 还是 Name 作为字段 key 进行返回）, cellFormat（返回 JSON 还是纯文本格式的单元格数据）。我们为开发者提供了一个快捷的[查询参数构建器](https://app.teable.cn/developer/tool/query-builder)，可以帮助轻松构建自定义的请求。\
 
 
-### 创建记录
+## 更多 API
+
