@@ -102,20 +102,16 @@ POST /table/{tableId}/record
 * **order（可选）**
   * 描述：指定新记录的在指定视图所在的位置
   * 类型：对象
-  *   包含以下属性： a. viewId
-
+  * 包含以下属性：&#x20;
+    * viewId
       * 描述：视图的 ID [（如何获取）](../huo-qu-id.md#viewid)
-      * 类型：字符串
-      * 示例：`"viwABCDEFGHIJKLMN"`
-
-      b. anchorId
-
+        * 类型：字符串
+        * 示例：`"viwABCDEFGHIJKLMN"`
+    * anchorId
       * 描述：锚点记录的 ID[（如何获取）](../huo-qu-id.md#recordid)
       * 类型：字符串
       * 示例：`"rec123456789ABCDE"`
-
-      c. position
-
+    * position
       * 描述：相对于锚点记录的位置
       * 类型：字符串
       * 可选值：
@@ -167,8 +163,6 @@ POST /table/{tableId}/record
 
 * 状态码: 400 Bad Request: 请求体格式错误或缺少必需字段。
 * 状态码: 404 Not Found: 指定的表 tableId 不存在。
-
-
 
 ### 示例代码
 
