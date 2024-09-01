@@ -105,8 +105,8 @@ POST /table/{tableId}/record
   * 包含以下属性：&#x20;
     * viewId
       * 描述：视图的 ID [（如何获取）](../huo-qu-id.md#viewid)
-        * 类型：字符串
-        * 示例：`"viwABCDEFGHIJKLMN"`
+      * 类型：字符串
+      * 示例：`"viwABCDEFGHIJKLMN"`
     * anchorId
       * 描述：锚点记录的 ID[（如何获取）](../huo-qu-id.md#recordid)
       * 类型：字符串
