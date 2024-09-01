@@ -127,3 +127,97 @@ PATCH /table/{tableId}/record/{recordId}
 
 #### 示例代码
 
+
+{% tabs %}
+{% tab title="CURL" %}
+```typescript
+curl -X POST 'https://app.teable.cn/table/__tableId__/record' \
+  -H 'Authorization: Bearer __token__' \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "records": [
+      {
+        "fields": {
+          "Name": "John Doe",
+          "Age": 30
+        }
+      }
+    ]
+  }'
+```
+{% endtab %}
+
+{% tab title="JS SDK" %}
+```typescript
+import { configApi, createRecords } from '@teable/openapi';
+
+configApi({
+  endpoint: 'https://app.teable.cn',
+  token,
+});
+
+const response = await createRecords('__tableId__', {
+  records: [
+    {
+      fields: {
+        Name: 'John Doe',
+        Age: 30
+      }
+    }
+  ]
+});
+
+console.log(response.data);
+```
+{% endtab %}
+
+{% tab title="TypeScript" %}
+```typescript
+const response = await fetch('https://app.teable.cn/table/__tableId__/record', {
+  method: 'POST',
+  headers: {
+    'Authorization': 'Bearer __token__',
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify({
+    records: [
+      {
+        fields: {
+          Name: 'John Doe',
+          Age: 30
+        }
+      }
+    ]
+  })
+});
+
+console.log(await response.json());
+```
+{% endtab %}
+
+{% tab title="Python" %}
+```python
+import requests
+
+response = requests.post(
+    'https://app.teable.cn/table/__tableId__/record',
+    headers={
+        'Authorization': 'Bearer __token__',
+        'Content-Type': 'application/json'
+    },
+    json={
+        'records': [
+            {
+                'fields': {
+                    'Name': 'John Doe',
+                    'Age': 30
+                }
+            }
+        ]
+    }
+)
+
+print(response.json())
+```
+{% endtab %}
+{% endtabs %}
