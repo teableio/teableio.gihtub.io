@@ -74,6 +74,8 @@
 ## 开发者
 
 * [API](kai-fa-zhe/api/README.md)
+  * [快速上手](kai-fa-zhe/api/kuai-su-shang-shou.md)
+  * [如何获取 Id](kai-fa-zhe/api/ru-he-huo-qu-id.md)
   * [访问令牌](kai-fa-zhe/api/access-token.md)
   * [作用域](kai-fa-zhe/api/zuo-yong-yu.md)
   * [错误码](kai-fa-zhe/api/cuo-wu-ma.md)
