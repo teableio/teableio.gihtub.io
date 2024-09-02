@@ -81,7 +81,7 @@
     * [更新记录](kai-fa-zhe/api/ji-lu/geng-xin-ji-lu.md)
     * [删除记录](kai-fa-zhe/api/ji-lu/shan-chu-ji-lu.md)
     * [记录字段值类型](kai-fa-zhe/api/ji-lu/ji-lu-zi-duan-zhi-lei-xing.md)
-  * [获取 Id](kai-fa-zhe/api/huo-qu-id.md)
+  * [获取 ID](kai-fa-zhe/api/huo-qu-id.md)
   * [作用域](kai-fa-zhe/api/zuo-yong-yu.md)
   * [错误码](kai-fa-zhe/api/cuo-wu-ma.md)
 * [通过 SQL 访问表格数据](kai-fa-zhe/shu-ju-ku-lian-jie.md)

@@ -2,7 +2,7 @@
 description: 本文介绍如如何在界面上获取 Teable 中的各类资源 Id
 ---
 
-# 获取 Id
+# 获取 ID
 
 ## SpaceId
 
@@ -10,7 +10,7 @@ description: 本文介绍如如何在界面上获取 Teable 中的各类资源 I
 
 <figure><img src="../../.gitbook/assets/image.png" alt="" width="318"><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (96).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## BaseId
 
