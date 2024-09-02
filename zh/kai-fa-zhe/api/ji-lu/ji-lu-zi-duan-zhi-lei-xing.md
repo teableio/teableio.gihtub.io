@@ -166,21 +166,78 @@ description: 记录中所有字段值类型参考文档
 
 ### 8. 附件字段 (Attachment Field)
 
+{% hint style="info" %}
+上传一个附件到附件字段要先通过签名过程，详情请查看[上传附件](../shang-chuan-fu-jian.md)章节
+{% endhint %}
+
 * type: attachment
-* 写入类型: `{ name: string, type: string, token: string }[]`
-* 返回类型: `{ id: string, name: string, type: string, token: string, url: string }[]`
+* 写入类型:&#x20;
+
+```typescript
+{
+  id: string;
+  name: string;
+  path: string;
+  token: string; // 唯一标识
+  size: number; // 文件字节大小
+  mimetype: string; // 文件类型
+  presignedUrl?: string; // 文件预览/下载地址
+  width?: number; // 图片宽度
+  height?: number; // 图片高度
+}[]
+```
+
+* 返回类型:&#x20;
+
+```typescript
+{
+  id: string;
+  name: string;
+  path: string;
+  token: string; // 唯一标识
+  size: number; // 文件字节大小
+  mimetype: string; // 文件类型
+  presignedUrl?: string; // 文件预览/下载地址
+  width?: number; // 图片宽度
+  height?: number; // 图片高度
+}[]
+```
 
 示例：
 
 ```typescript
 // 写入值
 [
-  { name: "document.pdf", type: "application/pdf", token: "abc123" }
+  {
+    name: "document.pdf",
+    type: "application/pdf",
+    token: "abc123",
+    size: 1024000
+  }
 ]
 
 // 返回值
 [
-  { id: "att123", name: "document.pdf", type: "application/pdf", token: "abc123", url: "https://example.com/document.pdf" }
+  {
+    id: "att123",
+    name: "document.pdf",
+    path: "/uploads/document.pdf",
+    token: "abc123",
+    size: 1024000,
+    mimetype: "application/pdf",
+    presignedUrl: "https://example.com/preview/document.pdf",
+  },
+  {
+    id: "att456",
+    name: "image.jpg",
+    path: "/uploads/image.jpg",
+    token: "def456",
+    size: 2048000,
+    mimetype: "image/jpeg",
+    presignedUrl: "https://example.com/preview/image.jpg",
+    width: 1920,
+    height: 1080
+  }
 ]
 ```
 
@@ -192,17 +249,21 @@ description: 记录中所有字段值类型参考文档
   * `isMultipleCellValue: false`: `string` (ISO 8601格式)
   * `isMultipleCellValue: true`: `string[]` (ISO 8601格式)
 
+{% hint style="info" %}
+`可以使用 new Date().toISOString()` 来获得ISO 8601 时间格式
+{% endhint %}
+
 示例：
 
 ```typescript
 // 写入值
-"2023-04-15T10:30:00Z"
+"2024-09-02T02:51:03.875Z"
 
 // 返回值 (isMultipleCellValue: false)
-"2023-04-15T10:30:00Z"
+"2024-09-02T02:51:03.875Z"
 
 // 返回值 (isMultipleCellValue: true)
-["2023-04-15T10:30:00Z", "2023-04-16T14:45:00Z"]
+["2024-09-02T02:51:03.875Z", "2024-09-02T02:51:03.875Z"]
 ```
 
 ### 10. 创建时间字段 (Created Time Field)
@@ -241,7 +302,7 @@ description: 记录中所有字段值类型参考文档
 ["2023-04-15T10:30:00Z", "2023-04-16T14:45:00Z"]
 ```
 
-### 12. 复选框字段 (Checkbox Field)
+### 12. 勾选字段 (Checkbox Field)
 
 * type: checkbox
 * 写入类型: `boolean`
