@@ -17,9 +17,9 @@ description: 这里列举了Teable 所有可用的环境变量以及相关解释
 | BACKEND\_STORAGE\_S3\_SECRET\_KEY            | S3 云存储秘密密钥，当 BACKEND\_STORAGE\_PROVIDER 为 s3 时需要配置      | -                | -    | your\_secret\_key                                |
 | BACKEND\_CACHE\_PROVIDER                     | 缓存提供商，可选值：sqlite、memory、redis                           | sqlite           | -    | redis                                            |
 | BACKEND\_CACHE\_REDIS\_URI                   | Redis 缓存连接 URI，当 BACKEND\_CACHE\_PROVIDER 为 redis 时需要配置 | -                | -    | redis://default:teable@127.0.0.1:6379/0          |
-| NEXT\_PUBLIC\_MICROSOFT\_CLARITY\_ID         | Microsoft Clarity 指标 ID，用于启用 Microsoft Clarity 分析       | -                | -    | your-metrics-id                                  |
-| NEXT\_PUBLIC\_UMAMI\_WEBSITE\_ID             | 启用 Umami 分析并设置 WEBSITE\_ID                              |                  |      | your-umami-website-id                            |
-| NEXT\_PUBLIC\_UMAMI\_URL                     | 启用 Umami 分析并设置分析 script 加载地址                            |                  |      | https://umami.example.com/script.js              |
+| MICROSOFT\_CLARITY\_ID                       | Microsoft Clarity 指标 ID，用于启用 Microsoft Clarity 分析       | -                | -    | your-metrics-id                                  |
+| UMAMI\_WEBSITE\_ID                           | 启用 Umami 分析并设置 WEBSITE\_ID                              |                  |      | your-umami-website-id                            |
+| UMAMI\_URL                                   | 启用 Umami 分析并设置分析 script 加载地址                            |                  |      | https://umami.example.com/script.js              |
 | TEMPLATE\_SPACE\_ID                          | 模板基础所在的空间 ID，用于模板中心操作的基本信息                              | -                | -    | your-template-space-id                           |
 | TEMPLATE\_SITE\_LINK                         | 模板站点链接，需要设置此值才能启用从模板创建的功能                               | -                | -    | https://template.teable.io                       |
 | PORT                                         | 应用程序运行的端口                                               | 3000             | -    | 3000                                             |
