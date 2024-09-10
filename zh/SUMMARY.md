@@ -8,12 +8,15 @@
 
 ## 基本功能
 
-* [空间](ji-ben-gong-neng/gong-zuo-qu/README.md)
-  * [添加和移除工作区成员](ji-ben-gong-neng/gong-zuo-qu/tian-jia-he-yi-chu-gong-zuo-qu-cheng-yuan.md)
+* [空间](ji-ben-gong-neng/gong-zuo-qu.md)
+* [空间协作管理](ji-ben-gong-neng/xie-zuo/README.md)
+  * [空间邀请](ji-ben-gong-neng/xie-zuo/kong-jian-yao-qing.md)
+  * [数据库邀请](ji-ben-gong-neng/xie-zuo/shu-ju-ku-yao-qing.md)
+  * [协作权限明细](ji-ben-gong-neng/xie-zuo/xie-zuo-quan-xian.md)
 * [数据库](ji-ben-gong-neng/ying-yong.md)
 * [表格](ji-ben-gong-neng/shu-ju-biao/README.md)
-  * [导出](ji-ben-gong-neng/shu-ju-biao/dao-chu.md)
   * [导入](ji-ben-gong-neng/shu-ju-biao/dao-ru.md)
+  * [导出](ji-ben-gong-neng/shu-ju-biao/dao-chu.md)
 * [字段](ji-ben-gong-neng/zi-duan/README.md)
   * [基础字段](ji-ben-gong-neng/zi-duan/ji-chu-zi-duan/README.md)
     * [单行文本](ji-ben-gong-neng/zi-duan/ji-chu-zi-duan/dan-hang-wen-ben.md)
@@ -56,20 +59,13 @@
   * [相册视图](ji-ben-gong-neng/shi-tu/xiang-ce-shi-tu.md)
   * [日历视图](ji-ben-gong-neng/shi-tu/ri-li-shi-tu.md)
   * [时间轴视图](ji-ben-gong-neng/shi-tu/gan-te-shi-tu.md)
-  * [多人协同](ji-ben-gong-neng/shi-tu/duo-ren-xie-tong.md)
 * [仪表盘](ji-ben-gong-neng/yi-biao-pan.md)
-* [空间协作和权限](ji-ben-gong-neng/xie-zuo/README.md)
-  * [协作权限](ji-ben-gong-neng/xie-zuo/xie-zuo-quan-xian.md)
-  * [空间邀请](ji-ben-gong-neng/xie-zuo/kong-jian-yao-qing.md)
 * [权限矩阵](ji-ben-gong-neng/quan-xian-guan-li.md)
 * [自动化](ji-ben-gong-neng/zi-dong-hua/README.md)
   * [触发器](ji-ben-gong-neng/zi-dong-hua/chu-fa-qi.md)
   * [动作](ji-ben-gong-neng/zi-dong-hua/dong-zuo.md)
   * [条件判断](ji-ben-gong-neng/zi-dong-hua/tiao-jian-pan-duan.md)
-* [管理员后台](ji-ben-gong-neng/guan-li-yuan-hou-tai/README.md)
-  * [用户管理](ji-ben-gong-neng/guan-li-yuan-hou-tai/yong-hu.md)
-  * [空间管理](ji-ben-gong-neng/guan-li-yuan-hou-tai/gong-zuo-qu.md)
-  * [设置](ji-ben-gong-neng/guan-li-yuan-hou-tai/she-zhi.md)
+* [管理员后台](ji-ben-gong-neng/guan-li-yuan-hou-tai.md)
 
 ## 开发者
 
@@ -97,17 +93,3 @@
 ## 横向对比
 
 * [Teable和电子表格的差异](heng-xiang-dui-bi/teable-shu-ju-biao-he-dian-zi-biao-ge-de-cha-yi.md)
-
-***
-
-* [场景示例](chang-jing-shi-li/README.md)
-  * [客户管理系统](chang-jing-shi-li/ke-hu-guan-li-xi-tong.md)
-
-## 高级特性
-
-* [海量数据](gao-ji-te-xing/hai-liang-shu-ju.md)
-* [卓越性能](gao-ji-te-xing/zhuo-yue-xing-neng.md)
-* [原生SQL](gao-ji-te-xing/yuan-sheng-sql.md)
-* [博客](gao-ji-te-xing/bo-ke/README.md)
-  * [数据新生：Postgres 与 Airtable 的融合体](gao-ji-te-xing/bo-ke/shu-ju-xin-sheng-postgres-yu-airtable-de-rong-he-ti.md)
-  * [关联，汇总，引用对比](gao-ji-te-xing/bo-ke/guan-lian-hui-zong-yin-yong-dui-bi.md)

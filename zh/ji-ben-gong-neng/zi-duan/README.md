@@ -2,7 +2,7 @@
 
 字段(Field)在数据表中用来定义数据的属性，也是表格视图中的列。
 
-每个字段都有一个名称，用于标识这个字段，比如“product\_name”。同时，每个字段都有指定的数据类型(Data Type)，它决定了字段可以存储什么样的数据，比如文本、数值、布尔值等。&#x20;
+每个字段都有一个名称，用于标识这个字段，比如“product\_name”。同时，每个字段都有指定的数据类型(Data Type)，它决定了字段可以存储什么样的数据，比如文本、数值、布尔值等。
 
 ### 添加字段
 
@@ -10,10 +10,9 @@
 
 1. 进入表格视图
 2. 将表格滑动至最右侧
-3.  点击字段栏最右侧的+号\
+3.  点击字段栏最右侧的+号\\
 
-
-    <figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
 4. 在弹出的对话框内[编辑字段](./#bian-ji-zi-duan)
 5. 点击保存
 
@@ -22,7 +21,7 @@
 用户可以在添加字段时编辑字段，也可以在有需要时对已有字段进行编辑。如需对已有字段进行编辑，请参考下述步骤：
 
 1. 右键单击要编辑的字段\
-   ![](<../../.gitbook/assets/image (20).png>)
+   ![](<../../.gitbook/assets/image (20) (1).png>)
 2. 在展开的菜单中单击编辑字段选项
 3. 在编辑字段对话框中对字段进行编辑
 4. 点击保存
@@ -52,4 +51,4 @@
 
 视图的工具栏的信息请访问[表格视图](../shi-tu/biao-ge-shi-tu.md)的相关文章。
 
-<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption><p>隐藏字段</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25) (1).png" alt=""><figcaption><p>隐藏字段</p></figcaption></figure>

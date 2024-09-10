@@ -11,11 +11,15 @@ Teable的表格等同于数据库中表的概念，这个概念有助于理解[T
 1. 进入特定数据库
 2. 点击目录中的+号按钮
 
-<div align="left">
+<figure><img src="../../.gitbook/assets/image (13).png" alt="" width="320"><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (10) (1) (1).png" alt="" width="237"><figcaption></figcaption></figure>
+你可以选择
 
-</div>
+1. 创建一个新表格
+2. 从  Csv 文件中导入表格
+3. 从 Excel 文件中导入表格
+
+具体导入过程可查看[导入章节](dao-ru.md)
 
 ### 修改表格名称
 
@@ -23,22 +27,55 @@ Teable的表格等同于数据库中表的概念，这个概念有助于理解[T
 2. 修改表格名称
 3. 点击输入框外任意区域
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (11) (1) (1).png" alt="" width="235"><figcaption></figcaption></figure>
-
-</div>
+<figure><img src="../../.gitbook/assets/image (14).png" alt="" width="317"><figcaption></figcaption></figure>
 
 ### 删除表格
 
-1. 数据悬浮在目录中的表格上
-2. 点击表格右侧的删除按钮
+1. 数据悬浮在目录中的表格上，点击\[…]按钮打开菜单
+2. 点击菜单中的删除按钮
 
-<div align="left">
+<figure><img src="../../.gitbook/assets/image (15).png" alt="" width="315"><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (12) (1).png" alt="" width="257"><figcaption></figcaption></figure>
 
-</div>
+
+### 设计表格
+
+点击菜单中的设计按钮，可以进入表格设计页面，在表格设计页面可以查看表格的基础属性，包括：
+
+**表格相关**
+
+* 表格所属数据库 Schema
+* 表格名称，以及在物理表中的名称
+* 表格描述
+* 修改时间
+
+**数据库连接**
+
+这里显示了如何通过数据库连接来直接访问当前的数据库
+
+* 数据库连接
+* 数据库连接数
+
+**字段信息**
+
+字段的详细属性
+
+* id 字段 ID
+* name 字段名称
+* dbFieldName 字段在物理数据库中的名称
+* type 字段类型
+* description 字段描述
+* graph 查看当前字段依赖关系
+* cellValueType 当前字段值类型
+* isLookup 是否为从关联表查找出来的字段
+* isMultipleCellValue 是否为[数组值字段](../zi-duan/tong-yong/dan-zhi-yu-duo-zhi.md)
+* isComputed 是否为计算字段（计算字段的记录值不可修改）
+* isPending 是否为计算中
+* hasError 是否存在计算错误
+* notNull 是否启用非空校验
+* unique 是否启用唯一值校验
+
+<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 ### 访问表格的方式
 
@@ -46,7 +83,7 @@ Teable的表格等同于数据库中表的概念，这个概念有助于理解[T
 
 * [视图](../shi-tu/)
 * [API](../../kai-fa-zhe/api/)
-* [SQL查询语句](../../gao-ji-te-xing/yuan-sheng-sql.md)
+* [SQL查询语句](../../kai-fa-zhe/shu-ju-ku-lian-jie.md)
 
 视图是上述方式中最直观的一种。用户可以通过各种视图对表格进行检索、操作，并以此构建出复杂的应用。
 
@@ -55,9 +92,5 @@ Teable的表格等同于数据库中表的概念，这个概念有助于理解[T
 ### 表格的功能
 
 创建视图：用户可以创建多种视图来对表格进行操作，不同视图用于满足不同场景需求。例如：表格视图数据密度最高，操作方式接近电子表格，上手难度最低。而看板则为项目管理场景提供更好的支持。
-
-管理视图：用户可以修改视图名称
-
-删除视图：
 
 关于视图的详细介绍请参考[视图的相关章节](../shi-tu/)

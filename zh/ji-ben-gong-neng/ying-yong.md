@@ -4,12 +4,12 @@
 
 对于不熟悉数据库的用户来说，可以将应用类比为Excel中的工作簿，每个工作簿可以有多张表。
 
-### 添加应用
+### 添加数据库
 
-1. 进入工作区
-2. 点击右上角「创建应用」
+1. 进入空间
+2. 点击右上角「创建数据库」
 
-<figure><img src="../.gitbook/assets/image (14) (1).png" alt=""><figcaption><p>添加应用</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 ### 重命名数据库
 
@@ -18,12 +18,6 @@
 3. 点击「···」按钮打开菜单
 4. 点击「重命名」
 
-<div align="left">
-
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>重命名</p></figcaption></figure>
-
-</div>
-
 ### 删除数据库
 
 1. 进入空间
@@ -31,11 +25,7 @@
 3. 点击「···」按钮打开菜单
 4. 点击「删除」
 
-<div align="left">
-
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>删除应用</p></figcaption></figure>
-
-</div>
+<figure><img src="../.gitbook/assets/image (12).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### 复制数据库到另一个空间
 
@@ -45,7 +35,7 @@
 
 第三步：将出现一个弹出窗口，其中包含可用空间的下拉菜单，您可以将数据库复制到其中。您需要目标空间的搭建者权限才能将数据库移动至其中。
 
-<figure><img src="../.gitbook/assets/image (14).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### 数据库内的功能
 
@@ -60,3 +50,10 @@
 * **导出和导入数据**：应用支持将数据导出为CSV，同时也可以以 CSV 和 XLSX 格式导入数据。
 
 参考表格[相关章节](shu-ju-biao/)获取更多关于表格的信息
+
+
+
+### 进阶
+
+在 Teable 中创建一个数据库，相当于在 Postges 中创建了一个 Schema, 开发者可以利用这个特点来获得强大的 SQL 数据访问能力以及更多的数据库集成能力，详情请查看[通过 SQL 访问表格数据](../kai-fa-zhe/shu-ju-ku-lian-jie.md)章节
+

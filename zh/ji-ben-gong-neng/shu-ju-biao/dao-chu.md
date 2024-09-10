@@ -12,4 +12,4 @@ Teable支持数据导出功能，用户可以按照自己喜欢的格式下载�
 
 单击表格旁边的图标，选择“下载CSV”。然后下载的文件将位于设备的默认下载文件夹中。
 
-<figure><img src="../../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (86).png" alt="" width="319"><figcaption></figcaption></figure>

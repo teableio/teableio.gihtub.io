@@ -20,7 +20,15 @@ Teable提供强大的API，支持几乎所有产品功能，允许开发者通�
 [ji-lu](ji-lu/)
 {% endcontent-ref %}
 
+### 生成式文档
+
 其他的 API 可以在 [Swagger文档](https://app.teable.cn/docs) （可以在线调试）或者 [Redoc文档](https://app.teable.cn/redocs) （说明信息更丰富）中查看，这里包括了 Teable 所有可用的 API。
+
+
+
+{% hint style="info" %}
+私有化用户可以直接在部署地址后加上 `/docs` 或者 `/redocs` 来访问生成式文档&#x20;
+{% endhint %}
 
 ### 联系支持
 
