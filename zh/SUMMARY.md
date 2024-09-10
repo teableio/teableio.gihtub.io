@@ -2,9 +2,11 @@
 
 * [Teable 多维表格简介](README.md)
 
-## 快速开始
+## 私有化部署
 
-* [构建一个数据库](kuai-su-kai-shi/gou-jian-yi-ge-shu-ju-ku.md)
+* [开始部署](si-you-hua-bu-shu/kai-shi-bu-shu.md)
+* [环境变量](si-you-hua-bu-shu/huan-jing-bian-liang.md)
+* [技术架构](si-you-hua-bu-shu/ji-shu-jia-gou.md)
 
 ## 基本功能
 
@@ -83,12 +85,6 @@
   * [错误码](kai-fa-zhe/api/cuo-wu-ma.md)
 * [通过 SQL 访问表格数据](kai-fa-zhe/shu-ju-ku-lian-jie.md)
 * [插件小程序](kai-fa-zhe/kuo-zhan.md)
-
-## 私有化部署
-
-* [开始部署](si-you-hua-bu-shu/kai-shi-bu-shu.md)
-* [环境变量](si-you-hua-bu-shu/huan-jing-bian-liang.md)
-* [技术架构](si-you-hua-bu-shu/ji-shu-jia-gou.md)
 
 ## 横向对比
 

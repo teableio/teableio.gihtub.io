@@ -4,13 +4,13 @@
 
 只有在同一空间内的用户才能访问该空间内的数据库和表格。因此，即便是超级管理理员，在未加入特定工作区的情况下，也无法访问该空间的数据。这一特性为我们的组织提供了数据安全和隐私保护的有力保障。
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Teable 功能图</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Teable 功能图</p></figcaption></figure>
 
 ### 创建新的空间
 
 用户可以在登陆Teable之后，点击右上角的「创建空间」 的按钮来轻松创建空间，创建后会自动进入新的工作区，以便用户直接开展工作。
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 重命名空空间
 
