@@ -105,6 +105,10 @@ PATCH /table/{tableId}/record/{recordId}
         }
         ```
 
+{% hint style="info" %}
+如果需要上传新文件到附件字段，请参阅[上传附件](shang-chuan-fu-jian.md)章节
+{% endhint %}
+
 ### 响应
 
 #### 成功响应

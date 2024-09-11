@@ -12,11 +12,11 @@ DELETE /table/{tableId}/record
 
 **路径参数**
 
-* tableId (string): 表的唯一标识符。
+* tableId (string): 表的唯一标识符 [(如何获取)](../huo-qu-id.md#tableid)。
 
 **查询参数**
 
-* **recordIds（必填）**
+* **recordIds（必填）**[（如何获取）](../huo-qu-id.md#recordid)
   * 描述：要删除的记录 ID 数组
   * 类型：数组
   * 示例：`["rec123456", "rec789012"]`

@@ -167,7 +167,7 @@ description: 记录中所有字段值类型参考文档
 ### 8. 附件字段 (Attachment Field)
 
 {% hint style="info" %}
-上传一个附件到附件字段要先通过签名过程，详情请查看[上传附件](../shang-chuan-fu-jian.md)章节
+上传一个附件到附件字段需要使用独立的 API，详情请查看[上传附件](shang-chuan-fu-jian.md)章节
 {% endhint %}
 
 * type: attachment
