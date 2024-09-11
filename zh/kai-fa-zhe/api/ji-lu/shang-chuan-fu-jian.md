@@ -198,15 +198,21 @@ document.getElementById('fileInput').addEventListener('change', async (event: Ev
 {% tab title="Python" %}
 ```python
 import requests
+import mimetypes
+import os
 
 # 上传本地文件
-with open('/path/to/your/file.jpg', 'rb') as file:
+file_path = '/path/to/your/file.jpg'
+with open(file_path, 'rb') as file:
+    file_name = os.path.basename(file_path)
+    mime_type, _ = mimetypes.guess_type(file_path)
+    files = {'file': (file_name, file, mime_type)}
     response = requests.post(
         'https://app.teable.cn/table/__tableId__/record/__recordId__/__fieldId__/uploadAttachment',
         headers={
             'Authorization': 'Bearer __token__'
         },
-        files={'file': file}
+        files=files
     )
 
 print(response.json())
