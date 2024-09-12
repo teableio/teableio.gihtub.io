@@ -115,8 +115,8 @@ configApi({
 });
 
 // Node.js 环境：上传本地文件
-const fileBuffer = fs.readFileSync('/path/to/your/file.jpg');
-const response = await uploadAttachment('__tableId__', '__recordId__', '__fieldId__', fileBuffer);
+const fileStream = fs.createReadStream('/path/to/your/file.jpg');
+const response = await uploadAttachment('__tableId__', '__recordId__', '__fieldId__', fileStream);
 
 console.log(response.data);
 
