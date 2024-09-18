@@ -48,11 +48,32 @@ Details
 
 ## One-Click Cloud Deployment
 
-#### Sealos
+#### EE
 
-Offers free quota, Includes Chinese regions, pay-as-you-go pricing
+{% hint style="info" %}
+Enterprise Edition offers all of the Community Edition features for free. To activate Enterprise features:
 
-[One-click deployment of Enterprise Edition](https://cloud.sealos.io/?openapp=system-template%3FtemplateName%3Dteable)
+* Deploy and copy the `Instance Id`
+* Email support@teable.io with the `Instance Id` to get a trial LICENSE
+{% endhint %}
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/NtH5uD?referralCode=rE4BjB)
+
+[![Deploy on Sealos](https://raw.githubusercontent.com/labring-actions/templates/main/Deploy-on-Sealos.svg)](https://cloud.sealos.io/?openapp=system-template%3FtemplateName%3Dteable)
+
+> Sealos supports deployment in China
+
+
+
+#### CE
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/wada5e?referralCode=rE4BjB)
+
+[![Deploy on Zeabur](https://zeabur.com/button.svg)](https://zeabur.com/templates/QF8695)
+
+[![Deploy to RepoCloud](https://d16t0pc4846x52.cloudfront.net/deploylobe.svg)](https://repocloud.io/details/?app\_id=273)
+
+[![Deploy on Elestio](https://elest.io/images/logos/deploy-to-elestio-btn.png)](https://elest.io/open-source/teable)
 
 ### Next steps
 
