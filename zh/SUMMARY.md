@@ -48,6 +48,7 @@
     * [交互展现](ji-ben-gong-neng/zi-duan/tong-yong/jiao-hu-zhan-xian.md)
     * [单值与多值](ji-ben-gong-neng/zi-duan/tong-yong/dan-zhi-yu-duo-zhi.md)
 * [记录](ji-ben-gong-neng/ji-lu/README.md)
+  * [评论](ji-ben-gong-neng/ji-lu/ping-lun.md)
   * [记录历史](ji-ben-gong-neng/ji-lu/ji-lu-li-shi.md)
 * [视图](ji-ben-gong-neng/shi-tu/README.md)
   * [工具栏](ji-ben-gong-neng/shi-tu/shu-ju-gong-ju/README.md)
