@@ -7,7 +7,7 @@ description: >-
 
 # OpenID Connect
 
-#### Environment Variables Configuration
+### Environment Variables Configuration
 
 To enable OIDC integration in Teable, set the following environment variables in your .env file:
 
@@ -40,7 +40,7 @@ BACKEND_OIDC_OTHER={"scope": ["email", "profile"]}
 SOCIAL_AUTH_PROVIDERS=oidc
 ```
 
-#### Configuration Details
+### Configuration Details
 
 * `BACKEND_OIDC_CLIENT_ID`: Your OIDC client ID for Teable, provided by your OIDC provider.
 * `BACKEND_OIDC_CLIENT_SECRET`: Your OIDC client secret for Teable, provided by your OIDC provider.
@@ -59,7 +59,7 @@ SOCIAL\_AUTH\_PROVIDERS=github,google,oidc
 
 This will allow users to authenticate using OIDC, GitHub, and Google in Teable.
 
-#### Important Notes
+### Important Notes
 
 1. Ensure all URLs use the HTTPS protocol for security.
 2. Never hardcode these sensitive details directly into your Teable application in a production environment. Always use environment variables or a secure key management system.
@@ -72,7 +72,7 @@ When setting BACKEND\_OIDC\_OTHER, you may need to add additional parameters bas
 
 By correctly configuring these environment variables, your Teable application should be able to successfully integrate OIDC authentication. If you encounter any issues, check your OIDC provider's documentation and ensure all URLs and credentials are correct.
 
-#### Example: Using Authentik as OIDC Provider
+### Example: Using Authentik as OIDC Provider
 
 Follow these steps to configure Authentik as an OIDC provider for your Teable application:
 
