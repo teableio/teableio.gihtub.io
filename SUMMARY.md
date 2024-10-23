@@ -59,13 +59,13 @@
   * [Scopes](developer/api/scopes.md)
   * [Errors](developer/api/errors.md)
 * [Database Connection](developer/database-connection.md)
+* [OpenID Connect](developer/openid-connect.md)
 
 ## deployment
 
 * [Install Teable](deployment/docker-compose.md)
 * [Environment Variables](deployment/environment-variables.md)
 * [Migrating from docker-standalone to Teable Enterprise](deployment/migrating-from-docker-standalone-to-teable-enterprise.md)
-* [OpenID Connect](deployment/openid-connect.md)
 
 ***
 
