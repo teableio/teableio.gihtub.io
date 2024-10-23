@@ -86,6 +86,8 @@
   * [错误码](kai-fa-zhe/api/cuo-wu-ma.md)
 * [通过 SQL 访问表格数据](kai-fa-zhe/shu-ju-ku-lian-jie.md)
 * [插件小程序](kai-fa-zhe/kuo-zhan.md)
+* [集成](kai-fa-zhe/ji-cheng/README.md)
+  * [点单登录](kai-fa-zhe/ji-cheng/dian-dan-deng-lu.md)
 
 ## 横向对比
 
