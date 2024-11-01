@@ -10,7 +10,7 @@ description: Teable 能够很容易地从CSV、TSV、Excel文件导入数据到�
 
 ### 第一步：点击左侧菜单+号按钮选择导入文件类型
 
-<figure><img src="../../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/dao-ru-1.png" alt=""><figcaption></figcaption></figure>
 
 ### 第二步：设置字段类型
 

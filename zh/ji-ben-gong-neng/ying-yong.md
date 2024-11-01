@@ -55,5 +55,5 @@
 
 ### 进阶
 
-在 Teable 中创建一个数据库，相当于在 Postges 中创建了一个 Schema, 开发者可以利用这个特点来获得强大的 SQL 数据访问能力以及更多的数据库集成能力，详情请查看[通过 SQL 访问表格数据](../kai-fa-zhe/shu-ju-ku-lian-jie.md)章节
+在 Teable 中创建一个数据库，相当于在 Postges 中创建了一个 Schema, 开发者可以利用这个特点来获得强大的 SQL 数据访问能力以及更多的数据库集成能力，详情请查看[通过 SQL 访问表格数据](../kai-fa-zhe/shu-ju-ku-lian-jie.md)章节。
 

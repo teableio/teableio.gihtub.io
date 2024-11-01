@@ -31,7 +31,7 @@ Teable的表格等同于数据库中表的概念，这个概念有助于理解[T
 
 ### 删除表格
 
-1. 数据悬浮在目录中的表格上，点击\[…]按钮打开菜单
+1. 数据悬浮在目录中的表格上，点击「…」按钮打开菜单
 2. 点击菜单中的删除按钮
 
 <figure><img src="../../.gitbook/assets/image (15).png" alt="" width="315"><figcaption></figcaption></figure>
