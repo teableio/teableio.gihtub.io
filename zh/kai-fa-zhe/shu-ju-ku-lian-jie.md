@@ -59,7 +59,7 @@ description: 在 Teable 上开放原生数据库连接
 SELECT * from "bseamGnQT65TVSCzIaC"."clients" limit 100
 ```
 
-查询的手需要带上 schema 名称也就是 BaseId, 并使用物理数据库表名进行查询，**请注意在 Postgres 中必须使用双引号`"` 将 schema 和 table 名称包住才能够正确的区分大小写。**
+查询的时候需要带上 schema 名称也就是 BaseId, 并使用物理数据库表名进行查询，**请注意在 Postgres 中必须使用双引号`"` 将 schema 和 table 名称包住才能够正确的区分大小写。**
 
 #### **用户创建的字段**
 
