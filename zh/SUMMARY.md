@@ -70,6 +70,10 @@
   * [条件判断](ji-ben-gong-neng/zi-dong-hua/tiao-jian-pan-duan.md)
 * [管理员后台](ji-ben-gong-neng/guan-li-yuan-hou-tai.md)
 
+## 更新日志
+
+* [v1.5.0 更新](geng-xin-ri-zhi/v1.5.0-geng-xin.md)
+
 ## 开发者
 
 * [API](kai-fa-zhe/api/README.md)
