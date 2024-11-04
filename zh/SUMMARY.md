@@ -76,6 +76,8 @@
 * [v1.4.1 更新](geng-xin-ri-zhi/v1.4.1-geng-xin.md)
 * [v1.4.0 更新](geng-xin-ri-zhi/v1.4.0-geng-xin.md)
 * [v1.3.2 更新](geng-xin-ri-zhi/v1.3.2-geng-xin.md)
+* [v1.3.1 更新](geng-xin-ri-zhi/v1.3.1-geng-xin.md)
+* [v1.3.0 更新](geng-xin-ri-zhi/v1.3.0-geng-xin.md)
 
 ## 开发者
 
