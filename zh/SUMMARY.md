@@ -96,7 +96,10 @@
 * [通过 SQL 访问表格数据](kai-fa-zhe/shu-ju-ku-lian-jie.md)
 * [插件小程序](kai-fa-zhe/kuo-zhan.md)
 * [集成](kai-fa-zhe/ji-cheng/README.md)
-  * [点单登录](kai-fa-zhe/ji-cheng/dian-dan-deng-lu.md)
+  * [单点登录](kai-fa-zhe/ji-cheng/dan-dian-deng-lu/README.md)
+    * [环境变量配置](kai-fa-zhe/ji-cheng/dan-dian-deng-lu/dian-dan-deng-lu.md)
+    * [管理员后台配置](kai-fa-zhe/ji-cheng/dan-dian-deng-lu/guan-li-yuan-hou-tai-pei-zhi.md)
+    * [空间站配置](kai-fa-zhe/ji-cheng/dan-dian-deng-lu/kong-jian-zhan-pei-zhi.md)
 
 ## 横向对比
 

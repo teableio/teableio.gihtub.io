@@ -10,7 +10,7 @@ Teable 的自动化功能是一个强大的工具，允许用户创建自动化�
 * 测试：提供了在实际部署前测试自动化流程的功能，确保其按预期工作。
 * 执行日志：记录自动化的运行历史，用于监控和故障排查。
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p> 自动化功能预览</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p> 自动化功能预览</p></figcaption></figure>
 
 ### 创建自动化工作流程
 
@@ -22,12 +22,12 @@ Teable 的自动化功能是一个强大的工具，允许用户创建自动化�
 * 选择要监听的表格。&#x20;
 * 选择要监听的具体字段。
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * 配置完成后，点击"测试"按钮。&#x20;
 * 系统会显示触发器的测试结果，通常是当前表格中一条记录的内容。
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt="" width="563"><figcaption><p>测试结果</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt="" width="563"><figcaption><p>测试结果</p></figcaption></figure>
 
 #### 2. 创建动作
 

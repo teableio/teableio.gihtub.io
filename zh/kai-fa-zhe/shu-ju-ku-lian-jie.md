@@ -51,7 +51,7 @@ description: 在 Teable 上开放原生数据库连接
 
 修改Teable 中的表名称不会同步修改数据库中的 table name，您必须显式的修改物理数据库中的表名。
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1).png" alt="" width="375"><figcaption><p>table info</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>table info</p></figcaption></figure>
 
 当你完成表名修改之后，就可以直接使用 SQL 进行查询，下面是一个例子查询当前表格的前 100 行数据
 
