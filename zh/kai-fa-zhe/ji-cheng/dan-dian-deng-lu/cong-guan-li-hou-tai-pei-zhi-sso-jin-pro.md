@@ -76,7 +76,7 @@ description: 专业版及以上空间站，公有云版本与私有化版本均�
 
 
 
-私有化按本请将 `app.teable.cn 替换成私有化实力的域名或 IP`
+私有化按本请将 `app.teable.cn 替换成私有化实例的域名或 IP`
 {% endhint %}
 
 #### 3.3 网页应用设置
@@ -134,3 +134,4 @@ description: 专业版及以上空间站，公有云版本与私有化版本均�
 
 
 <figure><img src="../../../.gitbook/assets/image (3) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+
