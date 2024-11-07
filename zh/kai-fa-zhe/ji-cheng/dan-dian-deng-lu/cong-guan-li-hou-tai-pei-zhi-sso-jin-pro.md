@@ -107,13 +107,15 @@ description: 专业版及以上空间站，公有云版本与私有化版本均�
 
 点击创建版本
 
-设置版本号，比如 1.0.0,
+上传图标
+
+<figure><img src="../../../.gitbook/assets/Frame 1 (3).png" alt=""><figcaption></figcaption></figure>
+
+设置版本号，比如 1.0.0
 
 选择可用范围，比如全员可见
 
 点击发布，完成审批即可生效
-
-
 
 ### 5. 访问应用
 
