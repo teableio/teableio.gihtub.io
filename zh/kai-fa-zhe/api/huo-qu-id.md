@@ -16,9 +16,9 @@ description: 本文介绍如如何在界面上获取 Teable 中的各类资源 I
 
 点击目标数据库，复制 URL 上以 bse 开头的字符串，示例：`bseXXXXXXXXXX`
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## TableId
 
@@ -26,7 +26,7 @@ description: 本文介绍如如何在界面上获取 Teable 中的各类资源 I
 
 <figure><img src="../../.gitbook/assets/image (8) (1).png" alt="" width="323"><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## ViewId
 
@@ -34,7 +34,7 @@ description: 本文介绍如如何在界面上获取 Teable 中的各类资源 I
 
 <figure><img src="../../.gitbook/assets/image (9) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## FieldId
 

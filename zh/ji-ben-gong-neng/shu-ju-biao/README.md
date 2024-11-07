@@ -47,7 +47,7 @@ Teable的表格等同于数据库中表的概念，这个概念有助于理解[T
 * 清空回收站：永久删除所有的表格数据
 * 恢复：将表格恢复到数据库中去
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 设计表格
 
