@@ -94,7 +94,7 @@ description: 专业版及以上空间站，公有云版本与私有化版本均�
 注意将 spexxxxxxx 替换成您的 [spaceId](../../api/huo-qu-id.md#spaceid)
 {% endtab %}
 
-{% tab title="为私有化版本设置" %}
+{% tab title="为私有部署版本设置" %}
 桌面端主页，移动端主页：
 
 设置为您的私有化实例访问的 URL，比如 `https://your-teable.com`
@@ -103,15 +103,31 @@ description: 专业版及以上空间站，公有云版本与私有化版本均�
 
 
 
-### 访问登录链接
+### 4. 发布版本
+
+点击创建版本
+
+设置版本号，比如 1.0.0,
+
+选择可用范围，比如全员可见
+
+点击发布，完成审批即可生效
+
+
+
+### 5. 访问应用
+
+公有云
 
 公有云登录链接需要带上您的 `spaceId`
 
-例如`https://app.teable.cn/auth/login?spaceId=spcxxxxxxxx`这时候登录页面就会出现添加的飞书登录的登录按钮
+例如`https://app.teable.cn/auth/login?spaceId=spcxxxxxxxx`这时候登录页面就会出现添加的飞书登录的登录按钮，或者直接在飞书中点击应用图标
 
 
 
-私有化直接访问应用 URL 即可展示登陆按钮
+私有部署版本
+
+私有部署版本直接访问应用 URL 即可展示登陆按钮，或者直接在飞书点击应用图标
 
 
 
