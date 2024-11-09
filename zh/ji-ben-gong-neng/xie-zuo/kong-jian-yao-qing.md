@@ -25,7 +25,7 @@ description: 通过邮箱或者连接来邀请他人成为空间协作者
 
 1. 要通过链接邀请，点击“通过链接邀请”选项。然后，设置邀请链接将允许访问整个空间中数据库的权限级别。最后，点击创建链接。现在，您可以点击创建的链接旁边的剪贴板图标，以任何您认为合适的方式分享该链接。
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 请记住，空间协作者将能够完全访问空间中的所有数据库和界面。如果您只想与某人分享某些数据库，您可能希望将他们设为数据库协作者。
 

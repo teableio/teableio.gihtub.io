@@ -9,7 +9,7 @@
 1. 进入空间
 2. 点击右上角「创建数据库」
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 重命名数据库
 
@@ -25,7 +25,7 @@
 3. 点击「···」按钮打开菜单
 4. 点击「删除」
 
-<figure><img src="../.gitbook/assets/image (12).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### 复制数据库到另一个空间
 

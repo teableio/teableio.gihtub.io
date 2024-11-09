@@ -6,7 +6,7 @@
 
 进入数据库中，点击邀请按钮即可邀请用户至数据库中。
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 在数据库邀请界面，可以看到所有有权限访问当前数据库的的用户，包括空间协作者，在名字旁边会有“空间”字样。
 

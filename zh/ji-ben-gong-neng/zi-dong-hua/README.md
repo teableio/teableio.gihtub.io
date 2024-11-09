@@ -69,7 +69,7 @@ Teable 的自动化功能是一个强大的工具，允许用户创建自动化�
 
 <figure><img src="../../.gitbook/assets/image (8) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (9) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### 自动化流程的典型工作方式
 
@@ -82,7 +82,7 @@ Teable 的自动化功能是一个强大的工具，允许用户创建自动化�
 
 当你要修改一条正在运行的自动化时，为了方便调试，对自动化配置的修改动作不会立即在运行的自动化中生效，而是会在页面上弹出一条提示，当你确认更新之后，自动化才会被应用到正在运行的流程中去。你可以放心的对自动化进行修改而不怕意外打断现有的流程。
 
-<figure><img src="../../.gitbook/assets/image (10) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 
 

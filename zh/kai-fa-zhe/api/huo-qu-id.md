@@ -32,7 +32,7 @@ description: 本文介绍如如何在界面上获取 Teable 中的各类资源 I
 
 点击目标视图，复制 URL 上以  viw 头的字符串, 示例：`viwXXXXXXXXXX`
 
-<figure><img src="../../.gitbook/assets/image (9) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -40,14 +40,14 @@ description: 本文介绍如如何在界面上获取 Teable 中的各类资源 I
 
 点击表格右上角齿轮按钮，进入设计界面，查看所有字段的 ID
 
-<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (11) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## RecordId
 
 展开记录编辑卡片，复制 URL 上 recordId= 后方以   rec 开头的字符串, 示例：`recXXXXXXXXXX`
 
-<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
