@@ -6,7 +6,7 @@ description: >-
 # 权限矩阵
 
 {% hint style="info" %}
-权限矩阵适用于 Pro 及以上版本
+专业版及以上适用
 {% endhint %}
 
 ## 主要特点
