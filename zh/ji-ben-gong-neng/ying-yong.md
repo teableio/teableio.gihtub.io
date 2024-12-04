@@ -35,7 +35,7 @@
 
 第三步：将出现一个弹出窗口，其中包含可用空间的下拉菜单，您可以将数据库复制到其中。您需要目标空间的搭建者权限才能将数据库移动至其中。
 
-<figure><img src="../.gitbook/assets/image (14) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### 数据库内的功能
 

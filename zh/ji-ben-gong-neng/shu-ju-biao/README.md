@@ -11,7 +11,7 @@ Teable的表格等同于数据库中表的概念，这个概念有助于理解[T
 1. 进入特定数据库
 2. 点击目录中的+号按钮
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt="" width="320"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (1).png" alt="" width="320"><figcaption></figcaption></figure>
 
 你可以选择
 
@@ -27,14 +27,14 @@ Teable的表格等同于数据库中表的概念，这个概念有助于理解[T
 2. 修改表格名称
 3. 点击输入框外任意区域
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt="" width="317"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14) (1).png" alt="" width="317"><figcaption></figcaption></figure>
 
 ### 删除表格
 
 1. 数据悬浮在目录中的表格上，点击「…」按钮打开菜单
 2. 点击菜单中的删除按钮
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt="" width="315"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15) (1).png" alt="" width="315"><figcaption></figcaption></figure>
 
 
 
@@ -86,7 +86,7 @@ Teable的表格等同于数据库中表的概念，这个概念有助于理解[T
 * notNull 是否启用非空校验
 * unique 是否启用唯一值校验
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 访问表格的方式
 

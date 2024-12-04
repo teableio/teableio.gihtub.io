@@ -10,7 +10,7 @@ Teable 私有化部署企业版具有管理员后台功能。部署后注册的�
 
 管理员进入应用，点击左上角管理面板进入管理后台
 
-<figure><img src="../.gitbook/assets/image (18).png" alt="" width="319"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18) (1).png" alt="" width="319"><figcaption></figcaption></figure>
 
 ### 设置
 

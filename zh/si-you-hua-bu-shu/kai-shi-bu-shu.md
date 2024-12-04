@@ -44,7 +44,7 @@ registry.cn-shenzhen.aliyuncs.com/teable/teable-db-migrate:latest
 
 ## 一键云部署 (推荐)
 
-**适用规模：**任意
+**适用规模：**&#x4EFB;意
 
 | 优点          | 缺点     |
 | ----------- | ------ |
@@ -360,7 +360,7 @@ PRISMA_DATABASE_URL=postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRE
 
 **包括 Redis**
 
-docker-compose-yaml**:**
+docker-compose-yam&#x6C;**:**
 
 ```yaml
 version: '3.9'
