@@ -63,6 +63,12 @@ registry.cn-shenzhen.aliyuncs.com/teable/teable-db-migrate:latest
 
 [**一键部署企业版**](https://cloud.sealos.io/?openapp=system-template%3FtemplateName%3Dteable)
 
+
+#### 阿里云计算巢
+[![Deploy on AlibabaCloud ComputeNest](https://service-info-public.oss-cn-hangzhou.aliyuncs.com/computenest.svg)](https://computenest.console.aliyun.com/service/instance/create/default?ServiceName=Teable%20%E7%A4%BE%E5%8C%BA%E7%89%88)
+
+
+
 ### 下一步
 
 [配置邮件服务](kai-shi-bu-shu.md#qi-yong-you-jian-fu-wu)
