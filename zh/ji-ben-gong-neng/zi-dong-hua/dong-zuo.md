@@ -146,6 +146,24 @@ Teable 的自动化功能支持跨数据库访问记录，这大大增强了自�
 2. 点击表格选择区下方的"循环执行"选项
 3. 从下拉菜单中选择作为循环源的数组变量
 
+<figure><img src="../../.gitbook/assets/20241212-181542.jpeg" alt=""><figcaption></figcaption></figure>
+
+
+
+**循环创建记录**
+
+1. 选择循环的数据来源：选择包含多条数据的数组变量（如记录列表）
+
+<figure><img src="../../.gitbook/assets/iShot_2024-12-12_18.32.36.png" alt=""><figcaption></figcaption></figure>
+
+2. 配置字段映射：在记录列表中选择字段值里具体元素变量
+
+<figure><img src="../../.gitbook/assets/iShot_2024-12-12_18.35.18.png" alt=""><figcaption></figcaption></figure>
+
+执行后，系统将自动创建对应的记录。
+
+<figure><img src="../../.gitbook/assets/20241212-182258.jpeg" alt=""><figcaption></figcaption></figure>
+
 
 
 #### HTTP请求配置
@@ -154,11 +172,11 @@ Teable 的自动化功能支持跨数据库访问记录，这大大增强了自�
 2. 在body编辑区域上方找到"数组输出"选项
 3. 点击并选择需要循环处理的数组数据源
 
+<figure><img src="../../.gitbook/assets/20241212-181724.jpeg" alt=""><figcaption></figcaption></figure>
+
 
 
 **使用须知**
-
-
 
 #### 数据处理机制
 
@@ -166,13 +184,13 @@ Teable 的自动化功能支持跨数据库访问记录，这大大增强了自�
 * 在参数配置中选择数组内部的变量时，每次循环仅处理当前元素值
 * 整个过程按数组元素顺序依次执行
 
-\
-HTTP请求特殊说明
+
+
+**HTTP请求特殊说明**
 
 * 在body编辑框内直接使用数组输出时，数组内元素自动转换为字符串格式输出
 
-\
-
+<figure><img src="../../.gitbook/assets/20241212-181031.jpeg" alt=""><figcaption></figcaption></figure>
 
 **应用场景示例**
 
