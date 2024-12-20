@@ -127,10 +127,6 @@
         "deployment/environment-variables",
         "deployment/migrating-from-docker-standalone-to-teable-enterprise"
       ]
-    },
-    {
-      "group": "Blog.teable.io",
-      "pages": []
     }
   ]
 }
