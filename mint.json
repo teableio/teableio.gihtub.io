@@ -6,6 +6,13 @@
     "light": "#55D799",
     "dark": "#0D9373"
   },
+  "tabs": [
+    {
+      "name": "API Reference",
+      "url": "api-reference",
+      "openapi": "/swagger.json"
+    }
+  ],
   "favicon": "/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces/BhOqOioHyh1nx8Bso44d/icon/XETFNLdy00isvQ1cCg8j/teable-new的副本.png",
   "navigation": [
     {
