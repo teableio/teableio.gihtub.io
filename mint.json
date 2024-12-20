@@ -1,0 +1,136 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Teable Help",
+  "colors": {
+    "primary": "#0D9373",
+    "light": "#55D799",
+    "dark": "#0D9373"
+  },
+  "favicon": "/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces/BhOqOioHyh1nx8Bso44d/icon/XETFNLdy00isvQ1cCg8j/teable-new的副本.png",
+  "navigation": [
+    {
+      "group": "Home",
+      "pages": [
+        "home"
+      ]
+    },
+    {
+      "group": "Quick start",
+      "pages": [
+        "quick-start/build-a-simple-base"
+      ]
+    },
+    {
+      "group": "Product",
+      "pages": [
+        "product/spaces",
+        "product/bases",
+        {
+          "group": "Tables",
+          "pages": [
+            "product/tables",
+            "product/tables/import",
+            "product/tables/export"
+          ]
+        },
+        {
+          "group": "Views",
+          "pages": [
+            "product/views",
+            "product/views/filter",
+            "product/views/group",
+            "product/views/sort",
+            {
+              "group": "View Type",
+              "pages": [
+                "product/views/view-type",
+                "product/views/view-type/grid-view",
+                "product/views/view-type/kanban-view",
+                "product/views/view-type/form-view"
+              ]
+            }
+          ]
+        },
+        {
+          "group": "Fields",
+          "pages": [
+            "product/fields",
+            {
+              "group": "Field Type",
+              "pages": [
+                "product/fields/field-type",
+                "product/fields/field-type/single-line-text",
+                "product/fields/field-type/multiple-line-text",
+                "product/fields/field-type/numeric",
+                "product/fields/field-type/single-select",
+                "product/fields/field-type/multiple-select",
+                "product/fields/field-type/date",
+                "product/fields/field-type/rating",
+                "product/fields/field-type/checkbox",
+                {
+                  "group": "Formula",
+                  "pages": [
+                    "product/fields/field-type/formula",
+                    "product/fields/field-type/formula/syntax",
+                    "product/fields/field-type/formula/functions-reference"
+                  ]
+                },
+                "product/fields/field-type/link",
+                "product/fields/field-type/lookup",
+                "product/fields/field-type/rollup",
+                "product/fields/field-type/user",
+                "product/fields/field-type/created-by",
+                "product/fields/field-type/created-time",
+                "product/fields/field-type/last-modified-by",
+                "product/fields/field-type/last-modified-time",
+                "product/fields/field-type/auto-number"
+              ]
+            },
+            "product/fields/formatting",
+            "product/fields/show-as",
+            "product/fields/single-or-multi-value-advanced"
+          ]
+        },
+        "product/records",
+        {
+          "group": "Collaboration",
+          "pages": [
+            "product/collaboration",
+            "product/collaboration/permission",
+            "product/collaboration/space-invitations",
+            "product/collaboration/base-invitations"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Developer",
+      "pages": [
+        "developer/api",
+        {
+          "group": "API",
+          "pages": [
+            "developer/api",
+            "developer/api/access-token",
+            "developer/api/scopes",
+            "developer/api/errors"
+          ]
+        },
+        "developer/database-connection",
+        "developer/openid-connect"
+      ]
+    },
+    {
+      "group": "deployment",
+      "pages": [
+        "deployment/docker-compose",
+        "deployment/environment-variables",
+        "deployment/migrating-from-docker-standalone-to-teable-enterprise"
+      ]
+    },
+    {
+      "group": "Blog.teable.io",
+      "pages": []
+    }
+  ]
+}

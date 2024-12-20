@@ -1,0 +1,278 @@
+---
+title: "Filter"
+---
+
+1. [Product](/product)
+2. [Views](/product/views)
+
+## Filtering
+
+#### Introduction
+
+Filtering is a key tool in data management, enabling users to quickly locate datasets based on specific criteria. This document provides a detailed introduction to the filtering feature, including explanations of operators, field types, and condition grouping, assisting users in fully understanding and utilizing filtering for data analysis and management.
+
+#### Basic Rules Checklist
+
+**Adding Conditions**
+
+* Users can set filtering rules by clicking the "Add Condition" button.
+
+* Each condition consists of a field, an operator, and a value.
+
+* Supports directly entering a value or selecting from preset options.
+
+**Adding Condition Groups**
+
+* Users can create condition groups by clicking the "Add Group" button, using "AND" or "OR" logic to connect conditions.
+
+* Groups can be nested within each other to implement complex filtering logic.
+
+![](/images/product/views/files%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FBhOqOioHyh1nx8Bso44d%252Fuploads%252FBFzE30Wz4zSzvk59Xhlo%252Fimage.png)
+
+**Supported Base Types and Operators**
+
+**Text Type**
+
+Equals, does not equal, contains, does not contain, is empty, is not empty
+
+**Number Type**
+
+\=, ≠, >, ≥, \<, ≤, is empty, is not empty
+
+**Date Type**
+
+Before, after, between, equals, does not equal, is empty, is not empty
+
+**Boolean Field**
+
+Yes, no
+
+**Custom Option Field**
+
+Equals, does not equal
+
+**Operators and Their Input Data Types**
+
+* Text operators accept string type data.
+
+* Number operators accept numerical type data.
+
+* Date operators accept date type data.
+
+* Boolean operators do not require input, just select directly.
+
+* Custom option operators accept predefined options.
+
+#### Mapping of Field Types to Operators
+
+Field Type
+
+Supported Operators
+
+Input Data
+
+Illustration
+
+Single Line Text
+
+Equals, does not equal, contains, does not contain, is empty, is not empty
+
+Text input
+
+[![](/images/product/views/teableio.gihtub.io%2Fraw%2Fmain%2Fzh%2F.gitbook%2Fassets%2Fimage%2520%2841%29.png)](https://github.com/teableio/teableio.gihtub.io/blob/main/zh/.gitbook/assets/image%20\(41\).png)
+
+Long Text
+
+Equals, does not equal, contains, does not contain, is empty, is not empty
+
+Text input
+
+[![](/images/product/views/teableio.gihtub.io%2Fraw%2Fmain%2Fzh%2F.gitbook%2Fassets%2Fimage%2520%2842%29.png)](https://github.com/teableio/teableio.gihtub.io/blob/main/zh/.gitbook/assets/image%20\(42\).png)
+
+User
+
+Equals, does not equal, includes any, excludes any, is empty, is not empty
+
+User selection list and current user
+
+Attachment
+
+Is empty, is not empty
+
+\-
+
+[![](/images/product/views/teableio.gihtub.io%2Fraw%2Fmain%2Fzh%2F.gitbook%2Fassets%2Fimage%2520%2843%29.png)](https://github.com/teableio/teableio.gihtub.io/blob/main/zh/.gitbook/assets/image%20\(43\).png)
+
+Multiple Select
+
+Includes any, includes all, exactly matches, excludes any, is empty, is not empty
+
+Option selection list
+
+[![](/images/product/views/teableio.gihtub.io%2Fraw%2Fmain%2Fzh%2F.gitbook%2Fassets%2Fimage%2520%2845%29.png)](https://github.com/teableio/teableio.gihtub.io/blob/main/zh/.gitbook/assets/image%20\(45\).png)[![](/images/product/views/teableio.gihtub.io%2Fraw%2Fmain%2Fzh%2F.gitbook%2Fassets%2Fimage%2520%2844%29.png)](https://github.com/teableio/teableio.gihtub.io/blob/main/zh/.gitbook/assets/image%20\(44\).png)
+
+Single Select
+
+Equals, does not equal, includes any, excludes any
+
+Option selection list
+
+[![](/images/product/views/teableio.gihtub.io%2Fraw%2Fmain%2Fzh%2F.gitbook%2Fassets%2Fimage%2520%2846%29.png)](https://github.com/teableio/teableio.gihtub.io/blob/main/zh/.gitbook/assets/image%20\(46\).png)[![](/images/product/views/teableio.gihtub.io%2Fraw%2Fmain%2Fzh%2F.gitbook%2Fassets%2Fimage%2520%2847%29.png)](https://github.com/teableio/teableio.gihtub.io/blob/main/zh/.gitbook/assets/image%20\(47\).png)
+
+Date
+
+Equals, does not equal, within, before, after, on or before, on or after, is empty, is not empty
+
+Preset range list and precise date picker
+
+[![](/images/product/views/teableio.gihtub.io%2Fraw%2Fmain%2Fzh%2F.gitbook%2Fassets%2Fimage%2520%2848%29.png)](https://github.com/teableio/teableio.gihtub.io/blob/main/zh/.gitbook/assets/image%20\(48\).png)[![](/images/product/views/teableio.gihtub.io%2Fraw%2Fmain%2Fzh%2F.gitbook%2Fassets%2Fimage%2520%2849%29.png)](https://github.com/teableio/teableio.gihtub.io/blob/main/zh/.gitbook/assets/image%20\(49\).png)[![](/images/product/views/teableio.gihtub.io%2Fraw%2Fmain%2Fzh%2F.gitbook%2Fassets%2Fimage%2520%2850%29.png)](https://github.com/teableio/teableio.gihtub.io/blob/main/zh/.gitbook/assets/image%20\(50\).png)
+
+Number
+
+\=, ≠, >, ≥, \<, ≤, is empty, is not empty
+
+Number
+
+[![](/images/product/views/teableio.gihtub.io%2Fraw%2Fmain%2Fzh%2F.gitbook%2Fassets%2Fimage%2520%2851%29.png)](https://github.com/teableio/teableio.gihtub.io/blob/main/zh/.gitbook/assets/image%20\(51\).png)
+
+Duration
+
+Equals, does not equal, greater than, greater than or equal to, less than, less than or equal to, is empty, is not empty
+
+Number
+
+Same as Number
+
+Rating
+
+Equals, does not equal, greater than, greater than or equal to, less than, less than or equal to, is empty, is not empty
+
+Number
+
+[![](/images/product/views/teableio.gihtub.io%2Fraw%2Fmain%2Fzh%2F.gitbook%2Fassets%2Fimage%2520%2852%29.png)](https://github.com/teableio/teableio.gihtub.io/blob/main/zh/.gitbook/assets/image%20\(52\).png)
+
+Formula
+
+Operators determined by result type
+
+Text, number, date
+
+[![](/images/product/views/teableio.gihtub.io%2Fraw%2Fmain%2Fzh%2F.gitbook%2Fassets%2Fimage%2520%2853%29.png)](https://github.com/teableio/teableio.gihtub.io/blob/main/zh/.gitbook/assets/image%20\(53\).png)[![](/images/product/views/teableio.gihtub.io%2Fraw%2Fmain%2Fzh%2F.gitbook%2Fassets%2Fimage%2520%2854%29.png)](https://github.com/teableio/teableio.gihtub.io/blob/main/zh/.gitbook/assets/image%20\(54\).png)
+
+Rollup
+
+Operators determined by result type
+
+Text, number, date
+
+[![](/images/product/views/teableio.gihtub.io%2Fraw%2Fmain%2Fzh%2F.gitbook%2Fassets%2Fimage%2520%2836%29.png)](https://github.com/teableio/teableio.gihtub.io/blob/main/zh/.gitbook/assets/image%20\(36\).png)
+
+Count
+
+Equals, does not equal, greater than, greater than or equal to, less than, less than or equal to, is empty, is not empty
+
+Number
+
+Same as Number
+
+Link to Another Record
+
+Equals, does not equal, contains, does not contain, includes any, includes all, exactly matches, excludes any, is empty, is not empty
+
+Link value selection box
+
+[![](/images/product/views/teableio.gihtub.io%2Fraw%2Fmain%2Fzh%2F.gitbook%2Fassets%2Fimage%2520%2855%29.png)](https://github.com/teableio/teableio.gihtub.io/blob/main/zh/.gitbook/assets/image%20\(55\).png)[![](/images/product/views/teableio.gihtub.io%2Fraw%2Fmain%2Fzh%2F.gitbook%2Fassets%2Fimage%2520%2856%29.png)](https://github.com/teableio/teableio.gihtub.io/blob/main/zh/.gitbook/assets/image%20\(56\).png)
+
+Created Time
+
+Equals, does not equal, within, before, after, on or before, on or after, is empty, is not empty
+
+Preset range list and precise date picker
+
+Same as Date
+
+Modified Time
+
+Equals, does not equal, within, before, after, on or before, on or after, is empty, is not empty
+
+Preset range list and precise date picker
+
+Same as Date
+
+Creator
+
+Equals, does not equal
+
+User selection list and current user
+
+Same as User
+
+Modifier
+
+Equals, does not equal
+
+User selection list and current user
+
+Same as User
+
+AutoNumber
+
+\=, ≠, >, ≥, \<, ≤
+
+Same as Number
+
+Same as Number
+
+Button
+
+**The operators for formula and rollup fields are determined by their result type, which may include all the above operators.**
+
+#### Condition Grouping Feature
+
+Condition grouping allows users to combine multiple conditions using logical operators (such as "AND/OR"). The core of this feature lies in its flexibility and capability for logical combination, enabling users to construct nested logic based on complex requirements for refined data filtering.
+
+**AND/OR Logic**
+
+* **AND logic**: All conditions within a group must be met to select data.
+
+* **OR logic**: Meeting any condition within a group is sufficient to select data.
+
+**Combining Operations**
+
+* Users can create multi-layered nested condition groups, each with its own logical relationship.
+
+* Groups can be infinitely nested to achieve extremely complex filtering logic.
+
+**Steps to Use Condition Grouping**
+
+1. **Create a Group**: Users create a new condition group through the interface command.
+
+2. **Add Conditions**: Inside the group, users can add multiple filtering conditions.
+
+3. **Select Logic**: For conditions within a group, users choose between "AND" or "OR" logic.
+
+4. **Nest Groups**: Users can continue to create new subgroups within a group, setting conditions and logic for them.
+
+5. **Optimize Logic**: Users can adjust the logical relationships between conditions and groups as needed to achieve the desired filtering effect.
+
+**Example**
+
+If a user needs to filter a database to find all records "created by a specific user" and "modified in the last week or rated above 8," they can build the following condition group logic:
+
+* Main Group (AND)
+
+  * Condition 1: Creator = Specific User (AND)
+
+  * Subgroup (OR)
+
+    * Condition 2: Last Modified Time = Last Week
+
+    * Condition 3: Rating > 8
+
+With such grouping and condition settings, the filtering feature can precisely output records that meet all the specified criteria.
+
+#### Summary
+
+The filtering feature and its condition grouping functionality offer an efficient, flexible way to view and manipulate data. Users can quickly locate needed information through precise filtering rules, whether for simple queries or complex data analysis tasks. This guide aims to help users better utilize the filtering feature, enhancing efficiency and accuracy in data processing.
+
+[PreviousViews](/product/views)[NextGroup](/product/views/group)
