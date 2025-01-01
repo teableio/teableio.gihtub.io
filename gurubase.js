@@ -1,6 +1,7 @@
 // Customize widget settings
 const widgetSettings = {
-    widgetId: "HyiYGqeZ8JUAfudyn-uCFIMsdnk4xnbnjhthVfKkcZY", 
+    widgetId: "HyiYGqeZ8JUAfudyn-uCFIMsdnk4xnbnjhthVfKkcZY", // Prod
+    // widgetId: "3NE0Xlmdd9D5qobonv8LCgheB0tisZcaMwqCG4Bj_Es", // For dev -> http://localhost:3000
     text: "Ask AI", // Optional - Button text
     margins: { bottom: "20px", right: "20px" }, // Optional - Widget positioning
     lightMode: false // Optional - Force light mode
