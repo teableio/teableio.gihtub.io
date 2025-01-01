@@ -135,5 +135,10 @@
         "deployment/migrating-from-docker-standalone-to-teable-enterprise"
       ]
     }
+  ],
+  "scripts": [
+    {
+      "src": "/gurubase.js"
+    }
   ]
 }
