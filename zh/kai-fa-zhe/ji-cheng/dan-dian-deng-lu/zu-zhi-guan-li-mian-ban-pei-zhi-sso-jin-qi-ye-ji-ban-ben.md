@@ -2,7 +2,7 @@
 description: 专业版及以上空间站，公有云版本与私有化版本均支持
 ---
 
-# 从管理后台配置 SSO （仅 PRO)
+# 组织管理面板配置 SSO （仅企业级版本)
 
 支持的 SSO Provider
 
@@ -25,21 +25,11 @@ description: 专业版及以上空间站，公有云版本与私有化版本均�
 
 ### 2. 进入 Teable 创建认证提供商
 
-**公有云版本 (app.teable.cn)  -> 空间 -> 空间设置 -> 认证设置**
+**组织管理面板 -> 认证设置**
 
-> 需要空间可管理权限
+> 需要组织管理员账号
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt="" width="319"><figcaption></figcaption></figure>
-
-或
-
-**私有部署环境 -> 管理面板 -> 认证设置**
-
-> 需要实例管理员账号
-
-
-
-<figure><img src="../../../.gitbook/assets/image (4).png" alt="" width="317"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (108).png" alt=""><figcaption></figcaption></figure>
 
 #### 填写 APP ID, APP Secret
 
@@ -85,23 +75,11 @@ description: 专业版及以上空间站，公有云版本与私有化版本均�
 
 网页应用配置，点击设置
 
-{% tabs %}
-{% tab title="为公有云设置" %}
 桌面端主页，移动端主页：
 
-`https://app.teable.cn/auth/login?spaceId=spcxxxxxxx`
+同重定向URL
 
-注意将 spexxxxxxx 替换成您的 [spaceId](../../api/huo-qu-id.md#spaceid)
-{% endtab %}
-
-{% tab title="为私有部署版本设置" %}
-桌面端主页，移动端主页：
-
-设置为您的私有化实例访问的 URL，比如 `https://your-teable.com`
-{% endtab %}
-{% endtabs %}
-
-
+`https://app.teable.cn/api/auth/authentication/__providerId__/callback`
 
 ### 4. 发布版本
 
@@ -121,9 +99,9 @@ description: 专业版及以上空间站，公有云版本与私有化版本均�
 
 公有云
 
-公有云登录链接需要带上您的 `spaceId`
+公有云登录链接需要带上您的 `organizationId`
 
-例如`https://app.teable.cn/auth/login?spaceId=spcxxxxxxxx`这时候登录页面就会出现添加的飞书登录的登录按钮，或者直接在飞书中点击应用图标
+例如`https://app.teable.cn/auth/login?organizationId=orgxxxxxxxx`这时候登录页面就会出现添加的飞书登录的登录按钮，或者直接在飞书中点击应用图标
 
 
 

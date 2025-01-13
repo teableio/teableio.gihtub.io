@@ -100,7 +100,7 @@
 * [集成](kai-fa-zhe/ji-cheng/README.md)
   * [单点登录](kai-fa-zhe/ji-cheng/dan-dian-deng-lu/README.md)
     * [环境变量配置 （通用）](kai-fa-zhe/ji-cheng/dan-dian-deng-lu/dian-dan-deng-lu.md)
-    * [从管理后台配置 SSO （仅 PRO)](kai-fa-zhe/ji-cheng/dan-dian-deng-lu/cong-guan-li-hou-tai-pei-zhi-sso-jin-pro.md)
+    * [组织管理面板配置 SSO （仅企业级版本)](kai-fa-zhe/ji-cheng/dan-dian-deng-lu/zu-zhi-guan-li-mian-ban-pei-zhi-sso-jin-qi-ye-ji-ban-ben.md)
 
 ## 横向对比
 
