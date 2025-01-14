@@ -79,7 +79,7 @@ description: 专业版及以上空间站，公有云版本与私有化版本均�
 
 同重定向URL
 
-`https://app.teable.cn/api/auth/authentication/__providerId__/callback`
+`https://app.teable.cn/api/auth/authentication/__providerId__`
 
 ### 4. 发布版本
 
